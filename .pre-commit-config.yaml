@@ -1,16 +1,10 @@
 ---
 repos:
-- repo: local
+- repo: https://github.com/rhysd/actionlint
+  rev: 9e907dcce268a56faccbbac5d65d8eb2126f2f78
   hooks:
-  - id: super-linter
-    name: super-linter
-    language: system
-    entry: >
-      docker run
-      -e RUN_LOCAL=true
-      -e USE_FIND_ALGORITHM=true
-      -e VALIDATE_MARKDOWN=false
-      -e VALIDATE_GITHUB_ACTIONS=false
-      -e VALIDATE_ANSIBLE=false
-      -v /home/damiankolaska/Desktop/todo-list:/tmp/lint
-      github/super-linter:v4.7.3 --rm
+  - id: actionlint
+- repo: https://github.com/ansible/ansible-lint
+  rev: 9b5bad4450e7f2c1f5c61267e4084baebef4bf85
+  hooks:
+  - id: ansible-lint

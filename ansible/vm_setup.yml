@@ -1,0 +1,41 @@
+---
+- name: Configure a VM to host a static HTML website
+  hosts: "{{ apache_server }}"
+  tasks:
+
+  - name: Check server availability
+    ping:
+
+  - name: Fail if distribution is not supported
+    fail:
+      msg: "Distribution {{ ansible_distribution }} not supported"
+    when: "ansible_distribution not in ('Fedora', 'Debian')"
+
+  - name: Install apache
+    package:
+      name: "{{ apache_package }}"
+      state: present
+    register: apache_installation
+    become: yes
+
+  - name: Install additional packages
+    package:
+      name:
+        - rsync
+      state: latest
+    become: yes
+
+  - name: Enable apache service (start on boot)
+    service:
+      name: "{{ apache_service }}"
+      enabled: yes
+    become: yes
+
+  - name: Add HTTP traffic to firewall on machines running Fedora
+    firewalld:
+      zone: "FedoraServer"
+      service: http
+      permanent: yes
+      immediate: yes
+      state: enabled
+    when: ansible_distribution == 'Fedora'
