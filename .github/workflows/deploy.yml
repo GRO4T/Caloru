@@ -37,5 +37,6 @@ jobs:
       env:
         SSH_AUTH_SOCK: /tmp/ssh_agent.sock
         OCI_HOST: ${{ secrets.OCI_SSH_HOST }}
+        ANSIBLE_HOST_KEY_CHECKING: False
       working-directory: ./ansible
       run: ansible-playbook -vvv vm_setup.yml -e apache_server=oracle_cloud_vm
