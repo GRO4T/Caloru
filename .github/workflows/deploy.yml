@@ -7,11 +7,6 @@ on:
   pull_request:
     branches: [master]
 
-env:
-  PROJECT_ID: sandbox-351818
-  GCE_INSTANCE: todo-list-instance
-  GCE_INSTANCE_ZONE: us-central1-a
-
 jobs:
   deploy_to_gce:
     runs-on: ubuntu-latest
@@ -24,7 +19,9 @@ jobs:
       uses: actions/checkout@v3
 
     - name: Set up SSH key
-      run: echo "${{ secrets.OCI_SSH_KEY }}" > ~/.ssh/oci_ssh_key
+      run: |
+        mkdir .ssh
+        echo "${{ secrets.OCI_SSH_KEY }}" > ~/.ssh/oci_ssh_key
 
     - name: Verify SSH host
       run: ssh -o StrictHostKeyChecking=no opc@${{ secrets.OCK_SSH_USER }} "echo 'Verify host'"
