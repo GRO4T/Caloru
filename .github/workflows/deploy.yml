@@ -30,12 +30,9 @@ jobs:
       uses: webfactory/ssh-agent@v0.5.4
       with:
         ssh-private-key: ${{ secrets.OCI_SSH_KEY }}
-      env:
-        SSH_AUTH_SOCK: /tmp/ssh_agent.sock
 
     - name: Setup the VM using ansible
       env:
-        SSH_AUTH_SOCK: /tmp/ssh_agent.sock
         OCI_HOST: ${{ secrets.OCI_SSH_HOST }}
         ANSIBLE_HOST_KEY_CHECKING: False
       working-directory: ./ansible
