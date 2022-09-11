@@ -12,8 +12,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Add secret masks
-      run: echo "::add-mask::${{ secrets.OCI_SSH_USER }}" 
+    # - name: Add secret masks
+    #   run: echo "::add-mask::${{ secrets.OCI_SSH_HOST }}" 
 
     - name: Checkout
       uses: actions/checkout@v3
@@ -24,7 +24,7 @@ jobs:
         echo "${{ secrets.OCI_SSH_KEY }}" > ~/.ssh/oci_ssh_key
 
     - name: Verify SSH host
-      run: ssh -o StrictHostKeyChecking=no opc@${{ secrets.OCK_SSH_USER }} "echo 'Verify host'"
+      run: ssh -o StrictHostKeyChecking=no opc@${{ secrets.OCK_SSH_HOST }} "echo 'Verify host'"
 
     - name: Setup the VM using ansible
       working-directory: ./ansible
