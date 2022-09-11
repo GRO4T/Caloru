@@ -12,6 +12,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Add secret masks
+      run: echo "::add-mask::${{ secrets.OCI_SSH_HOST }}" 
+
     - name: Checkout
       uses: actions/checkout@v3
 
@@ -33,5 +36,6 @@ jobs:
     - name: Setup the VM using ansible
       env:
         SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+        OCI_HOST: ${{ secrets.OCI_SSH_HOST }}
       working-directory: ./ansible
       run: ansible-playbook vm_setup.yml -e apache_server=oracle_cloud_vm
