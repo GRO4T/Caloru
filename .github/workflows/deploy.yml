@@ -23,6 +23,15 @@ jobs:
         key: ${{ secrets.OCI_SSH_KEY }}
         script: echo 'Verify host'
 
+    - name: Store ssh key in agent
+      uses: webfactory/ssh-agent@v0.5.4
+      with:
+        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+      env:
+        SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+
     - name: Setup the VM using ansible
+      env:
+        SSH_AUTH_SOCK: /tmp/ssh_agent.sock
       working-directory: ./ansible
       run: ansible-playbook vm_setup.yml -e apache_server=oracle_cloud_vm
