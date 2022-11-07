@@ -1,0 +1,16 @@
+---
+all:
+  hosts:
+    webserver:
+      ansible_host: "{{ lookup('env', 'OCI_HOST') }}"
+      ansible_port: 22
+      ansible_user: opc
+      apache_package: httpd
+      apache_service: httpd
+    local_vm:
+      ansible_host: localhost
+      ansible_port: 2222
+      ansible_user: root
+      apache_package: httpd
+      apache_service: httpd
+

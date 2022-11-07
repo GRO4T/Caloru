@@ -1,10 +1,21 @@
----
 repos:
-- repo: https://github.com/rhysd/actionlint
-  rev: 9e907dcce268a56faccbbac5d65d8eb2126f2f78
-  hooks:
-  - id: actionlint
-- repo: https://github.com/ansible/ansible-lint
-  rev: 9b5bad4450e7f2c1f5c61267e4084baebef4bf85
-  hooks:
-  - id: ansible-lint
+  - repo: https://github.com/rhysd/actionlint
+    rev: 9e907dcce268a56faccbbac5d65d8eb2126f2f78
+    hooks:
+      - id: actionlint
+  - repo: https://github.com/ansible/ansible-lint
+    rev: 9b5bad4450e7f2c1f5c61267e4084baebef4bf85
+    hooks:
+      - id: ansible-lint
+  - repo: https://github.com/psf/black
+    rev: 0e9d29ab73d608a79028e22a713ee717b5dcca96
+    hooks:
+      - id: black
+  - repo: https://github.com/PyCQA/pylint
+    rev: 60a2db21d8ff6ca59e32f632ca501305c0403fe5
+    hooks:
+      - id: pylint
+  - repo: https://github.com/adrienverge/yamllint
+    rev: 5ac3ed44901bf57036d610d23c4b7cf6e9446977
+    hooks:
+      - id: yamllint

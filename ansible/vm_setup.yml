@@ -1,6 +1,6 @@
 ---
 - name: Configure a VM to host a static HTML website
-  hosts: "{{ apache_server }}"
+  hosts: webserver
   tasks:
 
   - name: Check server availability
@@ -13,15 +13,15 @@
     register: apache_installation
     become: yes
 
-  - name: Install additional packages
-    package:
-      name:
-        - rsync
-      state: latest
-    become: yes
-
   - name: Enable apache service (start on boot)
     service:
       name: "{{ apache_service }}"
       enabled: yes
     become: yes
+
+  - name: Add HTTP traffic to firewall on machines running Fedora
+    firewalld:
+      service: http
+      permanent: yes
+      immediate: yes
+      state: enabled
