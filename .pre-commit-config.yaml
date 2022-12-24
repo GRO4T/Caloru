@@ -15,3 +15,10 @@ repos:
     rev: 60a2db21d8ff6ca59e32f632ca501305c0403fe5
     hooks:
       - id: pylint
+  - repo: local
+    hooks:
+    - id: mypy
+      name: mypy
+      entry: mypy
+      language: system
+      files: ^.*\.py$
