@@ -9,8 +9,10 @@ on:
 
 jobs:
   lint:
-    name: Lint code base with Super Linter
+    # don't run if commit message contains '[nolint]'
+    if: "!contains(github.event.commits[0].message, '[nolint]')"
 
+    name: Lint code base with Super Linter
     runs-on: ubuntu-latest
 
     steps:
@@ -31,8 +33,8 @@ jobs:
   
   deploy:
     name: Deploy solution to Oracle Cloud VM 
-
     runs-on: ubuntu-latest
+    needs: lint
 
     steps:
     - name: Add secret masks
