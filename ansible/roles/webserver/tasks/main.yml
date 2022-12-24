@@ -3,8 +3,7 @@
   ansible.builtin.package:
     name: "{{ apache_package }}"
     state: present
-  notify:
-    - Enable apache service (start on boot)
+  notify: Enable apache service (start on boot)
   become: yes
 
 - name: Create ~/install directory
