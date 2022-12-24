@@ -39,6 +39,9 @@ skip_list:
   - 'yaml[truthy]' # Disable warnings for 'become: yes' constructs
   - 'line-length'
 
+warn_list:
+- load-failure
+
 ##################
 # Tags to follow #
 ##################
