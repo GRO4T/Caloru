@@ -1,5 +1,5 @@
 ---
-name: 'Deploy on Oracle Cloud Instance'
+name: Deploy caloru app
 
 on:
   push:
@@ -8,7 +8,30 @@ on:
     branches: [master]
 
 jobs:
-  deploy_to_gce:
+  lint:
+    name: Lint code base with Super Linter
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          # Full git history is needed to get a proper list of changed files within `super-linter`
+          fetch-depth: 0
+
+      - name: Run Super Linter
+        uses: github/super-linter/slim@v4
+        env:
+          VALIDATE_MARKDOWN: false
+          VALIDATE_GITHUB_ACTIONS: false
+          VALIDATE_ANSIBLE: false
+          DEFAULT_BRANCH: master
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  
+  deploy:
+    name: Deploy solution to Oracle Cloud VM 
+
     runs-on: ubuntu-latest
 
     steps:
