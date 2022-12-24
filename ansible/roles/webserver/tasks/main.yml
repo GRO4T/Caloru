@@ -1,0 +1,23 @@
+---
+- name: Install apache
+  ansible.builtin.package:
+    name: "{{ apache_package }}"
+    state: present
+  notify:
+    - Enable apache service (start on boot)
+  become: yes
+
+- name: Install additional packages
+  ansible.builtin.package:
+    name:
+      - rsync-3.1.3-19.el8
+    state: present
+  become: yes
+
+- name: Enable HTTP traffic on firewall
+  ansible.posix.firewalld:
+    service: http
+    permanent: yes
+    immediate: yes
+    state: enabled
+  become: yes

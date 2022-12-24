@@ -1,0 +1,6 @@
+---
+- name: Enable apache service (start on boot)
+  ansible.builtin.service:
+    name: "{{ apache_service }}"
+    enabled: yes
+  become: yes

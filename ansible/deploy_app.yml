@@ -1,0 +1,11 @@
+---
+- name: Deploy caloru app
+  hosts: webserver
+  tasks:
+
+  - name: Check server availability
+    ping:
+
+  - name: Include the caloruapp role
+    include_role:
+      name: caloruapp

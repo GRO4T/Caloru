@@ -31,9 +31,16 @@ jobs:
       with:
         ssh-private-key: ${{ secrets.OCI_SSH_KEY }}
 
-    - name: Setup the VM using ansible
+    - name: Setup web server
       env:
         OCI_HOST: ${{ secrets.OCI_SSH_HOST }}
         ANSIBLE_HOST_KEY_CHECKING: False
       working-directory: ./ansible
-      run: ansible-playbook vm_setup.yml -e apache_server=oracle_cloud_vm
+      run: ansible-playbook -i inventory/oracle_cloud.yml setup_webserver.yml 
+
+    - name: Deploy caloru app
+      env:
+        OCI_HOST: ${{ secrets.OCI_SSH_HOST }}
+        ANSIBLE_HOST_KEY_CHECKING: False
+      working-directory: ./ansible
+      run: ansible-playbook -i inventory/oracle_cloud.yml deploy_app.yml 

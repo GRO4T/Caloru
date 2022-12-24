@@ -1,0 +1,21 @@
+---
+- name: Create app directory
+  ansible.builtin.file:
+    path: $HOME/caloru
+    state: directory
+
+- name: Copy website sources
+  ansible.builtin.copy:
+    src: ../requirements.txt
+    dest: $HOME/caloru/requirements.txt
+
+- name: Create Python virtual environment
+  ansible.builtin.command:
+    cmd: python3 -m venv $HOME/caloru/venv
+    creates: $HOME/caloru/venv
+
+- name: Install Python requirements
+  ansible.builtin.shell: |
+    source $HOME/caloru/venv/bin/activate
+    pip install --upgrade pip==21.3.1
+    pip install -r $HOME/caloru/requirements.txt

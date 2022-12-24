@@ -1,0 +1,11 @@
+---
+- name: Configure the webserver for the caloru web app
+  hosts: webserver
+  tasks:
+
+  - name: Check server availability
+    ping:
+
+  - name: Include the webserver role
+    include_role:
+      name: webserver
