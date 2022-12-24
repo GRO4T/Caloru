@@ -10,18 +10,49 @@
     package:
       name: "{{ apache_package }}"
       state: present
-    register: apache_installation
+    notify:
+      - Enable apache service (start on boot)
     become: yes
 
-  - name: Enable apache service (start on boot)
-    service:
-      name: "{{ apache_service }}"
-      enabled: yes
+  - name: Install additional packages
+    package:
+      name:
+        - rsync
+      state: latest
     become: yes
 
-  - name: Add HTTP traffic to firewall on machines running Fedora
+  - name: Enable HTTP traffic on firewall
     firewalld:
       service: http
       permanent: yes
       immediate: yes
       state: enabled
+    become: yes
+
+  - name: Create app directory
+    file:
+      path: $HOME/caloru
+      state: directory
+
+  - name: Copy website sources
+    copy:
+      src: ../requirements.txt
+      dest: $HOME/caloru/requirements.txt
+
+  - name: Create Python virtual environment
+    command:
+      cmd: python3 -m venv $HOME/caloru/venv
+      creates: $HOME/caloru/venv
+
+  - name: Install Python requirements
+    shell: |
+      source $HOME/caloru/venv/bin/activate
+      pip install --upgrade pip==21.3.1
+      pip install -r $HOME/caloru/requirements.txt
+
+  handlers:
+    - name: Enable apache service (start on boot)
+      service:
+        name: "{{ apache_service }}"
+        enabled: yes
+      become: yes

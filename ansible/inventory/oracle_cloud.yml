@@ -7,10 +7,3 @@ all:
       ansible_user: opc
       apache_package: httpd
       apache_service: httpd
-    local_vm:
-      ansible_host: localhost
-      ansible_port: 2222
-      ansible_user: root
-      apache_package: httpd
-      apache_service: httpd
-

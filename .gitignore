@@ -4,3 +4,4 @@
 **/*artifact*
 **/*.log
 **/.ansible-lint
+**/.vscode
