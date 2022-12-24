@@ -7,10 +7,20 @@
     - Enable apache service (start on boot)
   become: yes
 
+- name: Create ~/install directory
+  ansible.builtin.file:
+    path: ~/install
+    state: directory
+    mode: '0755'
+
+- name: Install mod_wsgi
+  ansible.builtin.import_tasks:
+    file: install_mod_wsgi.yml
+
 - name: Install additional packages
   ansible.builtin.package:
     name:
-      - rsync-3.1.3-19.el8
+      - "{{ rsync_package }}"
     state: present
   become: yes
 

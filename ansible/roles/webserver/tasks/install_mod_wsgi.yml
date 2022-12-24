@@ -1,0 +1,27 @@
+---
+- name: Install packages required for building mod_wsgi
+  ansible.builtin.package:
+    name: "{{ mod_wsgi_deps }}"
+    state: present
+  become: yes
+
+- name: Download mod_wsgi archive
+  ansible.builtin.command:
+    cmd: wget https://github.com/GrahamDumpleton/mod_wsgi/archive/refs/tags/{{ mod_wsgi_version }}.tar.gz
+    chdir: ~/install
+    creates: ~/install/{{ mod_wsgi_version }}.tar.gz
+
+- name: Extract mod_wsgi archive
+  ansible.builtin.command:
+    cmd: tar xvfz {{ mod_wsgi_version }}.tar.gz
+    chdir: ~/install
+    creates: ~/install/mod_wsgi-{{ mod_wsgi_version }}
+
+- name: Build and install mod_wsgi
+  ansible.builtin.shell: |
+    ./configure
+    make
+    make install
+  args:
+    chdir: /home/{{ ansible_user }}/install/mod_wsgi-{{ mod_wsgi_version }}
+  become: yes
