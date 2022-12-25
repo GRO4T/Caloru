@@ -38,6 +38,7 @@ skip_list:
   - 'unnamed-task' # Allow tasks without a name
   - 'yaml[truthy]' # Disable warnings for 'become: yes' constructs
   - 'line-length'
+  - 'risky-file-permissions'
 
 warn_list:
 - load-failure

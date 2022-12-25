@@ -12,9 +12,22 @@
     state: directory
     mode: '0755'
 
+- name: Check if mod_wsgi.so exists
+  ansible.builtin.stat:
+    path: /usr/lib64/httpd/modules/mod_wsgi.so
+  register: mod_wsgi_so
+
 - name: Install mod_wsgi
   ansible.builtin.import_tasks:
     file: install_mod_wsgi.yml
+  when: not mod_wsgi_so.stat.exists
+
+- name: Copy httpd configuration
+  ansible.builtin.copy:
+    src: httpd.conf
+    dest: /etc/httpd/conf/httpd.conf
+  notify: Restart apache service
+  become: yes
 
 - name: Install additional packages
   ansible.builtin.package:

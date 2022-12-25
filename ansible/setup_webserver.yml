@@ -7,5 +7,5 @@
     ping:
 
   - name: Include the webserver role
-    include_role:
+    import_role:
       name: webserver
