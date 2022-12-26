@@ -364,7 +364,6 @@ IncludeOptional conf.d/*.conf
 LoadModule wsgi_module modules/mod_wsgi.so
 
 WSGIScriptAlias / {{ web_apps_root }}/caloru/caloru/wsgi.py
-WSGIPythonHome /usr/lib64/{{ python_version }}
 WSGIPythonPath {{ web_apps_root }}/caloru:{{ web_apps_root }}/caloru/venv/lib/{{ python_version }}/site-packages
 
 <Directory {{ web_apps_root }}/caloru/caloru>
