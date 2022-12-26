@@ -1,3 +1,7 @@
+##########################################################################
+# ------- Apache for Django WSGI configuration ---------------------------
+##########################################################################
+
 #
 # This is the main Apache HTTP server configuration file.  It contains the
 # configuration directives that give the server its instructions.
@@ -71,34 +75,6 @@ Include conf.modules.d/*.conf
 User apache
 Group apache
 
-# 'Main' server configuration
-#
-# The directives in this section set up the values used by the 'main'
-# server, which responds to any requests that aren't handled by a
-# <VirtualHost> definition.  These values also provide defaults for
-# any <VirtualHost> containers you may define later in the file.
-#
-# All of these directives may appear inside <VirtualHost> containers,
-# in which case these default settings will be overridden for the
-# virtual host being defined.
-#
-
-#
-# ServerAdmin: Your address, where problems with the server should be
-# e-mailed.  This address appears on some server-generated pages, such
-# as error documents.  e.g. admin@your-domain.com
-#
-ServerAdmin root@localhost
-
-#
-# ServerName gives the name and port that the server uses to identify itself.
-# This can often be determined automatically, but we recommend you specify
-# it explicitly to prevent problems during startup.
-#
-# If your host doesn't have a registered DNS name, enter its IP address here.
-#
-#ServerName www.example.com:80
-
 #
 # Deny access to the entirety of your server's filesystem. You must
 # explicitly permit access to web content directories in other 
@@ -115,60 +91,6 @@ ServerAdmin root@localhost
 # you might expect, make sure that you have specifically enabled it
 # below.
 #
-
-#
-# DocumentRoot: The directory out of which you will serve your
-# documents. By default, all requests are taken from this directory, but
-# symbolic links and aliases may be used to point to other locations.
-#
-DocumentRoot "/var/www/html"
-
-#
-# Relax access to content within /var/www.
-#
-<Directory "/var/www">
-    AllowOverride None
-    # Allow open access:
-    Require all granted
-</Directory>
-
-
-# Further relax access to the default document root:
-<Directory "/var/www/html">
-    #
-    # Possible values for the Options directive are "None", "All",
-    # or any combination of:
-    #   Indexes Includes FollowSymLinks SymLinksifOwnerMatch ExecCGI MultiViews
-    #
-    # Note that "MultiViews" must be named *explicitly* --- "Options All"
-    # doesn't give it to you.
-    #
-    # The Options directive is both complicated and important.  Please see
-    # http://httpd.apache.org/docs/2.4/mod/core.html#options
-    # for more information.
-    #
-    Options Indexes FollowSymLinks
-
-    #
-    # AllowOverride controls what directives may be placed in .htaccess files.
-    # It can be "All", "None", or any combination of the keywords:
-    #   Options FileInfo AuthConfig Limit
-    #
-    AllowOverride None
-
-    #
-    # Controls who can get stuff from this server.
-    #
-    Require all granted
-</Directory>
-
-#
-# DirectoryIndex: sets the file that Apache will serve if a directory
-# is requested.
-#
-<IfModule dir_module>
-    DirectoryIndex index.html
-</IfModule>
 
 #
 # The following lines prevent .htaccess and .htpasswd files from being 
@@ -363,11 +285,17 @@ IncludeOptional conf.d/*.conf
 #
 LoadModule wsgi_module modules/mod_wsgi.so
 
-WSGIScriptAlias / {{ web_apps_root }}/caloru/caloru/wsgi.py
-WSGIPythonPath {{ web_apps_root }}/caloru:{{ web_apps_root }}/caloru/venv/lib/{{ python_version }}/site-packages
+<VirtualHost *:80>
 
-<Directory {{ web_apps_root }}/caloru/caloru>
-<Files wsgi.py>
-Require all granted
-</Files>
-</Directory>
+    WSGIDaemonProcess caloru processes=2 threads=15 display-name=%{GROUP} python-path={{ web_apps_root }}/caloru:{{ web_apps_root }}/caloru/venv/lib/{{ python_version }}/site-packages
+    WSGIProcessGroup caloru 
+
+    WSGIScriptAlias / {{ web_apps_root }}/caloru/caloru/wsgi.py
+
+    <Directory {{ web_apps_root }}/caloru/caloru>
+    <Files wsgi.py>
+        Require all granted
+    </Files>
+    </Directory>
+
+</VirtualHost>

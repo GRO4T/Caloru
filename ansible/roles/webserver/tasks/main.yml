@@ -28,13 +28,6 @@
     file: install_mod_wsgi.yml
   when: not mod_wsgi_so.stat.exists
 
-# - name: Copy httpd configuration
-#   ansible.builtin.copy:
-#     src: httpd.conf
-#     dest: /etc/httpd/conf/httpd.conf
-#   notify: Restart apache service
-#   become: yes
-
 - name: Copy httpd configuration
   ansible.builtin.template:
     src: httpd.conf.j2
