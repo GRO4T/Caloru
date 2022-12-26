@@ -9,3 +9,6 @@
   - name: Import the webserver role
     import_role:
       name: webserver
+    vars:
+      web_apps_root: '/home/webapps'
+      python_version: "python{{ ansible_python.version.major }}.{{ ansible_python.version.minor }}"

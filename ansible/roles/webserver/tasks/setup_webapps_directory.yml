@@ -13,9 +13,9 @@
     append: yes
   become: yes
 
-- name: Create /webapps directory
+- name: Create {{ web_apps_root }} directory
   ansible.builtin.file:
-    path: /webapps
+    path: "{{ web_apps_root }}"
     state: directory
     mode: '0774'
     owner: root

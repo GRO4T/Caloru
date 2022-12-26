@@ -6,6 +6,8 @@
   - name: Check server availability
     ping:
 
-  - name: Include the caloruapp role
-    include_role:
+  - name: Import the caloruapp role
+    import_role:
       name: caloruapp
+    vars:
+      web_apps_root: "/home/webapps"

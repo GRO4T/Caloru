@@ -1,15 +1,21 @@
 ---
+- name: Check required variables
+  ansible.builtin.fail:
+    msg: "Variable {{ item }} is not defined"
+  when: item not in vars
+  with_items: "{{ required_vars }}"
+
 - name: Copy website sources
   ansible.posix.synchronize:
     src: ../caloru/
-    dest: /webapps/caloru/
+    dest: "{{ web_apps_root }}/caloru/"
     dest_port: "{{ ansible_ssh_port }}"
     archive: yes
   become: yes
 
 - name: Change /webapps/caloru directory owner and group to apache
   ansible.builtin.file:
-    name: /webapps/caloru
+    name: "{{ web_apps_root }}/caloru"
     state: directory
     owner: apache
     group: apache
@@ -18,13 +24,13 @@
 
 - name: Create Python virtual environment
   ansible.builtin.command:
-    cmd: python3 -m venv /webapps/caloru/venv
-    creates: /webapps/caloru/venv
+    cmd: "python3 -m venv {{ web_apps_root }}/caloru/venv"
+    creates: "{{ web_apps_root }}/caloru/venv"
   become: yes
 
 - name: Install Python requirements
   ansible.builtin.shell: |
-    source /webapps/caloru/venv/bin/activate
+    source {{ web_apps_root }}/caloru/venv/bin/activate
     pip install --upgrade pip==21.3.1
-    pip install -r /webapps/caloru/requirements.txt
+    pip install -r {{ web_apps_root }}/caloru/requirements.txt
   become: yes

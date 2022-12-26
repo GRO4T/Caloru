@@ -1,4 +1,10 @@
 ---
+- name: Check required variables
+  ansible.builtin.fail:
+    msg: "Variable {{ item }} is not defined"
+  when: item not in vars
+  with_items: "{{ required_vars }}"
+
 - name: Install apache
   ansible.builtin.package:
     name: "{{ apache_package }}"
@@ -22,9 +28,16 @@
     file: install_mod_wsgi.yml
   when: not mod_wsgi_so.stat.exists
 
+# - name: Copy httpd configuration
+#   ansible.builtin.copy:
+#     src: httpd.conf
+#     dest: /etc/httpd/conf/httpd.conf
+#   notify: Restart apache service
+#   become: yes
+
 - name: Copy httpd configuration
-  ansible.builtin.copy:
-    src: httpd.conf
+  ansible.builtin.template:
+    src: httpd.conf.j2
     dest: /etc/httpd/conf/httpd.conf
   notify: Restart apache service
   become: yes
@@ -44,6 +57,6 @@
     state: enabled
   become: yes
 
-- name: Setup /webapps directory
+- name: Setup {{ web_apps_root }} directory
   ansible.builtin.import_tasks:
     file: setup_webapps_directory.yml
