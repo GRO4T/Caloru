@@ -6,6 +6,6 @@
   - name: Check server availability
     ping:
 
-  - name: Include the webserver role
+  - name: Import the webserver role
     import_role:
       name: webserver

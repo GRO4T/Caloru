@@ -43,3 +43,7 @@
     immediate: yes
     state: enabled
   become: yes
+
+- name: Setup /webapps directory
+  ansible.builtin.import_tasks:
+    file: setup_webapps_directory.yml

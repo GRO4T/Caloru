@@ -1,18 +1,30 @@
 ---
 - name: Copy website sources
-  synchronize:
+  ansible.posix.synchronize:
     src: ../caloru/
-    dest: /home/{{ ansible_user }}/caloru/
+    dest: /webapps/caloru/
     dest_port: "{{ ansible_ssh_port }}"
     archive: yes
+  become: yes
+
+- name: Change /webapps/caloru directory owner and group to apache
+  ansible.builtin.file:
+    name: /webapps/caloru
+    state: directory
+    owner: apache
+    group: apache
+    recurse: yes
+  become: yes
 
 - name: Create Python virtual environment
   ansible.builtin.command:
-    cmd: python3 -m venv ~/caloru/venv
-    creates: ~/caloru/venv
+    cmd: python3 -m venv /webapps/caloru/venv
+    creates: /webapps/caloru/venv
+  become: yes
 
 - name: Install Python requirements
   ansible.builtin.shell: |
-    source ~/caloru/venv/bin/activate
+    source /webapps/caloru/venv/bin/activate
     pip install --upgrade pip==21.3.1
-    pip install -r ~/caloru/requirements.txt
+    pip install -r /webapps/caloru/requirements.txt
+  become: yes

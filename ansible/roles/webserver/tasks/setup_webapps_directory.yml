@@ -1,0 +1,23 @@
+---
+- name: Create group web
+  ansible.builtin.group:
+    name: web
+    state: present
+  become: yes
+
+- name: Add user apache to group web
+  ansible.builtin.user:
+    name: apache
+    shell: /bin/bash
+    groups: web
+    append: yes
+  become: yes
+
+- name: Create /webapps directory
+  ansible.builtin.file:
+    path: /webapps
+    state: directory
+    mode: '0774'
+    owner: root
+    group: web
+  become: yes
