@@ -59,3 +59,4 @@
     name: httpd_read_user_content
     state: yes
     persistent: yes
+  become: yes
