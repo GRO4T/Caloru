@@ -59,4 +59,5 @@
     name: httpd_read_user_content
     state: yes
     persistent: yes
+  notify: Restart apache service
   become: yes
