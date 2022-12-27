@@ -53,3 +53,9 @@
 - name: Setup {{ web_apps_root }} directory
   ansible.builtin.import_tasks:
     file: setup_webapps_directory.yml
+
+- name: Allow httpd to read user content
+  ansible.posix.seboolean:
+    name: httpd_read_user_content
+    state: yes
+    persistent: yes
