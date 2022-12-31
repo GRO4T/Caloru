@@ -11,3 +11,11 @@ Caloru is a calorie tracker.
 * Python unittest
 * Selenium
 * Cucumber
+
+## Project set up
+```
+python3 manage.py makemigrations products
+python3 manage.py migrate
+python3 manage.py createsuperuser
+
+```

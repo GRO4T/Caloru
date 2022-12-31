@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+{% load static %}
+
+<head>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+
+<body>
+    {% if product_list %}
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Calories</th>
+            <th>Weight</th>
+            <th>Protein</th>
+            <th>Carbohydrates</th>
+            <th>Fat</th>
+        </tr>
+
+        {% for product in product_list %}
+        <tr>
+            <td>{{ product.name }}</td>
+            <td>{{ product.calories }} kcal</td>
+            <td>{{ product.weight }} g</td>
+            <td>{{ product.protein }} g</td>
+            <td>{{ product.carbs }} g</td>
+            <td>{{ product.fat }} g</td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% else %}
+    <p>No products are available.</p>
+    {% endif %}
+
+</body>
+
+</html>

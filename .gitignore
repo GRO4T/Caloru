@@ -5,3 +5,4 @@
 **/*.log
 **/.ansible-lint
 **/.vscode
+**/migrations
