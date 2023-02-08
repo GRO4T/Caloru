@@ -15,10 +15,12 @@ repos:
     rev: 60a2db21d8ff6ca59e32f632ca501305c0403fe5
     hooks:
       - id: pylint
-  - repo: local
+        additional_dependencies:
+          - . # <-- that makes it install current project
+          - Django
+        args: ["--disable=C0114,C0115,C0116", "--generated-members=objects"]
+  - repo: https://github.com/PyCQA/flake8
+    rev: 0610cd2db8b49cbbb76b3c6c6533933548af65ad
     hooks:
-    - id: mypy
-      name: mypy
-      entry: mypy
-      language: system
-      files: ^.*\.py$
+      - id: flake8
+        args: [--max-line-length=80]

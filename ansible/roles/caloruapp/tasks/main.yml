@@ -34,3 +34,17 @@
     pip install --upgrade pip==21.3.1
     pip install -r {{ web_apps_root }}/caloru/requirements.txt
   become: yes
+
+- name: Prepare database migrations
+  ansible.builtin.shell: |
+    source {{ web_apps_root }}/caloru/venv/bin/activate
+    cd {{ web_apps_root }}/caloru
+    python3 manage.py makemigrations
+  become: yes
+
+- name: Apply database migrations
+  ansible.builtin.shell: |
+    source {{ web_apps_root }}/caloru/venv/bin/activate
+    cd {{ web_apps_root }}/caloru
+    python3 manage.py migrate
+  become: yes
