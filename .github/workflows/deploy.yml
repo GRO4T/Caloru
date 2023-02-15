@@ -29,6 +29,10 @@ jobs:
           VALIDATE_GITHUB_ACTIONS: false
           VALIDATE_ANSIBLE: false
           VALIDATE_CSS: false
+          VALIDATE_PYTHON_ISORT: false
+          VALIDATE_PYTHON_FLAKE8: false
+          VALIDATE_JAVASCRIPT_STANDARD: false
+          VALIDATE_HTML: false
           DEFAULT_BRANCH: master
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
