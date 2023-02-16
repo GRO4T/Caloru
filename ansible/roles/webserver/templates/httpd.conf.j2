@@ -187,6 +187,13 @@ LoadModule wsgi_module modules/mod_wsgi.so
 
 <VirtualHost *:80>
 
+    Alias /static /var/www/caloru/static/
+
+    <Directory /var/www/caloru/static/>
+        Options +Indexes
+        Require all granted
+    </Directory>
+
     WSGIDaemonProcess caloru processes=2 threads=15 display-name=%{GROUP} python-path={{ web_apps_root }}/caloru:{{ web_apps_root }}/caloru/venv/lib/{{ python_version }}/site-packages
     WSGIProcessGroup caloru 
 

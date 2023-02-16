@@ -35,6 +35,13 @@
     pip install -r {{ web_apps_root }}/caloru/requirements.txt
   become: yes
 
+- name: Collect static files
+  ansible.builtin.shell: |
+    source {{ web_apps_root }}/caloru/venv/bin/activate
+    cd {{ web_apps_root }}/caloru
+    python3 manage.py collectstatic --noinput
+  become: yes
+
 - name: Prepare database migrations
   ansible.builtin.shell: |
     source {{ web_apps_root }}/caloru/venv/bin/activate
