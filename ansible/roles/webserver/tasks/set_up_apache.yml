@@ -1,0 +1,68 @@
+---
+- name: Install apache package
+  ansible.builtin.package:
+    name: "{{ apache_package }}"
+    state: present
+  notify: Enable apache service (start on boot)
+  become: yes
+
+- name: Check if mod_wsgi.so exists
+  ansible.builtin.stat:
+    path: /usr/lib64/httpd/modules/mod_wsgi.so
+  register: mod_wsgi_so
+
+- name: Install mod_wsgi
+  ansible.builtin.import_tasks:
+    file: install_mod_wsgi.yml
+  when: not mod_wsgi_so.stat.exists
+
+- name: Install mod_ssl
+  ansible.builtin.package:
+    name: mod_ssl
+    state: present
+  notify: Restart apache service
+  become: yes
+
+- name: Copy dummy Apache configuration that listens on port 80
+  ansible.builtin.template:
+    src: httpd_dummy.conf.j2
+    dest: /etc/httpd/conf/httpd.conf
+  become: yes
+
+- name: Restart apache service
+  ansible.builtin.service:
+    name: "{{ apache_service }}"
+    state: restarted
+  become: yes
+
+- name: Add EPEL release 8
+  ansible.builtin.shell: |
+    dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+    dnf upgrade -y
+  become: yes
+
+- name: Install snapd
+  ansible.builtin.shell: |
+    yum install snapd
+    systemctl enable --now snapd.socket
+    snap install core; snap refresh core
+    ln -s /var/lib/snapd/snap /snap 2>/dev/null || echo "link /snap -> /var/lib/snapd/snap already exists"
+  become: yes
+
+- name: Install certbot
+  ansible.builtin.shell: |
+    snap install --classic certbot
+    ln -s /snap/bin/certbot /usr/bin/certbot 2>/dev/null || echo "link /usr/bin/certbot -> /snap/bin/certbot already exists"
+  become: yes
+
+- name: Generate SSL certificate
+  ansible.builtin.shell: |
+    certbot certonly --apache -n --domains caloru.gro4t.dev
+  become: yes
+
+- name: Copy final Apache configuration with SSL enabled
+  ansible.builtin.template:
+    src: httpd.conf.j2
+    dest: /etc/httpd/conf/httpd.conf
+  notify: Restart apache service
+  become: yes

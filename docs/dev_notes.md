@@ -30,5 +30,13 @@ https://access.redhat.com/solutions/67298 \
 https://docs.djangoproject.com/en/4.1/howto/static-files/ \
 https://stackoverflow.com/questions/8687927/difference-between-static-static-url-and-static-root-on-django
 
+### How to disable HSTS redirect on Firefox
+1. about:config
+2. set network.stricttransportsecurity.preloadlist to false
+
+### How to set up SSL on Apache
+https://certbot.eff.org/instructions?ws=apache&os=centosrhel7
+https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html
+
 ### Resources
 https://docs.djangoproject.com/en/4.1/howto/deployment/wsgi/modwsgi/#serving-files

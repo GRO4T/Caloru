@@ -4,7 +4,7 @@
 
 ServerRoot "/etc/httpd"
 
-Listen 443
+Listen 80
 
 Include conf.modules.d/*.conf
 
@@ -179,54 +179,3 @@ EnableSendfile on
 #
 # Load config files in the "/etc/httpd/conf.d" directory, if any.
 IncludeOptional conf.d/*.conf
-
-#
-# Django WSGI configuration
-#
-LoadModule wsgi_module modules/mod_wsgi.so
-
-<VirtualHost *:443>
-    ServerName caloru.gro4t.dev
-
-    # SSL configuration ########################################################
-    SSLCertificateFile /etc/letsencrypt/live/caloru.gro4t.dev/fullchain.pem
-    SSLCertificateKeyFile /etc/letsencrypt/live/caloru.gro4t.dev/privkey.pem
-
-    SSLEngine on
-    
-    # Intermediate configuration, tweak to your needs
-    SSLProtocol             all -SSLv2 -SSLv3 -TLSv1 -TLSv1.1
-    SSLCipherSuite          ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:DHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384
-    SSLHonorCipherOrder     off
-    SSLSessionTickets       off
-    
-    SSLOptions +StrictRequire
-    
-    # Add vhost name to log entries:
-    LogFormat "%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-agent}i\"" vhost_combined
-    LogFormat "%v %h %l %u %t \"%r\" %>s %b" vhost_common
-    ############################################################################
-
-    # Static files serving #####################################################
-    Alias /static /var/www/caloru/static/
-
-    <Directory /var/www/caloru/static/>
-        Options +Indexes
-        Require all granted
-    </Directory>
-    ############################################################################
-
-    # Django WSIG deamon #######################################################
-    WSGIDaemonProcess caloru processes=2 threads=15 display-name=%{GROUP} python-path={{ web_apps_root }}/caloru:{{ web_apps_root }}/caloru/venv/lib/{{ python_version }}/site-packages
-    WSGIProcessGroup caloru 
-
-    WSGIScriptAlias / {{ web_apps_root }}/caloru/caloru/wsgi.py
-
-    <Directory {{ web_apps_root }}/caloru/caloru>
-    <Files wsgi.py>
-        Require all granted
-    </Files>
-    </Directory>
-    ############################################################################
-
-</VirtualHost>

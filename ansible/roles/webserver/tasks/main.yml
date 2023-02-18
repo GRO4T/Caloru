@@ -5,42 +5,11 @@
   when: item not in vars
   with_items: "{{ required_vars }}"
 
-- name: Install apache
-  ansible.builtin.package:
-    name: "{{ apache_package }}"
-    state: present
-  notify: Enable apache service (start on boot)
-  become: yes
-
 - name: Create ~/install directory
   ansible.builtin.file:
     path: ~/install
     state: directory
-    mode: '0755'
-
-- name: Check if mod_wsgi.so exists
-  ansible.builtin.stat:
-    path: /usr/lib64/httpd/modules/mod_wsgi.so
-  register: mod_wsgi_so
-
-- name: Install mod_wsgi
-  ansible.builtin.import_tasks:
-    file: install_mod_wsgi.yml
-  when: not mod_wsgi_so.stat.exists
-
-- name: Copy httpd configuration
-  ansible.builtin.template:
-    src: httpd.conf.j2
-    dest: /etc/httpd/conf/httpd.conf
-  notify: Restart apache service
-  become: yes
-
-- name: Install additional packages
-  ansible.builtin.package:
-    name:
-      - "{{ rsync_package }}"
-    state: present
-  become: yes
+    mode: "0755"
 
 - name: Enable HTTP traffic on firewall
   ansible.posix.firewalld:
@@ -50,9 +19,13 @@
     state: enabled
   become: yes
 
-- name: Setup {{ web_apps_root }} directory
-  ansible.builtin.import_tasks:
-    file: setup_webapps_directory.yml
+- name: Enable HTTPS traffic on firewall
+  ansible.posix.firewalld:
+    service: https
+    permanent: yes
+    immediate: yes
+    state: enabled
+  become: yes
 
 - name: Allow httpd to read user content
   ansible.posix.seboolean:
@@ -61,3 +34,18 @@
     persistent: yes
   notify: Restart apache service
   become: yes
+
+- name: Set up Apache
+  ansible.builtin.import_tasks:
+    file: set_up_apache.yml
+
+- name: Install additional packages
+  ansible.builtin.package:
+    name:
+      - "{{ rsync_package }}"
+    state: present
+  become: yes
+
+- name: Setup {{ web_apps_root }} directory
+  ansible.builtin.import_tasks:
+    file: setup_webapps_directory.yml
