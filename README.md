@@ -12,6 +12,16 @@ Caloru is a calorie tracker.
 * Selenium
 * Cucumber
 
+## Development environment setup
+Install precommit
+```bash
+pip install pre-commit
+```
+Install precommit hooks
+```bash
+pre-commit install
+```
+
 ## Project set up
 ```
 python3 manage.py makemigrations products

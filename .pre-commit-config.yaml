@@ -1,21 +1,24 @@
 repos:
   - repo: https://github.com/rhysd/actionlint
-    rev: 9e907dcce268a56faccbbac5d65d8eb2126f2f78
+    rev: v1.6.26
     hooks:
       - id: actionlint
-  - repo: https://github.com/ansible/ansible-lint
-    rev: 9b5bad4450e7f2c1f5c61267e4084baebef4bf85
-    hooks:
-      - id: ansible-lint
   - repo: https://github.com/psf/black
-    rev: 0e9d29ab73d608a79028e22a713ee717b5dcca96
+    rev: 23.9.1
     hooks:
       - id: black
   - repo: https://github.com/PyCQA/pylint
-    rev: 60a2db21d8ff6ca59e32f632ca501305c0403fe5
+    rev: 84b06bb89750b5b557057508fcc294d8af7a469b
     hooks:
       - id: pylint
         additional_dependencies:
           - . # <-- that makes it install current project
           - Django
         args: ["--disable=C0114,C0115,C0116", "--generated-members=objects"]
+  - repo: local
+    hooks:
+      - id: test
+        name: Run Caloru tests
+        entry: bash
+        args: ["-c", "cd ./caloru && python3 -m venv ./.tmp_venv && source ./.tmp_venv/bin/activate && pip3 freeze && pip3 install -r requirements.txt > /dev/null 2>&1 && python3 manage.py test && rm -r ./.tmp_venv"]
+        language: system
