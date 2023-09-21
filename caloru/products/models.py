@@ -6,7 +6,6 @@ from django.conf import settings
 
 class Product(models.Model):
     name = models.CharField(max_length=255)
-    weight = models.IntegerField()
     calories = models.FloatField()
     protein = models.FloatField()
     carbs = models.FloatField()
