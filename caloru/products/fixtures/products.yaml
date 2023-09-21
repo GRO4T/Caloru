@@ -1,0 +1,11 @@
+- model: products.Product
+  fields:
+    name: Milk
+    calories_per_100g: 
+    weight: 2000
+    
+    last_name: Lennon
+- model: products.Product
+  fields:
+    first_name: Paul
+    last_name: McCartney
