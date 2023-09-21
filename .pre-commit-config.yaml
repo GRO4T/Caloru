@@ -15,6 +15,7 @@ repos:
           - . # <-- that makes it install current project
           - Django
         args: ["--disable=C0114,C0115,C0116", "--generated-members=objects"]
+        exclude: "^.*migrations.*$"
   - repo: local
     hooks:
       - id: test

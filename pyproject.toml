@@ -1,0 +1,12 @@
+[tool.black]
+extend-exclude = '''
+/(
+  | migrations
+)/
+'''
+
+force-exclude = '''
+/(
+  migrations
+)/
+'''
