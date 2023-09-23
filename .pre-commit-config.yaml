@@ -33,6 +33,8 @@ repos:
         entry: bash
         args: ["-c", 'cd "$(git rev-parse --show-toplevel)"/caloru && python3 manage.py test']
         language: system
+        files: "^.*(Dockerfile|requirements|caloru).*$"
+        exclude: "^.*migrations.*$"
 
   - repo: local
     hooks:
@@ -41,3 +43,5 @@ repos:
         entry: bash
         args: ["-c", "docker build -t caloru ."]
         language: system
+        files: "^.*(Dockerfile|requirements|caloru).*$"
+        exclude: "^.*migrations.*$"
