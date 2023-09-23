@@ -10,6 +10,7 @@ RUN pip install -r requirements.txt
 WORKDIR /app/caloru
 
 RUN python manage.py migrate
+RUN python manage.py loaddata products
 
 EXPOSE 8000
 
