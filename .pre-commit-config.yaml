@@ -1,9 +1,4 @@
 repos:
-  - repo: https://github.com/rhysd/actionlint
-    rev: v1.6.26
-    hooks:
-      - id: actionlint
-
   - repo: https://github.com/pycqa/isort
     rev: 5.12.0
     hooks:
