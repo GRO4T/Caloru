@@ -1,4 +1,4 @@
-FROM python:3.11.5-alpine3.18
+FROM python:3.11.5-bullseye
 
 RUN mkdir /app
 WORKDIR /app
@@ -7,10 +7,7 @@ COPY . /app/
 
 RUN pip install -r requirements.txt
 
-WORKDIR /app/caloru
-
-RUN python manage.py migrate
-RUN python manage.py loaddata products
+RUN /app/setup.sh
 
 EXPOSE 8000
 

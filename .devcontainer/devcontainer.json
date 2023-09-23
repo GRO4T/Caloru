@@ -11,7 +11,7 @@
 		  "label": "Caloru"
 	  }
 	},
-	"postCreateCommand": "cd ./caloru && python manage.py migrate && python manage.py loaddata products",
+	"postCreateCommand": "./setup.sh",
 	"customizations": {
 	  "vscode": {
 		"extensions": [
