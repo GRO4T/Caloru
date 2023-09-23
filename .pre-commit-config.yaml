@@ -35,13 +35,3 @@ repos:
         language: system
         files: "^.*(Dockerfile|requirements|caloru).*$"
         exclude: "^.*migrations.*$"
-
-  - repo: local
-    hooks:
-      - id: docker
-        name: Verify docker build
-        entry: bash
-        args: ["-c", "docker build -t caloru ."]
-        language: system
-        files: "^.*(Dockerfile|requirements|caloru).*$"
-        exclude: "^.*migrations.*$"
