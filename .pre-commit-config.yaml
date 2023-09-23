@@ -38,3 +38,11 @@ repos:
         entry: bash
         args: ["-c", 'cd "$(git rev-parse --show-toplevel)"/caloru && python3 manage.py test']
         language: system
+
+  - repo: local
+    hooks:
+      - id: docker
+        name: Verify docker build
+        entry: bash
+        args: ["-c", "docker build -t caloru ."]
+        language: system
