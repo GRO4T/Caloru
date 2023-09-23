@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 from django.template import loader
 
-from .models import Product, ConsumedProduct
+from .models import ConsumedProduct, Product
 
 # Create your views here.
 
