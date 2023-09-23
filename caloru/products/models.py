@@ -2,12 +2,6 @@ from django.conf import settings
 from django.db import models
 
 
-class User(models.Model):
-    """User profile."""
-
-    username = models.CharField(max_length=255)
-
-
 class Product(models.Model):
     """Product from the catalog.
 
