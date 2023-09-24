@@ -3,6 +3,8 @@ Simple web calorie tracker created with Django, MySQL and Bootstrap.
 
 TODO(Introduction)
 
+![state](./docs/state.png)
+
 ## Technologies
 * Python 3.11
 * Django 3.2.16
