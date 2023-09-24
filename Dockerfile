@@ -7,7 +7,6 @@ COPY . /app/
 
 RUN pip install -r requirements.txt
 
-RUN source ./.devcontainer/.env
 RUN ./setup.sh
 
 EXPOSE 8000
