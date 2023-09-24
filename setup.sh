@@ -1,5 +1,5 @@
 #!/bin/bash
-cd "$(git rev-parse --show-toplevel)"/caloru || exit
+cd ./caloru || exit
 
 python manage.py migrate
 
