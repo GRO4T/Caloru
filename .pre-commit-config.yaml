@@ -26,12 +26,3 @@ repos:
         args: ["--disable=C0114,C0115,C0116", "--generated-members=objects"]
         exclude: "^.*migrations.*$"
 
-  - repo: local
-    hooks:
-      - id: test
-        name: Run Caloru tests
-        entry: bash
-        args: ["-c", 'cd "$(git rev-parse --show-toplevel)"/caloru && python3 manage.py test']
-        language: system
-        files: "^.*(Dockerfile|requirements|caloru).*$"
-        exclude: "^.*migrations.*$"

@@ -133,11 +133,3 @@ body {
 .navbar .form-control {
     padding: .75rem 1rem;
 }
-
-/*
- * Table
- */
-
-.table-hover tbody tr:hover td {
-    background: aqua;
-}
