@@ -2,6 +2,8 @@
 (
     cd ./caloru || exit
 
+    python manage.py collectstatic
+
     python manage.py migrate
 
     python manage.py loaddata users
