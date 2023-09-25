@@ -12,3 +12,16 @@ services:
     working_dir: /app/caloru
     volumes:
       - ..:/app
+  
+  db:
+    image: library/postgres:15-alpine
+    restart: unless-stopped
+    volumes:
+      - caloru-db:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=caloru
+      - POSTGRES_PASSWORD=caloru
+
+volumes:
+  caloru-db:
+    driver: local
