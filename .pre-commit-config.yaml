@@ -10,12 +10,6 @@ repos:
     hooks:
       - id: black
 
-  - repo: https://github.com/charliermarsh/ruff-pre-commit
-    rev: v0.0.259
-    hooks:
-      - id: ruff
-        exclude: "^.*migrations.*$"
-
   - repo: https://github.com/PyCQA/pylint
     rev: 84b06bb89750b5b557057508fcc294d8af7a469b
     hooks:
@@ -23,6 +17,7 @@ repos:
         additional_dependencies:
           - . # <-- that makes it install current project
           - Django
+          - djangorestframework
         args: ["--disable=C0114,C0115,C0116", "--generated-members=objects"]
         exclude: "^.*migrations.*$"
 

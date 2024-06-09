@@ -2,64 +2,22 @@
   fields:
     id: 1
     name: Milk
-    name_2: ""
-    water: -1
+    full_name: "Whole Milk 3.5% fat"
+    producer: "Mlekara Subotica"
+    package_weight: 1000
     energy: 208
     protein: 3.39
     carbs: 5.08
     fat: 2.12
-    vitamin_a: 63.60
-    vitamin_b1: -1
-    vitamin_b2: -1
-    vitamin_b3: -1
-    vitamin_b5: -1
-    vitamin_b6: -1
-    vitamin_b12: -1
-    vitamin_c: 1
-    vitamin_d: 1.05
-    vitamin_e: -1
-    vitamin_k: -1
-    calcium: 127
-    copper: -1 
-    iron: 0
-    magnesium: -1
-    manganese: -1
-    phosphorus: -1
-    potassium: -1
-    selenium: -1
-    sodium: 55
-    zinc: -1
-    cholesterol: 8
 
 - model: products.Product
   fields:
     id: 2
     name: Apple
-    name_2: ""
-    water: -1
+    full_name: "Apple Jonagold"
+    producer: "Fruit Farm"
+    package_weight: 100
     energy: 52
     protein: 0
     carbs: 10.4
     fat: 0.65
-    vitamin_a: 63.60
-    vitamin_b1: -1
-    vitamin_b2: -1
-    vitamin_b3: -1
-    vitamin_b5: -1
-    vitamin_b6: -1
-    vitamin_b12: -1
-    vitamin_c: 1
-    vitamin_d: 1.05
-    vitamin_e: -1
-    vitamin_k: -1
-    calcium: 127
-    copper: -1 
-    iron: 0
-    magnesium: -1
-    manganese: -1
-    phosphorus: -1
-    potassium: -1
-    selenium: -1
-    sodium: 55
-    zinc: -1
-    cholesterol: 8

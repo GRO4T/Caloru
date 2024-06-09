@@ -3,21 +3,21 @@
     id: 1
     user: 2
     product: 1
-    date: "2023-09-22"
-    amount_in_grams: 250
+    date: "2024-06-09"
+    amount: 250
 
 - model: products.ConsumedProduct
   fields:
     id: 2
     user: 2
     product: 2
-    date: "2023-09-23"
-    amount_in_grams: 100
+    date: "2024-06-09"
+    amount: 100
 
 - model: products.ConsumedProduct
   fields:
     id: 3
     user: 2
     product: 2
-    date: "2023-09-22"
-    amount_in_grams: 200
+    date: "2024-06-08"
+    amount: 200
