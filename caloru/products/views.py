@@ -8,16 +8,8 @@ from .serializers import ConsumedProductSerializer
 
 
 def dashboard(request):
-    def mapper(c: ConsumedProduct) -> dict:
-        c_as_dict = ConsumedProductSerializer(c).data
-        c_as_dict["energy"] = c.product.energy * c.amount / 100.0
-        c_as_dict["protein"] = c.product.protein * c.amount / 100.0
-        c_as_dict["carbs"] = c.product.carbs * c.amount / 100.0
-        c_as_dict["fat"] = c.product.fat * c.amount / 100.0
-        return c_as_dict
-
     consumed_products = ConsumedProduct.objects.all().order_by("date")
-    consumed_products = map(mapper, consumed_products)
+    consumed_products = map(_calculate_total_macros, consumed_products)
 
     days = 7
     caloric_intake = _get_caloric_intake(days)
@@ -36,10 +28,20 @@ def dashboard(request):
 
 
 def products(request):
-    product_list = Product.objects.all()
+    consumed_today = ConsumedProduct.objects.filter(date=datetime.now())
+    consumed_today = map(_calculate_total_macros, consumed_today)
     template = loader.get_template("products.html")
-    context = {"product_list": product_list}
+    context = {"consumed_today": consumed_today}
     return HttpResponse(template.render(context, request))
+
+
+def _calculate_total_macros(c: ConsumedProduct) -> dict:
+    c_as_dict = ConsumedProductSerializer(c).data
+    c_as_dict["energy"] = c.product.energy * c.amount / 100.0
+    c_as_dict["protein"] = c.product.protein * c.amount / 100.0
+    c_as_dict["carbs"] = c.product.carbs * c.amount / 100.0
+    c_as_dict["fat"] = c.product.fat * c.amount / 100.0
+    return c_as_dict
 
 
 def _get_caloric_intake(days: int) -> list[float]:

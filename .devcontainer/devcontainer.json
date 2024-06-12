@@ -4,23 +4,24 @@
 	"service": "caloru",
 	"workspaceFolder": "/app",
 	"forwardPorts": [
-	  8000
+		8000
 	],
 	"portsAttributes": {
-	  "8000": {
-		  "label": "Caloru"
-	  }
+		"8000": {
+			"label": "Caloru"
+		}
 	},
 	"postCreateCommand": "./setup.sh",
 	"customizations": {
-	  "vscode": {
-		"extensions": [
-          "ms-python.black-formatter",
-          "ms-python.pylint",
-          "ms-python.python",
-          "ms-python.vscode-pylance",
-          "streetsidesoftware.code-spell-checker"
-		]
-	  }
+		"vscode": {
+			"extensions": [
+				"ms-python.black-formatter",
+				"ms-python.pylint",
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"ms-python.isort",
+				"streetsidesoftware.code-spell-checker"
+			]
+		}
 	}
-  }
+}

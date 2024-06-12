@@ -2,7 +2,7 @@
 (
     cd ./caloru || exit
 
-    python manage.py collectstatic
+    python manage.py collectstatic --noinput --clear
 
     python manage.py migrate
 

@@ -2,35 +2,44 @@
 
 {% block navigation %}
 <li class="nav-item">
-  <a class="nav-link" aria-current="page" href="/dashboard/">
-    <span data-feather="home" class="align-text-bottom"></span>
-    Dashboard
+  <a class="nav-link active" href="#">
+    <span data-feather="book" class="align-text-bottom"></span>
+    Tracker
   </a>
 </li>
 <li class="nav-item">
-  <a class="nav-link active" href="#">
-    <span data-feather="shopping-cart" class="align-text-bottom"></span>
-    Products
+  <a class="nav-link" aria-current="page" href="/dashboard/">
+    <span data-feather="clock" class="align-text-bottom"></span>
+    History
   </a>
 </li>
 {% endblock %}
 
 {% block content %}
-<main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-  <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-    <h1 class="h2" id="details">Details</h1>
+<main class=" col-md-9 ms-sm-auto col-lg-10 px-md-4">
+  <div class="row pt-3 pb-2 mb-3">
+    <div class="col">
+      <canvas id="caloriesChart"></canvas>
+    </div>
+    <div class="col">
+      <canvas id="proteinChart"></canvas>
+    </div>
+    <div class="col">
+      <canvas id="carbsChart"></canvas>
+    </div>
+    <div class="col">
+      <canvas id="fatsChart"></canvas>
+    </div>
   </div>
 
-  <canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas>
-
-  <h2>Products</h2>
+  <h2>Consumed Today</h2>
   <div class="table-responsive">
     <table class="table table-sm table-hover">
       <thead>
         <tr>
           <th>Name</th>
           <th>Producer</th>
-          <th>Package Weight</th>
+          <th>Amount</th>
           <th>Energy (per 100g)</th>
           <th>Protein (per 100g)</th>
           <th>Carbohydrates (per 100g)</th>
@@ -38,11 +47,11 @@
         </tr>
       </thead>
       <tbody>
-        {% for product in product_list %}
+        {% for product in consumed_today %}
         <tr>
-          <td>{{ product.full_name }}</td>
+          <td>{{ product.name }}</td>
           <td>{{ product.producer }}</td>
-          <td>{{ product.package_weight }} g</td>
+          <td>{{ product.amount }} g</td>
           <td>{{ product.energy }} kcal</td>
           <td>{{ product.protein }} g</td>
           <td>{{ product.carbs }} g</td>
@@ -51,6 +60,12 @@
         {% endfor %}
       </tbody>
     </table>
+
+    <div class="d-flex justify-content-center">
+      <button type="button" class="btn btn-light m-1" style="width: 100%;">
+        <span data-feather="plus"></span>
+      </button>
+    </div>
   </div>
 </main>
 {% endblock %}
@@ -62,54 +77,66 @@
 
     feather.replace({ 'aria-hidden': 'true' })
 
-    const tableRows = document.querySelectorAll('tr')
+    const options = {
+      scales: {
+        x: {
+          grid: {
+            display: false
+          },
+          border: {
+            display: false
+          }
+        },
+        y: {
+          display: false,
+          grid: {
+            display: false
+          }
+        },
+      },
+      plugins: {
+        legend: {
+          display: false,
+        }
+      }
+    }
 
-    // Graphs
-    const ctx = document.getElementById('myChart')
-    // eslint-disable-next-line no-unused-vars
-    const myChart = new Chart(ctx, {
-      type: 'doughnut',
+    const chartTemplate = {
+      type: 'bar',
+      options: options,
+      plugins: [ChartDataLabels],
       data: {
-        labels: ['Protein', 'Carbohydrates', 'Fat'],
+        labels: [''],
         datasets: [
           {
-            data: [100, 70, 50],
-            backgroundColor: ['rgb(255, 99, 132)', 'rgb(54, 162, 235)', 'rgb(255, 205, 86)']
+            label: 'Consumed',
+            data: [0],
+            backgroundColor: ['rgb(255, 179, 41, 1.0)'],
+          },
+          {
+            label: 'Target',
+            data: [0],
+            backgroundColor: ['rgb(255, 179, 41, 0.25)'],
           }
         ]
       }
-    })
+    }
 
-    tableRows.forEach((row) => {
-      row.addEventListener('mouseover', () => {
-        const cells = row.querySelectorAll('td')
+    function createChart(canvasId, label, consumed, target) {
+      const chartSpec = Object.assign({}, chartTemplate)
+      chartSpec.data.labels = [label]
+      chartSpec.data.datasets[0].data = consumed
+      chartSpec.data.datasets[1].data = target
+      return new Chart(
+        document.getElementById(canvasId), chartSpec
+      )
+    }
 
-        if (cells === null || cells.length === 0) {
-          return
-        }
+    const caloriesChart = createChart('caloriesChart', 'Calories [kcal]', [2200], [2500])
+    const proteinChart = createChart('proteinChart', 'Protein [g]', [100], [120])
+    const carbsChart = createChart('carbsChart', 'Carbs [g]', [300], [400])
+    const fatsChart = createChart('fatsChart', 'Fats [g]', [150], [200])
 
-        const name = cells[0].textContent
-        const protein = parseFloat(cells[2].textContent.replace(/[^\d.]/g, ''))
-        const carbs = parseFloat(cells[3].textContent.replace(/[^\d.]/g, ''))
-        const fat = parseFloat(cells[4].textContent.replace(/[^\d.]/g, ''))
-
-        const detailsText = document.getElementById('details')
-        detailsText.innerHTML = 'Details - ' + name
-
-        const newData = {
-          labels: ['Protein', 'Carbohydrates', 'Fat'],
-          datasets: [
-            {
-              data: [protein, carbs, fat],
-              backgroundColor: ['rgb(255, 99, 132)', 'rgb(54, 162, 235)', 'rgb(255, 205, 86)']
-            }
-          ]
-        }
-
-        myChart.data = newData
-        myChart.update()
-      })
-    })
   })()
 </script>
 {% endblock %}
