@@ -7,7 +7,7 @@ from .models import ConsumedProduct, Product
 from .serializers import ConsumedProductSerializer
 
 
-def dashboard(request):
+def history(request):
     consumed_products = ConsumedProduct.objects.all().order_by("date")
     consumed_products = map(_calculate_total_macros, consumed_products)
 
@@ -18,7 +18,7 @@ def dashboard(request):
         date = datetime.now() - timedelta(days=days - 1) + timedelta(days=i)
         dates.append(date.strftime("%d/%m/%Y"))
 
-    template = loader.get_template("dashboard.html")
+    template = loader.get_template("history.html")
     context = {
         "consumed_products": consumed_products,
         "dates": dates,
@@ -27,10 +27,10 @@ def dashboard(request):
     return HttpResponse(template.render(context, request))
 
 
-def products(request):
+def tracker(request):
     consumed_today = ConsumedProduct.objects.filter(date=datetime.now())
     consumed_today = map(_calculate_total_macros, consumed_today)
-    template = loader.get_template("products.html")
+    template = loader.get_template("tracker.html")
     context = {"consumed_today": consumed_today}
     return HttpResponse(template.render(context, request))
 
