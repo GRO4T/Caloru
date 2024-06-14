@@ -1,10 +1,9 @@
 from datetime import datetime, timedelta
 
-from django.contrib.auth import get_user_model
-from django.http import HttpResponse
-from django.template import loader
+from django.shortcuts import render
 
-from .models import ConsumedProduct, Product
+from .forms import ConsumedProductForm
+from .models import ConsumedProduct
 from .serializers import ConsumedProductSerializer
 
 
@@ -19,18 +18,19 @@ def history(request):
         date = datetime.now() - timedelta(days=days - 1) + timedelta(days=i)
         dates.append(date.strftime("%d/%m/%Y"))
 
-    template = loader.get_template("history.html")
     context = {
         "consumed_products": consumed_products,
         "dates": dates,
         "total_calories": caloric_intake,
     }
-    return HttpResponse(template.render(context, request))
+    return render(request, "history.html", context)
 
 
 def tracker(request):
     if request.method == "POST":
-        _add_consumed_product()
+        form = ConsumedProductForm(request.POST)
+        if form.is_valid():
+            form.save()
 
     consumed_today = ConsumedProduct.objects.filter(date=datetime.now())
     consumed_today = [_calculate_total_macros(c) for c in consumed_today]
@@ -40,35 +40,15 @@ def tracker(request):
     carbs = int(sum((c["carbs"] for c in consumed_today)))
     fats = int(sum((c["fat"] for c in consumed_today)))
 
-    template = loader.get_template("tracker.html")
     context = {
         "consumed_today": consumed_today,
-        "energy": {
-            "consumed": energy,
-            "target": 2500,
-        },
-        "protein": {
-            "consumed": protein,
-            "target": 100,
-        },
-        "carbs": {
-            "consumed": carbs,
-            "target": 300,
-        },
-        "fats": {
-            "consumed": fats,
-            "target": 70,
-        },
+        "energy": {"consumed": energy, "target": 2500},
+        "protein": {"consumed": protein, "target": 100},
+        "carbs": {"consumed": carbs, "target": 300},
+        "fats": {"consumed": fats, "target": 70},
+        "form": ConsumedProductForm(),
     }
-    return HttpResponse(template.render(context, request))
-
-
-def _add_consumed_product():
-    User = get_user_model()
-    user = User.objects.get(pk=2)
-    product = Product.objects.get(pk=2)
-    c = ConsumedProduct(user=user, product=product, date=datetime.now(), amount=200)
-    c.save()
+    return render(request, "tracker.html", context)
 
 
 def _calculate_total_macros(c: ConsumedProduct) -> dict:

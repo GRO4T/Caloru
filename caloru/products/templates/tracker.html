@@ -16,6 +16,9 @@
 {% endblock %}
 
 {% block content %}
+
+{% load widget_tweaks %}
+
 <main class=" col-md-9 ms-sm-auto col-lg-10 px-md-4">
   <div class="row pt-3 pb-2 mb-3">
     <div class="col">
@@ -61,14 +64,49 @@
       </tbody>
     </table>
 
-    <div class="d-flex justify-content-center">
-      <form method="post" action="/tracker/" style="width: 100%;">
-        {% csrf_token %}
-        <button type="submit" class="btn btn-light m-1" style="width: 100%;">
-          <span data-feather="plus"></span>
-        </button>
-      </form>
+    <button type="button" class="btn btn-light m-1" style="width: 100%;" data-bs-toggle="modal"
+      data-bs-target="#exampleModal">
+      <span data-feather="plus"></span>
+    </button>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <form method="post" action="/tracker/" class="modal-content">
+          {% csrf_token %}
+          <div class="modal-header">
+            <h5 class="modal-title">Register Consumed Product</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <label for="{{ form.user.id_for_label }}" class="form-label">User</label>
+              {% render_field form.user class="form-control" %}
+              <div class="invalid-feedback">{{ form.user.errors|first }}</div>
+            </div>
+            <div class="mb-3">
+              <label for="{{ form.product.id_for_label }}" class="form-label">Product</label>
+              {% render_field form.product class="form-control" %}
+              <div class="invalid-feedback">{{ form.product.errors|first }}</div>
+            </div>
+            <div class="mb-3">
+              <label for="{{ form.date.id_for_label }}" class="form-label">Date</label>
+              {% render_field form.date class="form-control" %}
+              <div class="invalid-feedback">{{ form.date.errors|first }}</div>
+            </div>
+            <div class="mb-3">
+              <label for="{{ form.amount.id_for_label }}" class="form-label">Amount</label>
+              {% render_field form.amount class="form-control" %}
+              <div class="invalid-feedback">{{ form.amount.errors|first }}</div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary">Save</button>
+          </div>
+        </form>
+      </div>
     </div>
+
   </div>
 </main>
 {% endblock %}
