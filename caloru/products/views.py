@@ -1,5 +1,6 @@
 from datetime import datetime, timedelta
 
+from django.contrib.auth import get_user_model
 from django.http import HttpResponse
 from django.template import loader
 
@@ -28,11 +29,46 @@ def history(request):
 
 
 def tracker(request):
+    if request.method == "POST":
+        _add_consumed_product()
+
     consumed_today = ConsumedProduct.objects.filter(date=datetime.now())
-    consumed_today = map(_calculate_total_macros, consumed_today)
+    consumed_today = [_calculate_total_macros(c) for c in consumed_today]
+
+    energy = int(sum((c["energy"] for c in consumed_today)))
+    protein = int(sum((c["protein"] for c in consumed_today)))
+    carbs = int(sum((c["carbs"] for c in consumed_today)))
+    fats = int(sum((c["fat"] for c in consumed_today)))
+
     template = loader.get_template("tracker.html")
-    context = {"consumed_today": consumed_today}
+    context = {
+        "consumed_today": consumed_today,
+        "energy": {
+            "consumed": energy,
+            "target": 2500,
+        },
+        "protein": {
+            "consumed": protein,
+            "target": 100,
+        },
+        "carbs": {
+            "consumed": carbs,
+            "target": 300,
+        },
+        "fats": {
+            "consumed": fats,
+            "target": 70,
+        },
+    }
     return HttpResponse(template.render(context, request))
+
+
+def _add_consumed_product():
+    User = get_user_model()
+    user = User.objects.get(pk=2)
+    product = Product.objects.get(pk=2)
+    c = ConsumedProduct(user=user, product=product, date=datetime.now(), amount=200)
+    c.save()
 
 
 def _calculate_total_macros(c: ConsumedProduct) -> dict:

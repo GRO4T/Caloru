@@ -62,81 +62,54 @@
     </table>
 
     <div class="d-flex justify-content-center">
-      <button type="button" class="btn btn-light m-1" style="width: 100%;">
-        <span data-feather="plus"></span>
-      </button>
+      <form method="post" action="/tracker/" style="width: 100%;">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-light m-1" style="width: 100%;">
+          <span data-feather="plus"></span>
+        </button>
+      </form>
     </div>
   </div>
 </main>
 {% endblock %}
 
+
 {% block scripts %}
+
+{% load static %}
+
+<script src="{% static 'js/tracker.js' %}"></script>
+
 <script>
-  ; (() => {
-    'use strict'
+  (() => {
+    "use strict";
 
-    feather.replace({ 'aria-hidden': 'true' })
+    feather.replace({ "aria-hidden": "true" });
 
-    const options = {
-      scales: {
-        x: {
-          grid: {
-            display: false
-          },
-          border: {
-            display: false
-          }
-        },
-        y: {
-          display: false,
-          grid: {
-            display: false
-          }
-        },
-      },
-      plugins: {
-        legend: {
-          display: false,
-        }
-      }
-    }
-
-    const chartTemplate = {
-      type: 'bar',
-      options: options,
-      plugins: [ChartDataLabels],
-      data: {
-        labels: [''],
-        datasets: [
-          {
-            label: 'Consumed',
-            data: [0],
-            backgroundColor: ['rgb(255, 179, 41, 1.0)'],
-          },
-          {
-            label: 'Target',
-            data: [0],
-            backgroundColor: ['rgb(255, 179, 41, 0.25)'],
-          }
-        ]
-      }
-    }
-
-    function createChart(canvasId, label, consumed, target) {
-      const chartSpec = Object.assign({}, chartTemplate)
-      chartSpec.data.labels = [label]
-      chartSpec.data.datasets[0].data = consumed
-      chartSpec.data.datasets[1].data = target
-      return new Chart(
-        document.getElementById(canvasId), chartSpec
-      )
-    }
-
-    const caloriesChart = createChart('caloriesChart', 'Calories [kcal]', [2200], [2500])
-    const proteinChart = createChart('proteinChart', 'Protein [g]', [100], [120])
-    const carbsChart = createChart('carbsChart', 'Carbs [g]', [300], [400])
-    const fatsChart = createChart('fatsChart', 'Fats [g]', [150], [200])
-
-  })()
+    createChart(
+      "caloriesChart",
+      "Calories [kcal]",
+      "{{ energy.consumed }}",
+      2500
+    );
+    createChart(
+      "proteinChart",
+      "Protein [g]",
+      "{{ protein.consumed }}",
+      120
+    );
+    createChart(
+      "carbsChart",
+      "Carbs [g]",
+      "{{ carbs.consumed }}",
+      400
+    );
+    createChart(
+      "fatsChart",
+      "Fats [g]",
+      "{{ fats.consumed }}",
+      200
+    );
+  })();
 </script>
 {% endblock %}
