@@ -27,6 +27,7 @@ def history(request):
 
 
 def tracker(request):
+    form = ConsumedProductForm()
     if request.method == "POST":
         form = ConsumedProductForm(request.POST)
         if form.is_valid():
@@ -46,7 +47,7 @@ def tracker(request):
         "protein": {"consumed": protein, "target": 100},
         "carbs": {"consumed": carbs, "target": 300},
         "fats": {"consumed": fats, "target": 70},
-        "form": ConsumedProductForm(),
+        "form": form,
     }
     return render(request, "tracker.html", context)
 

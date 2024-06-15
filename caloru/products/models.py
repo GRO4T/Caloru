@@ -1,4 +1,5 @@
 from django.conf import settings
+from django.core.validators import MaxValueValidator, MinValueValidator
 from django.db import models
 
 
@@ -6,7 +7,8 @@ class Product(models.Model):
     """Product from the catalog."""
 
     name = models.CharField(max_length=255)  # e.g. "Milk"
-    full_name = models.CharField(max_length=255)  # e.g. "Milk Whole (3.25% fat)"
+    # e.g. "Milk Whole (3.25% fat)"
+    full_name = models.CharField(max_length=255)
     producer = models.CharField(max_length=255)
     package_weight = models.FloatField()  # in grams
     energy = models.FloatField()  # in kcal per 100g
@@ -21,4 +23,6 @@ class ConsumedProduct(models.Model):
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
     date = models.DateField()
-    amount = models.IntegerField()  # in grams
+    amount = models.PositiveSmallIntegerField(
+        validators=[MinValueValidator(1), MaxValueValidator(5000)]
+    )  # in grams

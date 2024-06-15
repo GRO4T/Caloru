@@ -18,6 +18,6 @@ repos:
           - . # <-- that makes it install current project
           - Django
           - djangorestframework
-        args: ["--disable=C0114,C0115,C0116", "--generated-members=objects"]
+        args: ["--disable=C0114,C0115,C0116,E0013,R0903", "--generated-members=objects"]
         exclude: "^.*migrations.*$"
 
