@@ -21,3 +21,11 @@
     product: 2
     date: "2024-06-08"
     amount: 200
+
+- model: products.ConsumedProduct
+  fields:
+    id: 4
+    user: 2
+    product: 2
+    date: "2024-06-13"
+    amount: 200

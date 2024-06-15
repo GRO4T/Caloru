@@ -1,9 +1,9 @@
 from datetime import datetime, timedelta
 
-from django.http import HttpResponse
-from django.template import loader
+from django.shortcuts import render
 
-from .models import ConsumedProduct, Product
+from .forms import ConsumedProductForm
+from .models import ConsumedProduct
 from .serializers import ConsumedProductSerializer
 
 
@@ -18,21 +18,37 @@ def history(request):
         date = datetime.now() - timedelta(days=days - 1) + timedelta(days=i)
         dates.append(date.strftime("%d/%m/%Y"))
 
-    template = loader.get_template("history.html")
     context = {
         "consumed_products": consumed_products,
         "dates": dates,
         "total_calories": caloric_intake,
     }
-    return HttpResponse(template.render(context, request))
+    return render(request, "history.html", context)
 
 
 def tracker(request):
+    if request.method == "POST":
+        form = ConsumedProductForm(request.POST)
+        if form.is_valid():
+            form.save()
+
     consumed_today = ConsumedProduct.objects.filter(date=datetime.now())
-    consumed_today = map(_calculate_total_macros, consumed_today)
-    template = loader.get_template("tracker.html")
-    context = {"consumed_today": consumed_today}
-    return HttpResponse(template.render(context, request))
+    consumed_today = [_calculate_total_macros(c) for c in consumed_today]
+
+    energy = int(sum((c["energy"] for c in consumed_today)))
+    protein = int(sum((c["protein"] for c in consumed_today)))
+    carbs = int(sum((c["carbs"] for c in consumed_today)))
+    fats = int(sum((c["fat"] for c in consumed_today)))
+
+    context = {
+        "consumed_today": consumed_today,
+        "energy": {"consumed": energy, "target": 2500},
+        "protein": {"consumed": protein, "target": 100},
+        "carbs": {"consumed": carbs, "target": 300},
+        "fats": {"consumed": fats, "target": 70},
+        "form": ConsumedProductForm(),
+    }
+    return render(request, "tracker.html", context)
 
 
 def _calculate_total_macros(c: ConsumedProduct) -> dict:
