@@ -65,11 +65,12 @@
     </table>
 
     <button type="button" class="btn btn-light m-1" style="width: 100%;" data-bs-toggle="modal"
-      data-bs-target="#exampleModal">
+      data-bs-target="#addConsumedProductModal">
       <span data-feather="plus"></span>
     </button>
 
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="addConsumedProductModal" tabindex="-1" aria-labelledby="addConsumedProductModalLabel"
+      aria-hidden="true">
       <div class="modal-dialog">
         <form method="post" action="/tracker/" class="modal-content">
           {% csrf_token %}
@@ -81,32 +82,31 @@
             <div class="mb-3">
               <label for="{{ form.user.id_for_label }}" class="form-label">User</label>
               {% render_field form.user class="form-control" %}
-              <div class="invalid-feedback">{{ form.user.errors|first }}</div>
+              <div class="text-danger">{{ form.user.errors|first }}</div>
             </div>
             <div class="mb-3">
               <label for="{{ form.product.id_for_label }}" class="form-label">Product</label>
               {% render_field form.product class="form-control" %}
-              <div class="invalid-feedback">{{ form.product.errors|first }}</div>
+              <div class="text-danger">{{ form.product.errors|first }}</div>
             </div>
             <div class="mb-3">
               <label for="{{ form.date.id_for_label }}" class="form-label">Date</label>
               {% render_field form.date class="form-control" type="date" %}
-              <div class="invalid-feedback">{{ form.date.errors|first }}</div>
+              <div class="text-danger">{{ form.date.errors|first }}</div>
             </div>
             <div class="mb-3">
               <label for="{{ form.amount.id_for_label }}" class="form-label">Amount</label>
               {% render_field form.amount class="form-control" %}
-              <div class="invalid-feedback">{{ form.amount.errors|first }}</div>
+              <div class="text-danger">{{ form.amount.errors|first }}</div>
             </div>
           </div>
-          <div class="modal-footer">
+          <div class=" modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
             <button type="submit" class="btn btn-primary">Save</button>
           </div>
         </form>
       </div>
     </div>
-
   </div>
 </main>
 {% endblock %}
@@ -148,6 +148,16 @@
       "{{ fats.consumed }}",
       200
     );
+
   })();
 </script>
+
+{% if form.errors %}
+<script>
+  $(window).on("load", function () {
+    $('#addConsumedProductModal').modal('show');
+  })
+</script>
+{% endif %}
+
 {% endblock %}
