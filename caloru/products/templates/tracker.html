@@ -96,8 +96,15 @@
             </div>
             <div class="mb-3">
               <label for="{{ form.amount.id_for_label }}" class="form-label">Amount</label>
-              {% render_field form.amount class="form-control" %}
-              <div class="text-danger">{{ form.amount.errors|first }}</div>
+              <div class="row">
+                <div class="col">
+                  {% render_field form.amount class="form-control" %}
+                  <div class="text-danger">{{ form.amount.errors|first }}</div>
+                </div>
+                <div class="col" style="display: flex; justify-content: left; align-items: center">
+                  g
+                </div>
+              </div>
             </div>
           </div>
           <div class=" modal-footer">
