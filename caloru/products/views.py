@@ -1,8 +1,8 @@
 from datetime import datetime, timedelta
 
-from django.shortcuts import render
+from django.shortcuts import redirect, render
 
-from .forms import ConsumedProductForm
+from .forms import ConsumedProductForm, RegisterForm
 from .models import ConsumedProduct
 from .serializers import ConsumedProductSerializer
 
@@ -50,6 +50,16 @@ def tracker(request):
         "form": form,
     }
     return render(request, "tracker.html", context)
+
+
+def register(request):
+    if request.method == "POST":
+        form = RegisterForm(request.POST)
+        if form.is_valid():
+            form.save()
+        return redirect("/")
+    form = RegisterForm()
+    return render(request, "register.html", {"form": form})
 
 
 def _calculate_total_macros(c: ConsumedProduct) -> dict:
