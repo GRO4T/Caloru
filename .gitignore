@@ -6,6 +6,6 @@
 **/.ansible-lint
 **/.vscode
 **/.DS_Store
-caloru/static
+caloru/static/admin
 **/.ruff_cache
 **/.worktrees

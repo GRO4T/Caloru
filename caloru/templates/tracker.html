@@ -8,7 +8,7 @@
   </a>
 </li>
 <li class="nav-item">
-  <a class="nav-link" aria-current="page" href="/history/">
+  <a class="nav-link" aria-current="page" href="/foods/history">
     <span data-feather="clock" class="align-text-bottom"></span>
     History
   </a>
@@ -98,7 +98,7 @@
               <label for="{{ form.amount.id_for_label }}" class="form-label">Amount</label>
               <div class="row">
                 <div class="col">
-                  {% render_field form.amount class="form-control" %}
+                  {% render_field form.amount class="form-control" placeholder="g" %}
                   <div class="text-danger">{{ form.amount.errors|first }}</div>
                 </div>
                 <div class="col" style="display: flex; justify-content: left; align-items: center">
