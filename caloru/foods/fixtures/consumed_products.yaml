@@ -1,4 +1,4 @@
-- model: products.ConsumedProduct
+- model: foods.ConsumedProduct
   fields:
     id: 1
     user: 2
@@ -6,7 +6,7 @@
     date: "2024-06-09"
     amount: 250
 
-- model: products.ConsumedProduct
+- model: foods.ConsumedProduct
   fields:
     id: 2
     user: 2
@@ -14,7 +14,7 @@
     date: "2024-06-09"
     amount: 100
 
-- model: products.ConsumedProduct
+- model: foods.ConsumedProduct
   fields:
     id: 3
     user: 2
@@ -22,7 +22,7 @@
     date: "2024-06-08"
     amount: 200
 
-- model: products.ConsumedProduct
+- model: foods.ConsumedProduct
   fields:
     id: 4
     user: 2

@@ -1,4 +1,4 @@
-- model: products.Product
+- model: foods.Product
   fields:
     id: 1
     name: Milk
@@ -10,7 +10,7 @@
     carbs: 5.08
     fat: 2.12
 
-- model: products.Product
+- model: foods.Product
   fields:
     id: 2
     name: Apple
