@@ -1,5 +1,6 @@
 from datetime import datetime, timedelta
 
+from django.contrib.auth.decorators import login_required
 from django.shortcuts import render
 
 from .forms import ConsumedProductForm
@@ -7,6 +8,7 @@ from .models import ConsumedProduct
 from .serializers import ConsumedProductSerializer
 
 
+@login_required
 def history(request):
     consumed_products = ConsumedProduct.objects.all().order_by("date")
     consumed_products = map(_calculate_total_macros, consumed_products)
@@ -26,6 +28,7 @@ def history(request):
     return render(request, "history.html", context)
 
 
+@login_required
 def tracker(request):
     form = ConsumedProductForm()
     if request.method == "POST":
