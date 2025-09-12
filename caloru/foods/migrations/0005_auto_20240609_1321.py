@@ -4,127 +4,126 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('foods', '0004_product_name_2'),
+        ("foods", "0004_product_name_2"),
     ]
 
     operations = [
         migrations.DeleteModel(
-            name='User',
+            name="User",
         ),
         migrations.RenameField(
-            model_name='consumedproduct',
-            old_name='amount_in_grams',
-            new_name='amount',
+            model_name="consumedproduct",
+            old_name="amount_in_grams",
+            new_name="amount",
         ),
         migrations.RenameField(
-            model_name='product',
-            old_name='name_2',
-            new_name='full_name',
+            model_name="product",
+            old_name="name_2",
+            new_name="full_name",
         ),
         migrations.RemoveField(
-            model_name='product',
-            name='calcium',
+            model_name="product",
+            name="calcium",
         ),
         migrations.RemoveField(
-            model_name='product',
-            name='cholesterol',
+            model_name="product",
+            name="cholesterol",
         ),
         migrations.RemoveField(
-            model_name='product',
-            name='copper',
+            model_name="product",
+            name="copper",
         ),
         migrations.RemoveField(
-            model_name='product',
-            name='iron',
+            model_name="product",
+            name="iron",
         ),
         migrations.RemoveField(
-            model_name='product',
-            name='magnesium',
+            model_name="product",
+            name="magnesium",
         ),
         migrations.RemoveField(
-            model_name='product',
-            name='manganese',
+            model_name="product",
+            name="manganese",
         ),
         migrations.RemoveField(
-            model_name='product',
-            name='phosphorus',
+            model_name="product",
+            name="phosphorus",
         ),
         migrations.RemoveField(
-            model_name='product',
-            name='potassium',
+            model_name="product",
+            name="potassium",
         ),
         migrations.RemoveField(
-            model_name='product',
-            name='selenium',
+            model_name="product",
+            name="selenium",
         ),
         migrations.RemoveField(
-            model_name='product',
-            name='sodium',
+            model_name="product",
+            name="sodium",
         ),
         migrations.RemoveField(
-            model_name='product',
-            name='vitamin_a',
+            model_name="product",
+            name="vitamin_a",
         ),
         migrations.RemoveField(
-            model_name='product',
-            name='vitamin_b1',
+            model_name="product",
+            name="vitamin_b1",
         ),
         migrations.RemoveField(
-            model_name='product',
-            name='vitamin_b12',
+            model_name="product",
+            name="vitamin_b12",
         ),
         migrations.RemoveField(
-            model_name='product',
-            name='vitamin_b2',
+            model_name="product",
+            name="vitamin_b2",
         ),
         migrations.RemoveField(
-            model_name='product',
-            name='vitamin_b3',
+            model_name="product",
+            name="vitamin_b3",
         ),
         migrations.RemoveField(
-            model_name='product',
-            name='vitamin_b5',
+            model_name="product",
+            name="vitamin_b5",
         ),
         migrations.RemoveField(
-            model_name='product',
-            name='vitamin_b6',
+            model_name="product",
+            name="vitamin_b6",
         ),
         migrations.RemoveField(
-            model_name='product',
-            name='vitamin_c',
+            model_name="product",
+            name="vitamin_c",
         ),
         migrations.RemoveField(
-            model_name='product',
-            name='vitamin_d',
+            model_name="product",
+            name="vitamin_d",
         ),
         migrations.RemoveField(
-            model_name='product',
-            name='vitamin_e',
+            model_name="product",
+            name="vitamin_e",
         ),
         migrations.RemoveField(
-            model_name='product',
-            name='vitamin_k',
+            model_name="product",
+            name="vitamin_k",
         ),
         migrations.RemoveField(
-            model_name='product',
-            name='water',
+            model_name="product",
+            name="water",
         ),
         migrations.RemoveField(
-            model_name='product',
-            name='zinc',
+            model_name="product",
+            name="zinc",
         ),
         migrations.AddField(
-            model_name='product',
-            name='package_weight',
+            model_name="product",
+            name="package_weight",
             field=models.FloatField(default=0),
             preserve_default=False,
         ),
         migrations.AddField(
-            model_name='product',
-            name='producer',
-            field=models.CharField(default='Producer Inc.', max_length=255),
+            model_name="product",
+            name="producer",
+            field=models.CharField(default="Producer Inc.", max_length=255),
             preserve_default=False,
         ),
     ]

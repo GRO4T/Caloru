@@ -14,7 +14,7 @@ services:
     working_dir: /app/caloru
     volumes:
       - ..:/app
-  
+
   db:
     image: library/postgres:15-alpine
     restart: unless-stopped
