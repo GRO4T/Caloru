@@ -1,36 +1,34 @@
-# Caloru - web calorie tracker
-Simple web calorie tracker created with Django, MySQL and Bootstrap.
+# Caloru
 
-TODO(Introduction)
+**Caloru** is a simple, web-based caloric tracker.
 
-![state](./docs/state.png)
+## Tech Stack
 
-## Technologies
-* Python 3.11
-* Django 3.2.16
-* Bootstrap 5.3.0
-* MySQL
-* GitHub Actions
+- **Django**: Backend framework for creating and managing web applications.
+- **PostgreSQL**: Database to store user information, food logs, and caloric data.
+- **Bootstrap**: Frontend framework to style and create a responsive interface.
 
-## Deployment
+## Installation
 
-![deployment](./docs/caloru_arch.drawio.png)
+This section describes steps needed to deploy the service at 127.0.0.1:8000.
 
-## Setup
-Setup Python virtualenv
-```
-cd ./caloru
-python3 -m venv ./venv/
-source ./venv/bin/activate
-pip3 install -r requirements.txt
-```
+1. **Install Dev Containers VS Code extension**
+2. **Ctrl+Shift+P > Dev Containers: Open Folder in Container...**
 
-Apply database migrations
-```
-python3 manage.py migrate
-```
+## TODOs
 
-Run development server
-```
-python3 manage.py runserver
-```
+### Set up proper development server
+
+Currently not everything is hot-reloaded, e.g. changing HTML templates requires rebuilding the whole image.
+
+The solution is to use `python3 manage.py runserver` with `Debug=True` in development mode. However, from the initial investigation it seems that serving static files using Django's built-in development server might be tricky.
+
+Another issue is that according to Django's documentation static files should be stored in per-application basis in which case a collectstatic which would prevent the hot-reloading.
+
+It is important to note that in production mode we should use uvicorn with `Debug=False`.
+
+https://docs.djangoproject.com/en/5.1/ref/django-admin/
+
+https://docs.djangoproject.com/en/5.1/howto/static-files/
+
+### Move from pylint + black + isort to ruff

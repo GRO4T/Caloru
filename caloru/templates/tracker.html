@@ -1,0 +1,170 @@
+{% extends 'base.html' %}
+
+{% block navigation %}
+<li class="nav-item">
+  <a class="nav-link active" href="#">
+    <span data-feather="book" class="align-text-bottom"></span>
+    Tracker
+  </a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" aria-current="page" href="/foods/history">
+    <span data-feather="clock" class="align-text-bottom"></span>
+    History
+  </a>
+</li>
+{% endblock %}
+
+{% block content %}
+
+{% load widget_tweaks %}
+
+<main class=" col-md-9 ms-sm-auto col-lg-10 px-md-4">
+  <div class="row pt-3 pb-2 mb-3">
+    <div class="col">
+      <canvas id="caloriesChart"></canvas>
+    </div>
+    <div class="col">
+      <canvas id="proteinChart"></canvas>
+    </div>
+    <div class="col">
+      <canvas id="carbsChart"></canvas>
+    </div>
+    <div class="col">
+      <canvas id="fatsChart"></canvas>
+    </div>
+  </div>
+
+  <h2>Consumed Today</h2>
+  <div class="table-responsive">
+    <table class="table table-sm table-hover">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Producer</th>
+          <th>Amount</th>
+          <th>Energy (per 100g)</th>
+          <th>Protein (per 100g)</th>
+          <th>Carbohydrates (per 100g)</th>
+          <th>Fat (per 100g)</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for product in consumed_today %}
+        <tr>
+          <td>{{ product.name }}</td>
+          <td>{{ product.producer }}</td>
+          <td>{{ product.amount }} g</td>
+          <td>{{ product.energy }} kcal</td>
+          <td>{{ product.protein }} g</td>
+          <td>{{ product.carbs }} g</td>
+          <td>{{ product.fat }} g</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+    <button type="button" class="btn btn-light m-1" style="width: 100%;" data-bs-toggle="modal"
+      data-bs-target="#addConsumedProductModal">
+      <span data-feather="plus"></span>
+    </button>
+
+    <div class="modal fade" id="addConsumedProductModal" tabindex="-1" aria-labelledby="addConsumedProductModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <form method="post" action="/tracker" class="modal-content">
+          {% csrf_token %}
+          <div class="modal-header">
+            <h5 class="modal-title">Register Consumed Product</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <label for="{{ form.user.id_for_label }}" class="form-label">User</label>
+              {% render_field form.user class="form-control" %}
+              <div class="text-danger">{{ form.user.errors|first }}</div>
+            </div>
+            <div class="mb-3">
+              <label for="{{ form.product.id_for_label }}" class="form-label">Product</label>
+              {% render_field form.product class="form-control" %}
+              <div class="text-danger">{{ form.product.errors|first }}</div>
+            </div>
+            <div class="mb-3">
+              <label for="{{ form.date.id_for_label }}" class="form-label">Date</label>
+              {% render_field form.date class="form-control" type="date" %}
+              <div class="text-danger">{{ form.date.errors|first }}</div>
+            </div>
+            <div class="mb-3">
+              <label for="{{ form.amount.id_for_label }}" class="form-label">Amount</label>
+              <div class="row">
+                <div class="col">
+                  {% render_field form.amount class="form-control" placeholder="g" %}
+                  <div class="text-danger">{{ form.amount.errors|first }}</div>
+                </div>
+                <div class="col" style="display: flex; justify-content: left; align-items: center">
+                  g
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class=" modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary">Save</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</main>
+{% endblock %}
+
+
+{% block scripts %}
+
+{% load static %}
+
+<script src="{% static 'js/tracker.js' %}"></script>
+
+<script>
+  (() => {
+    "use strict";
+
+    feather.replace({ "aria-hidden": "true" });
+
+    createChart(
+      "caloriesChart",
+      "Calories [kcal]",
+      "{{ energy.consumed }}",
+      2500
+    );
+    createChart(
+      "proteinChart",
+      "Protein [g]",
+      "{{ protein.consumed }}",
+      120
+    );
+    createChart(
+      "carbsChart",
+      "Carbs [g]",
+      "{{ carbs.consumed }}",
+      400
+    );
+    createChart(
+      "fatsChart",
+      "Fats [g]",
+      "{{ fats.consumed }}",
+      200
+    );
+
+  })();
+</script>
+
+{% if form.errors %}
+<script>
+  $(window).on("load", function () {
+    $('#addConsumedProductModal').modal('show');
+  })
+</script>
+{% endif %}
+
+{% endblock %}
