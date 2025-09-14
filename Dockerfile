@@ -1,25 +1,20 @@
 FROM alpine:3.21 AS install_deps
 
-ARG APP_ENV="prod"
-
 RUN mkdir /app
 WORKDIR /app
 
 RUN wget -qO- https://astral.sh/uv/0.8.17/install.sh | sh
 ENV PATH="/root/.local/bin:$PATH"
 
-RUN uv python install 3.13
+RUN uv python install 3.13 && \
+    apk update && \
+    apk add \
+        build-base \
+        libpq-dev
 
 COPY pyproject.toml uv.lock /app/
-RUN if [ "$APP_ENV" = "prod" ]; then \
-        apk update && \
-        apk add \
-            build-base \
-            libpq-dev && \
-        uv sync --no-dev; \
-    elif [ "$APP_ENV" = "dev" ]; then \
-        uv sync --no-group prod; \
-    fi
+
+RUN uv sync --no-dev
 
 FROM alpine:3.21
 
