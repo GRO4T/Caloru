@@ -30,11 +30,15 @@ def history(request):
 
 @login_required
 def tracker(request):
-    form = ConsumedProductForm()
+
     if request.method == "POST":
         form = ConsumedProductForm(request.POST)
         if form.is_valid():
-            form.save()
+            consumed_product = form.save(commit=False)
+            consumed_product.user = request.user
+            consumed_product.save()
+    else:
+        form = ConsumedProductForm()
 
     consumed_today = ConsumedProduct.objects.filter(date=datetime.now())
     consumed_today = [_calculate_total_macros(c) for c in consumed_today]
