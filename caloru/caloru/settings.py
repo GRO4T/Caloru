@@ -34,7 +34,7 @@ ALLOWED_HOSTS = ["*"]
 # Application definition
 
 INSTALLED_APPS = [
-    "foods.apps.FoodsConfig",
+    "foods_old.apps.FoodsOldConfig",
     "accounts.apps.AccountsConfig",
     "django.contrib.admin",
     "django.contrib.auth",
@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "widget_tweaks",
     "rest_framework",
+    "django_rename_app",
 ]
 
 MIDDLEWARE = [

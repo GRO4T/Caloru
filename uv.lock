@@ -18,6 +18,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "dj-database-url" },
     { name = "django" },
+    { name = "django-rename-app" },
     { name = "django-widget-tweaks" },
     { name = "djangorestframework" },
     { name = "uvicorn" },
@@ -37,6 +38,7 @@ prod = [
 requires-dist = [
     { name = "dj-database-url", specifier = ">=3.0.1" },
     { name = "django", specifier = ">=5.2.6" },
+    { name = "django-rename-app", specifier = ">=0.1.7" },
     { name = "django-widget-tweaks", specifier = ">=1.5.0" },
     { name = "djangorestframework", specifier = ">=3.16.1" },
     { name = "uvicorn", specifier = ">=0.35.0" },
@@ -95,6 +97,18 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/4c/8c/2a21594337250a171d45dda926caa96309d5136becd1f48017247f9cdea0/django-5.2.6.tar.gz", hash = "sha256:da5e00372763193d73cecbf71084a3848458cecf4cee36b9a1e8d318d114a87b", size = 10858861, upload-time = "2025-09-03T13:04:03.23Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/f5/af/6593f6d21404e842007b40fdeb81e73c20b6649b82d020bb0801b270174c/django-5.2.6-py3-none-any.whl", hash = "sha256:60549579b1174a304b77e24a93d8d9fafe6b6c03ac16311f3e25918ea5a20058", size = 8303111, upload-time = "2025-09-03T13:03:47.808Z" },
+]
+
+[[package]]
+name = "django-rename-app"
+version = "0.1.7"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "django" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/70/f6/0cb0c7169584e8f87c229e6336ce98f90cbb911ae374e2a7683c25e872b4/django_rename_app-0.1.7.tar.gz", hash = "sha256:f1236dacfbaf06d63aa53a665333c9e0b4943ef41019aae7626dd5fb5ffa69b5", size = 8291, upload-time = "2023-11-08T08:22:05.25Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b3/4b/6a15f0a25003f7c563218722ee02968f008bedbc4e9d0c08fe9344421d5c/django_rename_app-0.1.7-py2.py3-none-any.whl", hash = "sha256:68ed0dbc9fc167b72cf2f3ba6b464d7981a42a0e09070476cf94f1f603f7a433", size = 8455, upload-time = "2023-11-08T08:22:03.782Z" },
 ]
 
 [[package]]
