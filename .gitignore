@@ -9,5 +9,4 @@
 **/.ruff_cache
 **/.worktrees
 caloru/static/
-
 !caloru/static/js

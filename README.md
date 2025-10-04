@@ -5,8 +5,8 @@
 ## Tech Stack
 
 - **Django**: Backend framework for creating and managing web applications.
+- **Django REST framework**: powerful toolkit that makes it easier to write REST APIs with Django.
 - **PostgreSQL**: Database to store user information, food logs, and caloric data.
-- **Bootstrap**: Frontend framework to style and create a responsive interface.
 
 ## Local Development
 

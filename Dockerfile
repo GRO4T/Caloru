@@ -23,7 +23,7 @@ ENV VIRTUAL_ENV="/app/.venv"
 ENV PATH="/app/.venv/bin:$PATH"
 
 COPY caloru /app/caloru
-COPY setup.sh load_test_data.sh /app/
+COPY scripts /app/scripts
 
 WORKDIR /app/caloru
 EXPOSE 8000
