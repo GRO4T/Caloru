@@ -30,7 +30,6 @@ def history(request):
 
 @login_required
 def tracker(request):
-
     if request.method == "POST":
         form = ConsumedProductForm(request.POST)
         if form.is_valid():
