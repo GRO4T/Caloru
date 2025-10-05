@@ -1,0 +1,31 @@
+- model: auth.user
+  pk: 1
+  fields:
+    password: pbkdf2_sha256$260000$m0NlQG7woa9DMeqcTGEYwi$MsiQrBQ1ne0T8z9rA7TpsM1JaoPGs4d0CMMAIY4lP60=
+    last_login: 2023-09-23 16:21:44.004061+00:00
+    is_superuser: true
+    username: admin
+    first_name: ''
+    last_name: ''
+    email: admin@gmail.com
+    is_staff: true
+    is_active: true
+    date_joined: 2023-09-23 16:21:27.851539+00:00
+    groups: []
+    user_permissions: []
+
+- model: auth.user
+  pk: 2
+  fields:
+    password: pbkdf2_sha256$1000000$0CzSUcg9HSK8UjAuAdJJv0$Awosasv7xP1l/jciCJuoSvIW5kMj2avVHC8u1TBMO0c=
+    last_login: null
+    is_superuser: false
+    username: TestUser
+    first_name: ''
+    last_name: ''
+    email: ''
+    is_staff: false
+    is_active: true
+    date_joined: 2023-09-23 16:24:52.030234+00:00
+    groups: []
+    user_permissions: []
