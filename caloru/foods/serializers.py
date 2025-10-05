@@ -1,12 +1,27 @@
 from rest_framework import serializers
 
-from .models import ConsumedProduct
+from .models import FoodItem, TrackedFoodItem
 
 
-class ConsumedProductSerializer(serializers.ModelSerializer):
-    name = serializers.CharField(source="product.full_name")
-    producer = serializers.CharField(source="product.producer")
+class FoodItemSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = FoodItem
+        fields = "__all__"
+
+
+class TrackedFoodItemSerializer(serializers.ModelSerializer):
+    meal = serializers.ChoiceField(
+        choices=[
+            "Breakfast",
+            "Snack I",
+            "Lunch",
+            "Snack II",
+            "Dinner",
+            "Snack III",
+        ]
+    )
 
     class Meta:
-        model = ConsumedProduct
-        fields = ("id", "user", "product", "date", "amount", "name", "producer")
+        model = TrackedFoodItem
+        fields = "__all__"
+        read_only_fields = ["user"]

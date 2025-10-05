@@ -1,81 +1,33 @@
-from datetime import datetime, timedelta
+from django_filters.rest_framework import DjangoFilterBackend
+from rest_framework import filters, generics
 
-from django.contrib.auth.decorators import login_required
-from django.shortcuts import render
-
-from .forms import ConsumedProductForm
-from .models import ConsumedProduct
-from .serializers import ConsumedProductSerializer
+from .models import FoodItem, TrackedFoodItem
+from .serializers import FoodItemSerializer, TrackedFoodItemSerializer
 
 
-@login_required
-def history(request):
-    consumed_products = ConsumedProduct.objects.all().order_by("date")
-    consumed_products = map(_calculate_total_macros, consumed_products)
-
-    days = 7
-    caloric_intake = _get_caloric_intake(days)
-    dates = []
-    for i in range(len(caloric_intake)):
-        date = datetime.now() - timedelta(days=days - 1) + timedelta(days=i)
-        dates.append(date.strftime("%d/%m/%Y"))
-
-    context = {
-        "consumed_products": consumed_products,
-        "dates": dates,
-        "total_calories": caloric_intake,
-    }
-    return render(request, "history.html", context)
+class FoodItemList(generics.ListCreateAPIView):
+    queryset = FoodItem.objects.all()
+    serializer_class = FoodItemSerializer
+    filter_backends = [filters.SearchFilter, filters.OrderingFilter]
+    search_fields = ["name"]
+    ordering_fields = ["name"]
 
 
-@login_required
-def tracker(request):
-
-    if request.method == "POST":
-        form = ConsumedProductForm(request.POST)
-        if form.is_valid():
-            consumed_product = form.save(commit=False)
-            consumed_product.user = request.user
-            consumed_product.save()
-    else:
-        form = ConsumedProductForm()
-
-    consumed_today = ConsumedProduct.objects.filter(date=datetime.now())
-    consumed_today = [_calculate_total_macros(c) for c in consumed_today]
-
-    energy = int(sum((c["energy"] for c in consumed_today)))
-    protein = int(sum((c["protein"] for c in consumed_today)))
-    carbs = int(sum((c["carbs"] for c in consumed_today)))
-    fats = int(sum((c["fat"] for c in consumed_today)))
-
-    context = {
-        "consumed_today": consumed_today,
-        "energy": {"consumed": energy, "target": 2500},
-        "protein": {"consumed": protein, "target": 100},
-        "carbs": {"consumed": carbs, "target": 300},
-        "fats": {"consumed": fats, "target": 70},
-        "form": form,
-    }
-    return render(request, "tracker.html", context)
+class FoodItemDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = FoodItem.objects.all()
+    serializer_class = FoodItemSerializer
 
 
-def _calculate_total_macros(c: ConsumedProduct) -> dict:
-    c_as_dict = ConsumedProductSerializer(c).data
-    c_as_dict["energy"] = c.product.energy * c.amount / 100.0
-    c_as_dict["protein"] = c.product.protein * c.amount / 100.0
-    c_as_dict["carbs"] = c.product.carbs * c.amount / 100.0
-    c_as_dict["fat"] = c.product.fat * c.amount / 100.0
-    return c_as_dict
+class TrackedFoodItemList(generics.ListCreateAPIView):
+    queryset = TrackedFoodItem.objects.all()
+    serializer_class = TrackedFoodItemSerializer
+    filter_backends = [DjangoFilterBackend]
+    filterset_fields = ["user", "date"]
+
+    def perform_create(self, serializer):
+        serializer.save(user=self.request.user)
 
 
-def _get_caloric_intake(days: int) -> list[float]:
-    caloric_intake = []
-
-    now = datetime.now() - timedelta(days=days - 1)
-
-    for i in range(days):
-        consumed = ConsumedProduct.objects.filter(date=now + timedelta(days=i))
-        daily_total = sum((c.product.energy * c.amount / 100.0 for c in consumed))
-        caloric_intake.append(daily_total)
-
-    return caloric_intake
+class TrackedFoodItemDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = TrackedFoodItem.objects.all()
+    serializer_class = TrackedFoodItemSerializer

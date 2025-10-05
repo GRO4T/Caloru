@@ -1,0 +1,10000 @@
+- model: foods.FoodItem
+  fields:
+    id: 1
+    name: Energy Drink - Franks Pineapple
+    portion_name: tablespoon
+    portion_weight: 925
+    energy: 504.7
+    protein: 64
+    carbs: 72
+    fat: 71
+- model: foods.FoodItem
+  fields:
+    id: 2
+    name: Jameson - Irish Whiskey
+    portion_name: slice
+    portion_weight: 97
+    energy: 251.2
+    protein: 30
+    carbs: 76
+    fat: 93
+- model: foods.FoodItem
+  fields:
+    id: 3
+    name: Chinese Foods - Chicken
+    portion_name: tablespoon
+    portion_weight: 65
+    energy: 168.9
+    protein: 42
+    carbs: 39
+    fat: 5
+- model: foods.FoodItem
+  fields:
+    id: 4
+    name: Foil Cont Round
+    portion_name: cup
+    portion_weight: 893
+    energy: 210.0
+    protein: 76
+    carbs: 57
+    fat: 84
+- model: foods.FoodItem
+  fields:
+    id: 5
+    name: Kiwi
+    portion_name: teaspoon
+    portion_weight: 703
+    energy: 929.0
+    protein: 79
+    carbs: 93
+    fat: 15
+- model: foods.FoodItem
+  fields:
+    id: 6
+    name: Wine - Chablis 2003 Champs
+    portion_name: piece
+    portion_weight: 893
+    energy: 299.8
+    protein: 77
+    carbs: 2
+    fat: 45
+- model: foods.FoodItem
+  fields:
+    id: 7
+    name: Cognac - Courvaisier
+    portion_name: tablespoon
+    portion_weight: 608
+    energy: 504.4
+    protein: 13
+    carbs: 76
+    fat: 8
+- model: foods.FoodItem
+  fields:
+    id: 8
+    name: Pasta - Fettuccine, Egg, Fresh
+    portion_name: tablespoon
+    portion_weight: 579
+    energy: 956.2
+    protein: 14
+    carbs: 85
+    fat: 78
+- model: foods.FoodItem
+  fields:
+    id: 9
+    name: Gherkin
+    portion_name: cup
+    portion_weight: 19
+    energy: 773.4
+    protein: 10
+    carbs: 27
+    fat: 58
+- model: foods.FoodItem
+  fields:
+    id: 10
+    name: Chips - Miss Vickies
+    portion_name: slice
+    portion_weight: 32
+    energy: 991.8
+    protein: 53
+    carbs: 60
+    fat: 58
+- model: foods.FoodItem
+  fields:
+    id: 11
+    name: Tia Maria
+    portion_name: slice
+    portion_weight: 725
+    energy: 392.2
+    protein: 27
+    carbs: 98
+    fat: 41
+- model: foods.FoodItem
+  fields:
+    id: 12
+    name: Lemon Pepper
+    portion_name: tablespoon
+    portion_weight: 266
+    energy: 993.7
+    protein: 36
+    carbs: 63
+    fat: 26
+- model: foods.FoodItem
+  fields:
+    id: 13
+    name: Mustard - Individual Pkg
+    portion_name: piece
+    portion_weight: 766
+    energy: 0.6
+    protein: 29
+    carbs: 11
+    fat: 83
+- model: foods.FoodItem
+  fields:
+    id: 14
+    name: Spice - Paprika
+    portion_name: teaspoon
+    portion_weight: 268
+    energy: 765.4
+    protein: 19
+    carbs: 89
+    fat: 84
+- model: foods.FoodItem
+  fields:
+    id: 15
+    name: Spice - Greek 1 Step
+    portion_name: teaspoon
+    portion_weight: 19
+    energy: 269.8
+    protein: 17
+    carbs: 35
+    fat: 78
+- model: foods.FoodItem
+  fields:
+    id: 16
+    name: Anisette - Mcguiness
+    portion_name: piece
+    portion_weight: 158
+    energy: 738.3
+    protein: 45
+    carbs: 6
+    fat: 24
+- model: foods.FoodItem
+  fields:
+    id: 17
+    name: Mushroom - Enoki, Dry
+    portion_name: cup
+    portion_weight: 179
+    energy: 248.0
+    protein: 51
+    carbs: 92
+    fat: 59
+- model: foods.FoodItem
+  fields:
+    id: 18
+    name: Kale - Red
+    portion_name: slice
+    portion_weight: 213
+    energy: 741.5
+    protein: 6
+    carbs: 17
+    fat: 72
+- model: foods.FoodItem
+  fields:
+    id: 19
+    name: Beer - Camerons Auburn
+    portion_name: package
+    portion_weight: 413
+    energy: 261.1
+    protein: 39
+    carbs: 73
+    fat: 61
+- model: foods.FoodItem
+  fields:
+    id: 20
+    name: Puree - Mocha
+    portion_name: teaspoon
+    portion_weight: 493
+    energy: 537.1
+    protein: 24
+    carbs: 57
+    fat: 33
+- model: foods.FoodItem
+  fields:
+    id: 21
+    name: Cheese - Pied De Vents
+    portion_name: cup
+    portion_weight: 162
+    energy: 993.2
+    protein: 52
+    carbs: 49
+    fat: 69
+- model: foods.FoodItem
+  fields:
+    id: 22
+    name: Pasta - Shells, Medium, Dry
+    portion_name: package
+    portion_weight: 216
+    energy: 140.7
+    protein: 2
+    carbs: 5
+    fat: 18
+- model: foods.FoodItem
+  fields:
+    id: 23
+    name: Orange - Tangerine
+    portion_name: tablespoon
+    portion_weight: 584
+    energy: 436.7
+    protein: 2
+    carbs: 29
+    fat: 84
+- model: foods.FoodItem
+  fields:
+    id: 24
+    name: Oil - Coconut
+    portion_name: teaspoon
+    portion_weight: 174
+    energy: 931.8
+    protein: 40
+    carbs: 3
+    fat: 82
+- model: foods.FoodItem
+  fields:
+    id: 25
+    name: Pork - Back, Short Cut, Boneless
+    portion_name: tablespoon
+    portion_weight: 758
+    energy: 566.7
+    protein: 50
+    carbs: 64
+    fat: 22
+- model: foods.FoodItem
+  fields:
+    id: 26
+    name: Tuna - Canned, Flaked, Light
+    portion_name: cup
+    portion_weight: 162
+    energy: 11.1
+    protein: 31
+    carbs: 40
+    fat: 65
+- model: foods.FoodItem
+  fields:
+    id: 27
+    name: Wine - Barossa Valley Estate
+    portion_name: cup
+    portion_weight: 192
+    energy: 201.5
+    protein: 75
+    carbs: 75
+    fat: 45
+- model: foods.FoodItem
+  fields:
+    id: 28
+    name: Milkettes - 2%
+    portion_name: tablespoon
+    portion_weight: 219
+    energy: 683.7
+    protein: 70
+    carbs: 12
+    fat: 43
+- model: foods.FoodItem
+  fields:
+    id: 29
+    name: Macaroons - Homestyle Two Bit
+    portion_name: teaspoon
+    portion_weight: 573
+    energy: 162.8
+    protein: 89
+    carbs: 6
+    fat: 96
+- model: foods.FoodItem
+  fields:
+    id: 30
+    name: Campari
+    portion_name: portion
+    portion_weight: 199
+    energy: 194.4
+    protein: 29
+    carbs: 15
+    fat: 94
+- model: foods.FoodItem
+  fields:
+    id: 31
+    name: Oil - Sunflower
+    portion_name: piece
+    portion_weight: 117
+    energy: 3.8
+    protein: 2
+    carbs: 49
+    fat: 64
+- model: foods.FoodItem
+  fields:
+    id: 32
+    name: Syrup - Monin - Blue Curacao
+    portion_name: package
+    portion_weight: 191
+    energy: 278.8
+    protein: 70
+    carbs: 44
+    fat: 60
+- model: foods.FoodItem
+  fields:
+    id: 33
+    name: Laundry - Bag Cloth
+    portion_name: teaspoon
+    portion_weight: 427
+    energy: 783.9
+    protein: 46
+    carbs: 92
+    fat: 25
+- model: foods.FoodItem
+  fields:
+    id: 34
+    name: Miso - Soy Bean Paste
+    portion_name: tablespoon
+    portion_weight: 806
+    energy: 739.7
+    protein: 67
+    carbs: 29
+    fat: 57
+- model: foods.FoodItem
+  fields:
+    id: 35
+    name: Beef Ground Medium
+    portion_name: package
+    portion_weight: 925
+    energy: 151.1
+    protein: 3
+    carbs: 99
+    fat: 26
+- model: foods.FoodItem
+  fields:
+    id: 36
+    name: Shrimp - Black Tiger 26/30
+    portion_name: slice
+    portion_weight: 439
+    energy: 116.5
+    protein: 2
+    carbs: 37
+    fat: 88
+- model: foods.FoodItem
+  fields:
+    id: 37
+    name: Mushroom - King Eryingii
+    portion_name: tablespoon
+    portion_weight: 950
+    energy: 372.1
+    protein: 11
+    carbs: 15
+    fat: 21
+- model: foods.FoodItem
+  fields:
+    id: 38
+    name: Wine - Alsace Riesling Reserve
+    portion_name: teaspoon
+    portion_weight: 675
+    energy: 595.1
+    protein: 94
+    carbs: 35
+    fat: 85
+- model: foods.FoodItem
+  fields:
+    id: 39
+    name: Nut - Pecan, Halves
+    portion_name: slice
+    portion_weight: 972
+    energy: 796.8
+    protein: 24
+    carbs: 26
+    fat: 52
+- model: foods.FoodItem
+  fields:
+    id: 40
+    name: Butter - Salted
+    portion_name: slice
+    portion_weight: 290
+    energy: 213.0
+    protein: 65
+    carbs: 30
+    fat: 61
+- model: foods.FoodItem
+  fields:
+    id: 41
+    name: Table Cloth 62x114 Colour
+    portion_name: slice
+    portion_weight: 701
+    energy: 722.7
+    protein: 77
+    carbs: 92
+    fat: 53
+- model: foods.FoodItem
+  fields:
+    id: 42
+    name: Grenadillo
+    portion_name: teaspoon
+    portion_weight: 568
+    energy: 964.8
+    protein: 91
+    carbs: 19
+    fat: 99
+- model: foods.FoodItem
+  fields:
+    id: 43
+    name: Appetizer - Crab And Brie
+    portion_name: portion
+    portion_weight: 476
+    energy: 535.3
+    protein: 70
+    carbs: 32
+    fat: 9
+- model: foods.FoodItem
+  fields:
+    id: 44
+    name: Yogurt - Peach, 175 Gr
+    portion_name: package
+    portion_weight: 182
+    energy: 633.0
+    protein: 36
+    carbs: 84
+    fat: 6
+- model: foods.FoodItem
+  fields:
+    id: 45
+    name: Squash - Guords
+    portion_name: teaspoon
+    portion_weight: 899
+    energy: 436.2
+    protein: 19
+    carbs: 95
+    fat: 57
+- model: foods.FoodItem
+  fields:
+    id: 46
+    name: Lamb - Loin, Trimmed, Boneless
+    portion_name: portion
+    portion_weight: 11
+    energy: 420.4
+    protein: 33
+    carbs: 33
+    fat: 4
+- model: foods.FoodItem
+  fields:
+    id: 47
+    name: Lettuce - Escarole
+    portion_name: package
+    portion_weight: 45
+    energy: 814.9
+    protein: 35
+    carbs: 10
+    fat: 17
+- model: foods.FoodItem
+  fields:
+    id: 48
+    name: Truffle Shells - Semi - Sweet
+    portion_name: package
+    portion_weight: 193
+    energy: 340.3
+    protein: 55
+    carbs: 64
+    fat: 100
+- model: foods.FoodItem
+  fields:
+    id: 49
+    name: Nut - Pine Nuts, Whole
+    portion_name: slice
+    portion_weight: 21
+    energy: 360.4
+    protein: 92
+    carbs: 95
+    fat: 58
+- model: foods.FoodItem
+  fields:
+    id: 50
+    name: Soup - Clam Chowder, Dry Mix
+    portion_name: tablespoon
+    portion_weight: 783
+    energy: 133.8
+    protein: 71
+    carbs: 46
+    fat: 30
+- model: foods.FoodItem
+  fields:
+    id: 51
+    name: Cheese - Cream Cheese
+    portion_name: package
+    portion_weight: 173
+    energy: 137.3
+    protein: 39
+    carbs: 9
+    fat: 30
+- model: foods.FoodItem
+  fields:
+    id: 52
+    name: Sugar - Monocystal / Rock
+    portion_name: tablespoon
+    portion_weight: 466
+    energy: 402.8
+    protein: 1
+    carbs: 73
+    fat: 38
+- model: foods.FoodItem
+  fields:
+    id: 53
+    name: Cheese - Mozzarella
+    portion_name: cup
+    portion_weight: 790
+    energy: 766.2
+    protein: 72
+    carbs: 60
+    fat: 77
+- model: foods.FoodItem
+  fields:
+    id: 54
+    name: Eggs - Extra Large
+    portion_name: package
+    portion_weight: 190
+    energy: 999.1
+    protein: 52
+    carbs: 19
+    fat: 22
+- model: foods.FoodItem
+  fields:
+    id: 55
+    name: Flour - Rye
+    portion_name: tablespoon
+    portion_weight: 460
+    energy: 694.5
+    protein: 30
+    carbs: 88
+    fat: 67
+- model: foods.FoodItem
+  fields:
+    id: 56
+    name: Veal - Tenderloin, Untrimmed
+    portion_name: cup
+    portion_weight: 353
+    energy: 72.0
+    protein: 43
+    carbs: 49
+    fat: 81
+- model: foods.FoodItem
+  fields:
+    id: 57
+    name: Apricots - Dried
+    portion_name: package
+    portion_weight: 474
+    energy: 903.7
+    protein: 53
+    carbs: 46
+    fat: 60
+- model: foods.FoodItem
+  fields:
+    id: 58
+    name: Gelatine Leaves - Envelopes
+    portion_name: portion
+    portion_weight: 926
+    energy: 245.5
+    protein: 19
+    carbs: 40
+    fat: 66
+- model: foods.FoodItem
+  fields:
+    id: 59
+    name: V8 - Berry Blend
+    portion_name: piece
+    portion_weight: 62
+    energy: 729.3
+    protein: 61
+    carbs: 59
+    fat: 7
+- model: foods.FoodItem
+  fields:
+    id: 60
+    name: Lentils - Red, Dry
+    portion_name: cup
+    portion_weight: 234
+    energy: 317.6
+    protein: 77
+    carbs: 83
+    fat: 36
+- model: foods.FoodItem
+  fields:
+    id: 61
+    name: Munchies Honey Sweet Trail Mix
+    portion_name: piece
+    portion_weight: 116
+    energy: 959.9
+    protein: 10
+    carbs: 19
+    fat: 85
+- model: foods.FoodItem
+  fields:
+    id: 62
+    name: Sproutsmustard Cress
+    portion_name: portion
+    portion_weight: 377
+    energy: 287.7
+    protein: 52
+    carbs: 23
+    fat: 65
+- model: foods.FoodItem
+  fields:
+    id: 63
+    name: Salami - Genova
+    portion_name: teaspoon
+    portion_weight: 736
+    energy: 206.8
+    protein: 47
+    carbs: 39
+    fat: 80
+- model: foods.FoodItem
+  fields:
+    id: 64
+    name: Magnotta Bel Paese Red
+    portion_name: portion
+    portion_weight: 687
+    energy: 461.0
+    protein: 32
+    carbs: 64
+    fat: 58
+- model: foods.FoodItem
+  fields:
+    id: 65
+    name: Bread - Multigrain, Loaf
+    portion_name: piece
+    portion_weight: 928
+    energy: 966.8
+    protein: 46
+    carbs: 86
+    fat: 25
+- model: foods.FoodItem
+  fields:
+    id: 66
+    name: Cornflakes
+    portion_name: piece
+    portion_weight: 309
+    energy: 686.1
+    protein: 60
+    carbs: 51
+    fat: 65
+- model: foods.FoodItem
+  fields:
+    id: 67
+    name: Dawn Professionl Pot And Pan
+    portion_name: piece
+    portion_weight: 132
+    energy: 776.5
+    protein: 26
+    carbs: 92
+    fat: 55
+- model: foods.FoodItem
+  fields:
+    id: 68
+    name: Oil - Safflower
+    portion_name: teaspoon
+    portion_weight: 902
+    energy: 795.2
+    protein: 14
+    carbs: 47
+    fat: 30
+- model: foods.FoodItem
+  fields:
+    id: 69
+    name: Flour - Whole Wheat
+    portion_name: slice
+    portion_weight: 400
+    energy: 100.4
+    protein: 53
+    carbs: 22
+    fat: 73
+- model: foods.FoodItem
+  fields:
+    id: 70
+    name: Soup - Knorr, Chicken Noodle
+    portion_name: cup
+    portion_weight: 891
+    energy: 372.6
+    protein: 62
+    carbs: 69
+    fat: 46
+- model: foods.FoodItem
+  fields:
+    id: 71
+    name: Beets
+    portion_name: cup
+    portion_weight: 773
+    energy: 847.6
+    protein: 45
+    carbs: 37
+    fat: 52
+- model: foods.FoodItem
+  fields:
+    id: 72
+    name: Table Cloth 90x90 White
+    portion_name: package
+    portion_weight: 103
+    energy: 432.3
+    protein: 18
+    carbs: 63
+    fat: 32
+- model: foods.FoodItem
+  fields:
+    id: 73
+    name: Papadam
+    portion_name: tablespoon
+    portion_weight: 297
+    energy: 809.7
+    protein: 83
+    carbs: 100
+    fat: 81
+- model: foods.FoodItem
+  fields:
+    id: 74
+    name: Nantucket Orange Juice
+    portion_name: package
+    portion_weight: 993
+    energy: 653.6
+    protein: 7
+    carbs: 89
+    fat: 52
+- model: foods.FoodItem
+  fields:
+    id: 75
+    name: Russian Prince
+    portion_name: portion
+    portion_weight: 841
+    energy: 256.6
+    protein: 41
+    carbs: 4
+    fat: 89
+- model: foods.FoodItem
+  fields:
+    id: 76
+    name: Wine - White Cab Sauv.on
+    portion_name: teaspoon
+    portion_weight: 21
+    energy: 89.3
+    protein: 49
+    carbs: 13
+    fat: 89
+- model: foods.FoodItem
+  fields:
+    id: 77
+    name: Oxtail - Cut
+    portion_name: slice
+    portion_weight: 446
+    energy: 254.3
+    protein: 92
+    carbs: 26
+    fat: 69
+- model: foods.FoodItem
+  fields:
+    id: 78
+    name: Table Cloth 53x53 White
+    portion_name: tablespoon
+    portion_weight: 98
+    energy: 605.7
+    protein: 26
+    carbs: 51
+    fat: 40
+- model: foods.FoodItem
+  fields:
+    id: 79
+    name: Lettuce - Iceberg
+    portion_name: piece
+    portion_weight: 30
+    energy: 124.9
+    protein: 89
+    carbs: 96
+    fat: 69
+- model: foods.FoodItem
+  fields:
+    id: 80
+    name: Trout - Rainbow, Fresh
+    portion_name: tablespoon
+    portion_weight: 591
+    energy: 60.5
+    protein: 82
+    carbs: 29
+    fat: 81
+- model: foods.FoodItem
+  fields:
+    id: 81
+    name: Meldea Green Tea Liquor
+    portion_name: portion
+    portion_weight: 382
+    energy: 37.5
+    protein: 68
+    carbs: 46
+    fat: 70
+- model: foods.FoodItem
+  fields:
+    id: 82
+    name: Pepper - Cayenne
+    portion_name: teaspoon
+    portion_weight: 220
+    energy: 447.1
+    protein: 5
+    carbs: 37
+    fat: 28
+- model: foods.FoodItem
+  fields:
+    id: 83
+    name: Bread Roll Foccacia
+    portion_name: slice
+    portion_weight: 529
+    energy: 68.6
+    protein: 47
+    carbs: 2
+    fat: 43
+- model: foods.FoodItem
+  fields:
+    id: 84
+    name: Carbonated Water - Lemon Lime
+    portion_name: teaspoon
+    portion_weight: 300
+    energy: 246.3
+    protein: 22
+    carbs: 52
+    fat: 74
+- model: foods.FoodItem
+  fields:
+    id: 85
+    name: Nantucket Apple Juice
+    portion_name: tablespoon
+    portion_weight: 981
+    energy: 242.0
+    protein: 21
+    carbs: 36
+    fat: 76
+- model: foods.FoodItem
+  fields:
+    id: 86
+    name: Oil - Food, Lacquer Spray
+    portion_name: slice
+    portion_weight: 973
+    energy: 94.6
+    protein: 34
+    carbs: 31
+    fat: 62
+- model: foods.FoodItem
+  fields:
+    id: 87
+    name: Paste - Black Olive
+    portion_name: portion
+    portion_weight: 375
+    energy: 804.1
+    protein: 82
+    carbs: 35
+    fat: 22
+- model: foods.FoodItem
+  fields:
+    id: 88
+    name: Noodles - Steamed Chow Mein
+    portion_name: cup
+    portion_weight: 968
+    energy: 149.2
+    protein: 79
+    carbs: 48
+    fat: 6
+- model: foods.FoodItem
+  fields:
+    id: 89
+    name: Hinge W Undercut
+    portion_name: portion
+    portion_weight: 379
+    energy: 217.8
+    protein: 57
+    carbs: 40
+    fat: 88
+- model: foods.FoodItem
+  fields:
+    id: 90
+    name: Alize Gold Passion
+    portion_name: piece
+    portion_weight: 490
+    energy: 318.0
+    protein: 10
+    carbs: 81
+    fat: 16
+- model: foods.FoodItem
+  fields:
+    id: 91
+    name: Fork - Plastic
+    portion_name: teaspoon
+    portion_weight: 177
+    energy: 458.0
+    protein: 81
+    carbs: 60
+    fat: 84
+- model: foods.FoodItem
+  fields:
+    id: 92
+    name: Grapefruit - White
+    portion_name: portion
+    portion_weight: 616
+    energy: 104.8
+    protein: 96
+    carbs: 21
+    fat: 67
+- model: foods.FoodItem
+  fields:
+    id: 93
+    name: Cheese - Romano, Grated
+    portion_name: slice
+    portion_weight: 139
+    energy: 991.5
+    protein: 89
+    carbs: 38
+    fat: 22
+- model: foods.FoodItem
+  fields:
+    id: 94
+    name: Sorrel - Fresh
+    portion_name: piece
+    portion_weight: 855
+    energy: 744.4
+    protein: 11
+    carbs: 41
+    fat: 55
+- model: foods.FoodItem
+  fields:
+    id: 95
+    name: Flour - Buckwheat, Dark
+    portion_name: portion
+    portion_weight: 284
+    energy: 594.9
+    protein: 87
+    carbs: 62
+    fat: 87
+- model: foods.FoodItem
+  fields:
+    id: 96
+    name: Beef - Top Sirloin - Aaa
+    portion_name: cup
+    portion_weight: 996
+    energy: 494.6
+    protein: 34
+    carbs: 6
+    fat: 62
+- model: foods.FoodItem
+  fields:
+    id: 97
+    name: Nut - Cashews, Whole, Raw
+    portion_name: slice
+    portion_weight: 595
+    energy: 145.2
+    protein: 99
+    carbs: 58
+    fat: 15
+- model: foods.FoodItem
+  fields:
+    id: 98
+    name: Juice - Grape, White
+    portion_name: cup
+    portion_weight: 679
+    energy: 976.2
+    protein: 21
+    carbs: 12
+    fat: 83
+- model: foods.FoodItem
+  fields:
+    id: 99
+    name: Tomatoes - Roma
+    portion_name: teaspoon
+    portion_weight: 562
+    energy: 851.0
+    protein: 11
+    carbs: 53
+    fat: 20
+- model: foods.FoodItem
+  fields:
+    id: 100
+    name: Wine - Periguita Fonseca
+    portion_name: package
+    portion_weight: 128
+    energy: 42.3
+    protein: 77
+    carbs: 62
+    fat: 8
+- model: foods.FoodItem
+  fields:
+    id: 101
+    name: Cheese - Colby
+    portion_name: cup
+    portion_weight: 716
+    energy: 311.5
+    protein: 94
+    carbs: 97
+    fat: 9
+- model: foods.FoodItem
+  fields:
+    id: 102
+    name: Roe - Lump Fish, Red
+    portion_name: portion
+    portion_weight: 662
+    energy: 96.9
+    protein: 13
+    carbs: 78
+    fat: 84
+- model: foods.FoodItem
+  fields:
+    id: 103
+    name: Mussels - Cultivated
+    portion_name: piece
+    portion_weight: 20
+    energy: 66.0
+    protein: 7
+    carbs: 29
+    fat: 61
+- model: foods.FoodItem
+  fields:
+    id: 104
+    name: Onions - Vidalia
+    portion_name: slice
+    portion_weight: 481
+    energy: 658.4
+    protein: 68
+    carbs: 54
+    fat: 8
+- model: foods.FoodItem
+  fields:
+    id: 105
+    name: Passion Fruit
+    portion_name: package
+    portion_weight: 283
+    energy: 378.1
+    protein: 95
+    carbs: 11
+    fat: 6
+- model: foods.FoodItem
+  fields:
+    id: 106
+    name: Anchovy Paste - 56 G Tube
+    portion_name: slice
+    portion_weight: 925
+    energy: 770.5
+    protein: 83
+    carbs: 37
+    fat: 68
+- model: foods.FoodItem
+  fields:
+    id: 107
+    name: Longos - Grilled Chicken With
+    portion_name: piece
+    portion_weight: 508
+    energy: 755.3
+    protein: 78
+    carbs: 95
+    fat: 99
+- model: foods.FoodItem
+  fields:
+    id: 108
+    name: Skewers - Bamboo
+    portion_name: portion
+    portion_weight: 6
+    energy: 149.3
+    protein: 69
+    carbs: 9
+    fat: 38
+- model: foods.FoodItem
+  fields:
+    id: 109
+    name: Cheese - Gouda
+    portion_name: portion
+    portion_weight: 207
+    energy: 674.1
+    protein: 38
+    carbs: 87
+    fat: 2
+- model: foods.FoodItem
+  fields:
+    id: 110
+    name: Wine - Guy Sage Touraine
+    portion_name: tablespoon
+    portion_weight: 527
+    energy: 559.5
+    protein: 16
+    carbs: 54
+    fat: 44
+- model: foods.FoodItem
+  fields:
+    id: 111
+    name: Whmis Spray Bottle Graduated
+    portion_name: piece
+    portion_weight: 950
+    energy: 55.1
+    protein: 99
+    carbs: 2
+    fat: 48
+- model: foods.FoodItem
+  fields:
+    id: 112
+    name: Yogurt - Raspberry, 175 Gr
+    portion_name: teaspoon
+    portion_weight: 107
+    energy: 647.2
+    protein: 9
+    carbs: 6
+    fat: 2
+- model: foods.FoodItem
+  fields:
+    id: 113
+    name: Gherkin - Sour
+    portion_name: slice
+    portion_weight: 763
+    energy: 883.5
+    protein: 70
+    carbs: 64
+    fat: 100
+- model: foods.FoodItem
+  fields:
+    id: 114
+    name: Potatoes - Mini White 3 Oz
+    portion_name: cup
+    portion_weight: 247
+    energy: 155.9
+    protein: 52
+    carbs: 44
+    fat: 86
+- model: foods.FoodItem
+  fields:
+    id: 115
+    name: Asparagus - White, Fresh
+    portion_name: slice
+    portion_weight: 391
+    energy: 410.2
+    protein: 33
+    carbs: 45
+    fat: 73
+- model: foods.FoodItem
+  fields:
+    id: 116
+    name: Wine - White Cab Sauv.on
+    portion_name: package
+    portion_weight: 799
+    energy: 837.0
+    protein: 20
+    carbs: 53
+    fat: 63
+- model: foods.FoodItem
+  fields:
+    id: 117
+    name: Puff Pastry - Slab
+    portion_name: tablespoon
+    portion_weight: 933
+    energy: 468.8
+    protein: 27
+    carbs: 84
+    fat: 89
+- model: foods.FoodItem
+  fields:
+    id: 118
+    name: Cassis
+    portion_name: tablespoon
+    portion_weight: 403
+    energy: 967.3
+    protein: 26
+    carbs: 58
+    fat: 75
+- model: foods.FoodItem
+  fields:
+    id: 119
+    name: Pasta - Fettuccine, Dry
+    portion_name: package
+    portion_weight: 559
+    energy: 175.0
+    protein: 100
+    carbs: 28
+    fat: 44
+- model: foods.FoodItem
+  fields:
+    id: 120
+    name: Scallops - In Shell
+    portion_name: teaspoon
+    portion_weight: 241
+    energy: 655.5
+    protein: 8
+    carbs: 27
+    fat: 46
+- model: foods.FoodItem
+  fields:
+    id: 121
+    name: Wine - Riesling Alsace Ac 2001
+    portion_name: slice
+    portion_weight: 413
+    energy: 514.8
+    protein: 65
+    carbs: 88
+    fat: 27
+- model: foods.FoodItem
+  fields:
+    id: 122
+    name: Barley - Pearl
+    portion_name: package
+    portion_weight: 572
+    energy: 597.0
+    protein: 37
+    carbs: 79
+    fat: 22
+- model: foods.FoodItem
+  fields:
+    id: 123
+    name: Creme De Cacao White
+    portion_name: teaspoon
+    portion_weight: 838
+    energy: 515.2
+    protein: 13
+    carbs: 67
+    fat: 57
+- model: foods.FoodItem
+  fields:
+    id: 124
+    name: Buffalo - Tenderloin
+    portion_name: slice
+    portion_weight: 2
+    energy: 984.6
+    protein: 48
+    carbs: 67
+    fat: 31
+- model: foods.FoodItem
+  fields:
+    id: 125
+    name: Glycerine
+    portion_name: teaspoon
+    portion_weight: 394
+    energy: 947.9
+    protein: 41
+    carbs: 80
+    fat: 81
+- model: foods.FoodItem
+  fields:
+    id: 126
+    name: Juice - Apple Cider
+    portion_name: cup
+    portion_weight: 83
+    energy: 157.0
+    protein: 63
+    carbs: 85
+    fat: 22
+- model: foods.FoodItem
+  fields:
+    id: 127
+    name: Bagel - Everything
+    portion_name: package
+    portion_weight: 457
+    energy: 689.0
+    protein: 31
+    carbs: 84
+    fat: 91
+- model: foods.FoodItem
+  fields:
+    id: 128
+    name: Pork - Bacon,back Peameal
+    portion_name: portion
+    portion_weight: 411
+    energy: 802.0
+    protein: 91
+    carbs: 68
+    fat: 47
+- model: foods.FoodItem
+  fields:
+    id: 129
+    name: Icecream Cone - Areo Chocolate
+    portion_name: piece
+    portion_weight: 348
+    energy: 743.9
+    protein: 48
+    carbs: 94
+    fat: 47
+- model: foods.FoodItem
+  fields:
+    id: 130
+    name: Wine - Magnotta - Pinot Gris Sr
+    portion_name: tablespoon
+    portion_weight: 690
+    energy: 622.2
+    protein: 77
+    carbs: 5
+    fat: 25
+- model: foods.FoodItem
+  fields:
+    id: 131
+    name: Nut - Pine Nuts, Whole
+    portion_name: portion
+    portion_weight: 426
+    energy: 699.9
+    protein: 92
+    carbs: 79
+    fat: 63
+- model: foods.FoodItem
+  fields:
+    id: 132
+    name: Lettuce - Lambs Mash
+    portion_name: teaspoon
+    portion_weight: 836
+    energy: 713.0
+    protein: 25
+    carbs: 90
+    fat: 99
+- model: foods.FoodItem
+  fields:
+    id: 133
+    name: Grapefruit - Pink
+    portion_name: package
+    portion_weight: 188
+    energy: 222.2
+    protein: 58
+    carbs: 75
+    fat: 51
+- model: foods.FoodItem
+  fields:
+    id: 134
+    name: Wine - Spumante Bambino White
+    portion_name: slice
+    portion_weight: 324
+    energy: 751.5
+    protein: 43
+    carbs: 31
+    fat: 48
+- model: foods.FoodItem
+  fields:
+    id: 135
+    name: Pails With Lids
+    portion_name: cup
+    portion_weight: 198
+    energy: 107.9
+    protein: 8
+    carbs: 80
+    fat: 67
+- model: foods.FoodItem
+  fields:
+    id: 136
+    name: Sugar Thermometer
+    portion_name: piece
+    portion_weight: 842
+    energy: 582.7
+    protein: 69
+    carbs: 72
+    fat: 29
+- model: foods.FoodItem
+  fields:
+    id: 137
+    name: Kahlua
+    portion_name: slice
+    portion_weight: 20
+    energy: 552.4
+    protein: 20
+    carbs: 18
+    fat: 43
+- model: foods.FoodItem
+  fields:
+    id: 138
+    name: Jam - Raspberry
+    portion_name: piece
+    portion_weight: 332
+    energy: 551.3
+    protein: 28
+    carbs: 54
+    fat: 45
+- model: foods.FoodItem
+  fields:
+    id: 139
+    name: Blouse / Shirt / Sweater
+    portion_name: piece
+    portion_weight: 407
+    energy: 76.5
+    protein: 86
+    carbs: 13
+    fat: 17
+- model: foods.FoodItem
+  fields:
+    id: 140
+    name: Soup - Knorr, Chicken Noodle
+    portion_name: tablespoon
+    portion_weight: 527
+    energy: 119.4
+    protein: 70
+    carbs: 29
+    fat: 8
+- model: foods.FoodItem
+  fields:
+    id: 141
+    name: Scallop - St. Jaques
+    portion_name: teaspoon
+    portion_weight: 739
+    energy: 353.4
+    protein: 44
+    carbs: 39
+    fat: 32
+- model: foods.FoodItem
+  fields:
+    id: 142
+    name: Ham - Cooked Bayonne Tinned
+    portion_name: package
+    portion_weight: 155
+    energy: 575.4
+    protein: 70
+    carbs: 3
+    fat: 20
+- model: foods.FoodItem
+  fields:
+    id: 143
+    name: Leeks - Large
+    portion_name: cup
+    portion_weight: 225
+    energy: 527.0
+    protein: 69
+    carbs: 88
+    fat: 24
+- model: foods.FoodItem
+  fields:
+    id: 144
+    name: Nut - Pecan, Pieces
+    portion_name: package
+    portion_weight: 390
+    energy: 290.0
+    protein: 53
+    carbs: 47
+    fat: 40
+- model: foods.FoodItem
+  fields:
+    id: 145
+    name: Bread Country Roll
+    portion_name: slice
+    portion_weight: 105
+    energy: 377.5
+    protein: 22
+    carbs: 30
+    fat: 20
+- model: foods.FoodItem
+  fields:
+    id: 146
+    name: Lemonade - Kiwi, 591 Ml
+    portion_name: slice
+    portion_weight: 681
+    energy: 654.0
+    protein: 8
+    carbs: 33
+    fat: 50
+- model: foods.FoodItem
+  fields:
+    id: 147
+    name: Pasta - Fett Alfredo, Single Serve
+    portion_name: cup
+    portion_weight: 126
+    energy: 682.1
+    protein: 24
+    carbs: 14
+    fat: 69
+- model: foods.FoodItem
+  fields:
+    id: 148
+    name: Lemonade - Pineapple Passion
+    portion_name: package
+    portion_weight: 1
+    energy: 580.6
+    protein: 8
+    carbs: 47
+    fat: 8
+- model: foods.FoodItem
+  fields:
+    id: 149
+    name: Bread - Pumpernickel
+    portion_name: slice
+    portion_weight: 942
+    energy: 87.4
+    protein: 88
+    carbs: 31
+    fat: 49
+- model: foods.FoodItem
+  fields:
+    id: 150
+    name: Sprouts - Peppercress
+    portion_name: cup
+    portion_weight: 582
+    energy: 788.5
+    protein: 78
+    carbs: 56
+    fat: 57
+- model: foods.FoodItem
+  fields:
+    id: 151
+    name: Pork - Suckling Pig
+    portion_name: package
+    portion_weight: 587
+    energy: 342.2
+    protein: 86
+    carbs: 39
+    fat: 99
+- model: foods.FoodItem
+  fields:
+    id: 152
+    name: Cherries - Maraschino,jar
+    portion_name: cup
+    portion_weight: 858
+    energy: 64.2
+    protein: 25
+    carbs: 85
+    fat: 53
+- model: foods.FoodItem
+  fields:
+    id: 153
+    name: Pur Value
+    portion_name: teaspoon
+    portion_weight: 886
+    energy: 708.0
+    protein: 9
+    carbs: 26
+    fat: 37
+- model: foods.FoodItem
+  fields:
+    id: 154
+    name: Energy Drink - Franks Pineapple
+    portion_name: piece
+    portion_weight: 287
+    energy: 413.1
+    protein: 26
+    carbs: 14
+    fat: 7
+- model: foods.FoodItem
+  fields:
+    id: 155
+    name: Cookies - Englishbay Oatmeal
+    portion_name: slice
+    portion_weight: 213
+    energy: 716.6
+    protein: 85
+    carbs: 18
+    fat: 70
+- model: foods.FoodItem
+  fields:
+    id: 156
+    name: Lid Tray - 16in Dome
+    portion_name: teaspoon
+    portion_weight: 629
+    energy: 514.7
+    protein: 80
+    carbs: 68
+    fat: 47
+- model: foods.FoodItem
+  fields:
+    id: 157
+    name: Beans - Soya Bean
+    portion_name: cup
+    portion_weight: 276
+    energy: 102.6
+    protein: 76
+    carbs: 4
+    fat: 80
+- model: foods.FoodItem
+  fields:
+    id: 158
+    name: Wine - Sicilia Igt Nero Avola
+    portion_name: cup
+    portion_weight: 926
+    energy: 876.9
+    protein: 15
+    carbs: 1
+    fat: 66
+- model: foods.FoodItem
+  fields:
+    id: 159
+    name: Curry Paste - Madras
+    portion_name: portion
+    portion_weight: 655
+    energy: 102.5
+    protein: 74
+    carbs: 24
+    fat: 68
+- model: foods.FoodItem
+  fields:
+    id: 160
+    name: Foil - Round Foil
+    portion_name: tablespoon
+    portion_weight: 41
+    energy: 813.8
+    protein: 44
+    carbs: 83
+    fat: 58
+- model: foods.FoodItem
+  fields:
+    id: 161
+    name: Bar Mix - Pina Colada, 355 Ml
+    portion_name: teaspoon
+    portion_weight: 614
+    energy: 437.1
+    protein: 35
+    carbs: 47
+    fat: 50
+- model: foods.FoodItem
+  fields:
+    id: 162
+    name: Bar Special K
+    portion_name: teaspoon
+    portion_weight: 49
+    energy: 777.6
+    protein: 60
+    carbs: 96
+    fat: 85
+- model: foods.FoodItem
+  fields:
+    id: 163
+    name: Papayas
+    portion_name: cup
+    portion_weight: 174
+    energy: 270.2
+    protein: 33
+    carbs: 94
+    fat: 30
+- model: foods.FoodItem
+  fields:
+    id: 164
+    name: Squash - Pepper
+    portion_name: teaspoon
+    portion_weight: 473
+    energy: 963.0
+    protein: 93
+    carbs: 9
+    fat: 4
+- model: foods.FoodItem
+  fields:
+    id: 165
+    name: Flour - Whole Wheat
+    portion_name: cup
+    portion_weight: 479
+    energy: 324.3
+    protein: 95
+    carbs: 60
+    fat: 20
+- model: foods.FoodItem
+  fields:
+    id: 166
+    name: Liqueur Banana, Ramazzotti
+    portion_name: teaspoon
+    portion_weight: 712
+    energy: 717.7
+    protein: 66
+    carbs: 64
+    fat: 16
+- model: foods.FoodItem
+  fields:
+    id: 167
+    name: Chocolate - Pistoles, White
+    portion_name: teaspoon
+    portion_weight: 561
+    energy: 278.1
+    protein: 65
+    carbs: 39
+    fat: 63
+- model: foods.FoodItem
+  fields:
+    id: 168
+    name: Cranberry Foccacia
+    portion_name: piece
+    portion_weight: 238
+    energy: 177.3
+    protein: 98
+    carbs: 100
+    fat: 95
+- model: foods.FoodItem
+  fields:
+    id: 169
+    name: Cookie Double Choco
+    portion_name: slice
+    portion_weight: 121
+    energy: 581.2
+    protein: 73
+    carbs: 90
+    fat: 79
+- model: foods.FoodItem
+  fields:
+    id: 170
+    name: Wine - Alicanca Vinho Verde
+    portion_name: piece
+    portion_weight: 228
+    energy: 304.5
+    protein: 76
+    carbs: 7
+    fat: 51
+- model: foods.FoodItem
+  fields:
+    id: 171
+    name: Wine - Red, Cabernet Sauvignon
+    portion_name: piece
+    portion_weight: 407
+    energy: 611.6
+    protein: 64
+    carbs: 84
+    fat: 68
+- model: foods.FoodItem
+  fields:
+    id: 172
+    name: Bread - Crumbs, Bulk
+    portion_name: teaspoon
+    portion_weight: 825
+    energy: 350.4
+    protein: 24
+    carbs: 88
+    fat: 46
+- model: foods.FoodItem
+  fields:
+    id: 173
+    name: Icecream - Dibs
+    portion_name: portion
+    portion_weight: 91
+    energy: 290.8
+    protein: 53
+    carbs: 30
+    fat: 35
+- model: foods.FoodItem
+  fields:
+    id: 174
+    name: Cheese - Camembert
+    portion_name: cup
+    portion_weight: 501
+    energy: 525.0
+    protein: 90
+    carbs: 69
+    fat: 5
+- model: foods.FoodItem
+  fields:
+    id: 175
+    name: Chocolate - Feathers
+    portion_name: tablespoon
+    portion_weight: 601
+    energy: 90.2
+    protein: 4
+    carbs: 48
+    fat: 69
+- model: foods.FoodItem
+  fields:
+    id: 176
+    name: Tuna - Salad Premix
+    portion_name: tablespoon
+    portion_weight: 954
+    energy: 813.9
+    protein: 58
+    carbs: 64
+    fat: 80
+- model: foods.FoodItem
+  fields:
+    id: 177
+    name: Venison - Racks Frenched
+    portion_name: piece
+    portion_weight: 107
+    energy: 832.1
+    protein: 99
+    carbs: 4
+    fat: 51
+- model: foods.FoodItem
+  fields:
+    id: 178
+    name: Milk - Chocolate 250 Ml
+    portion_name: package
+    portion_weight: 899
+    energy: 503.4
+    protein: 55
+    carbs: 18
+    fat: 72
+- model: foods.FoodItem
+  fields:
+    id: 179
+    name: Tea - Camomele
+    portion_name: piece
+    portion_weight: 635
+    energy: 750.2
+    protein: 79
+    carbs: 15
+    fat: 80
+- model: foods.FoodItem
+  fields:
+    id: 180
+    name: Pork - Caul Fat
+    portion_name: slice
+    portion_weight: 549
+    energy: 199.0
+    protein: 26
+    carbs: 63
+    fat: 7
+- model: foods.FoodItem
+  fields:
+    id: 181
+    name: Plasticspoonblack
+    portion_name: package
+    portion_weight: 224
+    energy: 84.5
+    protein: 90
+    carbs: 34
+    fat: 65
+- model: foods.FoodItem
+  fields:
+    id: 182
+    name: Raisin - Golden
+    portion_name: slice
+    portion_weight: 381
+    energy: 52.6
+    protein: 20
+    carbs: 48
+    fat: 3
+- model: foods.FoodItem
+  fields:
+    id: 183
+    name: Chinese Foods - Cantonese
+    portion_name: slice
+    portion_weight: 987
+    energy: 664.5
+    protein: 23
+    carbs: 23
+    fat: 2
+- model: foods.FoodItem
+  fields:
+    id: 184
+    name: Wine - Piper Heidsieck Brut
+    portion_name: portion
+    portion_weight: 347
+    energy: 405.1
+    protein: 47
+    carbs: 74
+    fat: 78
+- model: foods.FoodItem
+  fields:
+    id: 185
+    name: Amarula Cream
+    portion_name: teaspoon
+    portion_weight: 835
+    energy: 559.9
+    protein: 75
+    carbs: 93
+    fat: 28
+- model: foods.FoodItem
+  fields:
+    id: 186
+    name: Bar - Sweet And Salty Chocolate
+    portion_name: piece
+    portion_weight: 504
+    energy: 782.1
+    protein: 35
+    carbs: 85
+    fat: 18
+- model: foods.FoodItem
+  fields:
+    id: 187
+    name: Bar Nature Valley
+    portion_name: package
+    portion_weight: 252
+    energy: 138.6
+    protein: 23
+    carbs: 36
+    fat: 51
+- model: foods.FoodItem
+  fields:
+    id: 188
+    name: Oil - Food, Lacquer Spray
+    portion_name: tablespoon
+    portion_weight: 720
+    energy: 470.1
+    protein: 47
+    carbs: 32
+    fat: 72
+- model: foods.FoodItem
+  fields:
+    id: 189
+    name: Tahini Paste
+    portion_name: slice
+    portion_weight: 496
+    energy: 515.9
+    protein: 54
+    carbs: 81
+    fat: 28
+- model: foods.FoodItem
+  fields:
+    id: 190
+    name: Flour - Buckwheat, Dark
+    portion_name: slice
+    portion_weight: 253
+    energy: 153.3
+    protein: 72
+    carbs: 8
+    fat: 77
+- model: foods.FoodItem
+  fields:
+    id: 191
+    name: Juice - Apple, 341 Ml
+    portion_name: package
+    portion_weight: 687
+    energy: 836.1
+    protein: 4
+    carbs: 90
+    fat: 40
+- model: foods.FoodItem
+  fields:
+    id: 192
+    name: Bay Leaf Fresh
+    portion_name: piece
+    portion_weight: 167
+    energy: 611.9
+    protein: 69
+    carbs: 7
+    fat: 58
+- model: foods.FoodItem
+  fields:
+    id: 193
+    name: Veal - Inside, Choice
+    portion_name: piece
+    portion_weight: 404
+    energy: 789.2
+    protein: 43
+    carbs: 32
+    fat: 13
+- model: foods.FoodItem
+  fields:
+    id: 194
+    name: Wine - Chianti Classico Riserva
+    portion_name: piece
+    portion_weight: 85
+    energy: 844.6
+    protein: 53
+    carbs: 21
+    fat: 61
+- model: foods.FoodItem
+  fields:
+    id: 195
+    name: Wine - Red, Harrow Estates, Cab
+    portion_name: portion
+    portion_weight: 945
+    energy: 658.3
+    protein: 65
+    carbs: 66
+    fat: 30
+- model: foods.FoodItem
+  fields:
+    id: 196
+    name: Poppy Seed
+    portion_name: tablespoon
+    portion_weight: 449
+    energy: 333.4
+    protein: 97
+    carbs: 98
+    fat: 67
+- model: foods.FoodItem
+  fields:
+    id: 197
+    name: Artichoke - Hearts, Canned
+    portion_name: cup
+    portion_weight: 901
+    energy: 214.0
+    protein: 65
+    carbs: 33
+    fat: 64
+- model: foods.FoodItem
+  fields:
+    id: 198
+    name: Ecolab - Ster Bac
+    portion_name: cup
+    portion_weight: 872
+    energy: 668.2
+    protein: 63
+    carbs: 95
+    fat: 52
+- model: foods.FoodItem
+  fields:
+    id: 199
+    name: Island Oasis - Ice Cream Mix
+    portion_name: package
+    portion_weight: 72
+    energy: 609.5
+    protein: 33
+    carbs: 34
+    fat: 80
+- model: foods.FoodItem
+  fields:
+    id: 200
+    name: Pate Pans Yellow
+    portion_name: package
+    portion_weight: 802
+    energy: 634.2
+    protein: 67
+    carbs: 73
+    fat: 44
+- model: foods.FoodItem
+  fields:
+    id: 201
+    name: Cake - Mini Potato Pancake
+    portion_name: piece
+    portion_weight: 135
+    energy: 212.0
+    protein: 23
+    carbs: 99
+    fat: 45
+- model: foods.FoodItem
+  fields:
+    id: 202
+    name: Rice Wine - Aji Mirin
+    portion_name: portion
+    portion_weight: 782
+    energy: 212.0
+    protein: 71
+    carbs: 31
+    fat: 59
+- model: foods.FoodItem
+  fields:
+    id: 203
+    name: Nutmeg - Ground
+    portion_name: package
+    portion_weight: 254
+    energy: 634.6
+    protein: 32
+    carbs: 26
+    fat: 100
+- model: foods.FoodItem
+  fields:
+    id: 204
+    name: Nut - Pecan, Pieces
+    portion_name: package
+    portion_weight: 451
+    energy: 149.8
+    protein: 18
+    carbs: 55
+    fat: 44
+- model: foods.FoodItem
+  fields:
+    id: 205
+    name: Gingerale - Diet - Schweppes
+    portion_name: cup
+    portion_weight: 762
+    energy: 655.1
+    protein: 64
+    carbs: 85
+    fat: 67
+- model: foods.FoodItem
+  fields:
+    id: 206
+    name: Truffle - Whole Black Peeled
+    portion_name: cup
+    portion_weight: 616
+    energy: 972.1
+    protein: 11
+    carbs: 72
+    fat: 77
+- model: foods.FoodItem
+  fields:
+    id: 207
+    name: Lettuce - Lambs Mash
+    portion_name: package
+    portion_weight: 751
+    energy: 986.7
+    protein: 44
+    carbs: 44
+    fat: 5
+- model: foods.FoodItem
+  fields:
+    id: 208
+    name: Bread - Focaccia Quarter
+    portion_name: teaspoon
+    portion_weight: 45
+    energy: 147.2
+    protein: 33
+    carbs: 34
+    fat: 55
+- model: foods.FoodItem
+  fields:
+    id: 209
+    name: Grenadine
+    portion_name: teaspoon
+    portion_weight: 906
+    energy: 511.8
+    protein: 18
+    carbs: 30
+    fat: 39
+- model: foods.FoodItem
+  fields:
+    id: 210
+    name: Fuji Apples
+    portion_name: teaspoon
+    portion_weight: 386
+    energy: 915.3
+    protein: 20
+    carbs: 21
+    fat: 72
+- model: foods.FoodItem
+  fields:
+    id: 211
+    name: Yogurt - Assorted Pack
+    portion_name: slice
+    portion_weight: 712
+    energy: 487.8
+    protein: 43
+    carbs: 90
+    fat: 79
+- model: foods.FoodItem
+  fields:
+    id: 212
+    name: Absolut Citron
+    portion_name: piece
+    portion_weight: 353
+    energy: 796.4
+    protein: 79
+    carbs: 65
+    fat: 85
+- model: foods.FoodItem
+  fields:
+    id: 213
+    name: Roe - Lump Fish, Black
+    portion_name: package
+    portion_weight: 127
+    energy: 929.0
+    protein: 70
+    carbs: 84
+    fat: 6
+- model: foods.FoodItem
+  fields:
+    id: 214
+    name: Beets
+    portion_name: package
+    portion_weight: 603
+    energy: 893.8
+    protein: 8
+    carbs: 34
+    fat: 28
+- model: foods.FoodItem
+  fields:
+    id: 215
+    name: Flax Seed
+    portion_name: teaspoon
+    portion_weight: 142
+    energy: 746.2
+    protein: 1
+    carbs: 91
+    fat: 65
+- model: foods.FoodItem
+  fields:
+    id: 216
+    name: Avocado
+    portion_name: package
+    portion_weight: 974
+    energy: 55.0
+    protein: 18
+    carbs: 31
+    fat: 54
+- model: foods.FoodItem
+  fields:
+    id: 217
+    name: Island Oasis - Sweet And Sour Mix
+    portion_name: piece
+    portion_weight: 792
+    energy: 916.2
+    protein: 63
+    carbs: 44
+    fat: 66
+- model: foods.FoodItem
+  fields:
+    id: 218
+    name: Sansho Powder
+    portion_name: tablespoon
+    portion_weight: 101
+    energy: 813.1
+    protein: 14
+    carbs: 51
+    fat: 74
+- model: foods.FoodItem
+  fields:
+    id: 219
+    name: Cornflakes
+    portion_name: slice
+    portion_weight: 849
+    energy: 741.8
+    protein: 69
+    carbs: 3
+    fat: 30
+- model: foods.FoodItem
+  fields:
+    id: 220
+    name: Five Alive Citrus
+    portion_name: portion
+    portion_weight: 734
+    energy: 980.3
+    protein: 16
+    carbs: 63
+    fat: 7
+- model: foods.FoodItem
+  fields:
+    id: 221
+    name: Roe - Lump Fish, Red
+    portion_name: cup
+    portion_weight: 577
+    energy: 504.8
+    protein: 5
+    carbs: 62
+    fat: 17
+- model: foods.FoodItem
+  fields:
+    id: 222
+    name: Beans - Kidney, Canned
+    portion_name: package
+    portion_weight: 635
+    energy: 377.0
+    protein: 5
+    carbs: 78
+    fat: 96
+- model: foods.FoodItem
+  fields:
+    id: 223
+    name: Green Tea Refresher
+    portion_name: slice
+    portion_weight: 103
+    energy: 855.3
+    protein: 24
+    carbs: 83
+    fat: 57
+- model: foods.FoodItem
+  fields:
+    id: 224
+    name: Sauce - Soya, Dark
+    portion_name: package
+    portion_weight: 382
+    energy: 421.8
+    protein: 25
+    carbs: 4
+    fat: 45
+- model: foods.FoodItem
+  fields:
+    id: 225
+    name: Beef - Sushi Flat Iron Steak
+    portion_name: teaspoon
+    portion_weight: 417
+    energy: 914.9
+    protein: 71
+    carbs: 15
+    fat: 77
+- model: foods.FoodItem
+  fields:
+    id: 226
+    name: Cookie Choc
+    portion_name: piece
+    portion_weight: 786
+    energy: 207.6
+    protein: 71
+    carbs: 88
+    fat: 68
+- model: foods.FoodItem
+  fields:
+    id: 227
+    name: Coconut Milk - Unsweetened
+    portion_name: tablespoon
+    portion_weight: 91
+    energy: 843.9
+    protein: 85
+    carbs: 31
+    fat: 28
+- model: foods.FoodItem
+  fields:
+    id: 228
+    name: Macaroons - Homestyle Two Bit
+    portion_name: package
+    portion_weight: 619
+    energy: 478.7
+    protein: 38
+    carbs: 95
+    fat: 87
+- model: foods.FoodItem
+  fields:
+    id: 229
+    name: Beer - Pilsner Urquell
+    portion_name: cup
+    portion_weight: 341
+    energy: 409.2
+    protein: 45
+    carbs: 80
+    fat: 40
+- model: foods.FoodItem
+  fields:
+    id: 230
+    name: Wine - White, Lindemans Bin 95
+    portion_name: cup
+    portion_weight: 839
+    energy: 258.4
+    protein: 7
+    carbs: 38
+    fat: 63
+- model: foods.FoodItem
+  fields:
+    id: 231
+    name: Everfresh Products
+    portion_name: slice
+    portion_weight: 903
+    energy: 665.3
+    protein: 44
+    carbs: 19
+    fat: 72
+- model: foods.FoodItem
+  fields:
+    id: 232
+    name: Instant Coffee
+    portion_name: tablespoon
+    portion_weight: 565
+    energy: 591.6
+    protein: 78
+    carbs: 19
+    fat: 59
+- model: foods.FoodItem
+  fields:
+    id: 233
+    name: Dc - Sakura Fu
+    portion_name: package
+    portion_weight: 493
+    energy: 793.7
+    protein: 20
+    carbs: 79
+    fat: 52
+- model: foods.FoodItem
+  fields:
+    id: 234
+    name: Soup - Cream Of Broccoli, Dry
+    portion_name: piece
+    portion_weight: 278
+    energy: 709.6
+    protein: 71
+    carbs: 92
+    fat: 56
+- model: foods.FoodItem
+  fields:
+    id: 235
+    name: Cup - 4oz Translucent
+    portion_name: package
+    portion_weight: 8
+    energy: 581.4
+    protein: 100
+    carbs: 1
+    fat: 92
+- model: foods.FoodItem
+  fields:
+    id: 236
+    name: Truffle - Whole Black Peeled
+    portion_name: tablespoon
+    portion_weight: 371
+    energy: 731.3
+    protein: 73
+    carbs: 49
+    fat: 81
+- model: foods.FoodItem
+  fields:
+    id: 237
+    name: Pastry - Banana Muffin - Mini
+    portion_name: package
+    portion_weight: 643
+    energy: 265.7
+    protein: 71
+    carbs: 98
+    fat: 56
+- model: foods.FoodItem
+  fields:
+    id: 238
+    name: Soup - Beef, Base Mix
+    portion_name: piece
+    portion_weight: 158
+    energy: 543.8
+    protein: 39
+    carbs: 71
+    fat: 32
+- model: foods.FoodItem
+  fields:
+    id: 239
+    name: Muffin Carrot - Individual
+    portion_name: tablespoon
+    portion_weight: 375
+    energy: 59.0
+    protein: 95
+    carbs: 56
+    fat: 37
+- model: foods.FoodItem
+  fields:
+    id: 240
+    name: Chocolate Bar - Oh Henry
+    portion_name: piece
+    portion_weight: 538
+    energy: 271.8
+    protein: 67
+    carbs: 93
+    fat: 69
+- model: foods.FoodItem
+  fields:
+    id: 241
+    name: Tea - Herbal - 6 Asst
+    portion_name: slice
+    portion_weight: 81
+    energy: 541.5
+    protein: 40
+    carbs: 50
+    fat: 72
+- model: foods.FoodItem
+  fields:
+    id: 242
+    name: Duck - Breast
+    portion_name: package
+    portion_weight: 322
+    energy: 351.0
+    protein: 36
+    carbs: 87
+    fat: 82
+- model: foods.FoodItem
+  fields:
+    id: 243
+    name: Beets
+    portion_name: package
+    portion_weight: 863
+    energy: 338.1
+    protein: 40
+    carbs: 3
+    fat: 43
+- model: foods.FoodItem
+  fields:
+    id: 244
+    name: Wine - Tio Pepe Sherry Fino
+    portion_name: portion
+    portion_weight: 30
+    energy: 732.6
+    protein: 77
+    carbs: 45
+    fat: 97
+- model: foods.FoodItem
+  fields:
+    id: 245
+    name: Mace
+    portion_name: slice
+    portion_weight: 354
+    energy: 655.9
+    protein: 59
+    carbs: 86
+    fat: 98
+- model: foods.FoodItem
+  fields:
+    id: 246
+    name: Slt - Individual Portions
+    portion_name: piece
+    portion_weight: 331
+    energy: 421.7
+    protein: 26
+    carbs: 81
+    fat: 80
+- model: foods.FoodItem
+  fields:
+    id: 247
+    name: Pan Grease
+    portion_name: slice
+    portion_weight: 143
+    energy: 402.7
+    protein: 10
+    carbs: 79
+    fat: 66
+- model: foods.FoodItem
+  fields:
+    id: 248
+    name: Bread - Wheat Baguette
+    portion_name: cup
+    portion_weight: 713
+    energy: 591.7
+    protein: 20
+    carbs: 19
+    fat: 82
+- model: foods.FoodItem
+  fields:
+    id: 249
+    name: Crackers - Soda / Saltins
+    portion_name: cup
+    portion_weight: 447
+    energy: 848.0
+    protein: 43
+    carbs: 91
+    fat: 40
+- model: foods.FoodItem
+  fields:
+    id: 250
+    name: Energy Drink - Redbull 355ml
+    portion_name: slice
+    portion_weight: 516
+    energy: 937.8
+    protein: 19
+    carbs: 62
+    fat: 75
+- model: foods.FoodItem
+  fields:
+    id: 251
+    name: Scallops - In Shell
+    portion_name: portion
+    portion_weight: 535
+    energy: 930.8
+    protein: 11
+    carbs: 53
+    fat: 97
+- model: foods.FoodItem
+  fields:
+    id: 252
+    name: Oil - Safflower
+    portion_name: package
+    portion_weight: 603
+    energy: 722.7
+    protein: 71
+    carbs: 8
+    fat: 43
+- model: foods.FoodItem
+  fields:
+    id: 253
+    name: Strawberries - California
+    portion_name: portion
+    portion_weight: 537
+    energy: 724.1
+    protein: 37
+    carbs: 37
+    fat: 25
+- model: foods.FoodItem
+  fields:
+    id: 254
+    name: Foam Cup 6 Oz
+    portion_name: slice
+    portion_weight: 531
+    energy: 995.2
+    protein: 52
+    carbs: 49
+    fat: 87
+- model: foods.FoodItem
+  fields:
+    id: 255
+    name: Wine - Red, Pinot Noir, Chateau
+    portion_name: teaspoon
+    portion_weight: 90
+    energy: 950.1
+    protein: 34
+    carbs: 20
+    fat: 63
+- model: foods.FoodItem
+  fields:
+    id: 256
+    name: Langers - Cranberry Cocktail
+    portion_name: teaspoon
+    portion_weight: 165
+    energy: 27.7
+    protein: 36
+    carbs: 55
+    fat: 39
+- model: foods.FoodItem
+  fields:
+    id: 257
+    name: Table Cloth 54x54 White
+    portion_name: portion
+    portion_weight: 530
+    energy: 2.2
+    protein: 77
+    carbs: 54
+    fat: 53
+- model: foods.FoodItem
+  fields:
+    id: 258
+    name: Oil - Truffle, Black
+    portion_name: teaspoon
+    portion_weight: 516
+    energy: 186.4
+    protein: 61
+    carbs: 57
+    fat: 7
+- model: foods.FoodItem
+  fields:
+    id: 259
+    name: Piping - Bags Quizna
+    portion_name: slice
+    portion_weight: 819
+    energy: 419.9
+    protein: 50
+    carbs: 49
+    fat: 52
+- model: foods.FoodItem
+  fields:
+    id: 260
+    name: Spice - Paprika
+    portion_name: slice
+    portion_weight: 776
+    energy: 594.1
+    protein: 6
+    carbs: 87
+    fat: 98
+- model: foods.FoodItem
+  fields:
+    id: 261
+    name: Salmon - Canned
+    portion_name: cup
+    portion_weight: 384
+    energy: 949.4
+    protein: 93
+    carbs: 5
+    fat: 28
+- model: foods.FoodItem
+  fields:
+    id: 262
+    name: Onions - Pearl
+    portion_name: portion
+    portion_weight: 94
+    energy: 138.6
+    protein: 1
+    carbs: 83
+    fat: 50
+- model: foods.FoodItem
+  fields:
+    id: 263
+    name: Flour - Cake
+    portion_name: portion
+    portion_weight: 655
+    energy: 400.5
+    protein: 46
+    carbs: 18
+    fat: 5
+- model: foods.FoodItem
+  fields:
+    id: 264
+    name: Cake - Miini Cheesecake Cherry
+    portion_name: piece
+    portion_weight: 465
+    energy: 564.2
+    protein: 45
+    carbs: 58
+    fat: 46
+- model: foods.FoodItem
+  fields:
+    id: 265
+    name: Wine - Champagne Brut Veuve
+    portion_name: slice
+    portion_weight: 809
+    energy: 719.2
+    protein: 85
+    carbs: 13
+    fat: 25
+- model: foods.FoodItem
+  fields:
+    id: 266
+    name: Coke - Diet, 355 Ml
+    portion_name: package
+    portion_weight: 644
+    energy: 807.1
+    protein: 64
+    carbs: 4
+    fat: 91
+- model: foods.FoodItem
+  fields:
+    id: 267
+    name: Beans - Fava Fresh
+    portion_name: package
+    portion_weight: 471
+    energy: 705.8
+    protein: 26
+    carbs: 30
+    fat: 76
+- model: foods.FoodItem
+  fields:
+    id: 268
+    name: Wine - Spumante Bambino White
+    portion_name: package
+    portion_weight: 712
+    energy: 86.8
+    protein: 5
+    carbs: 19
+    fat: 93
+- model: foods.FoodItem
+  fields:
+    id: 269
+    name: Cheese - Bocconcini
+    portion_name: piece
+    portion_weight: 247
+    energy: 671.3
+    protein: 57
+    carbs: 28
+    fat: 95
+- model: foods.FoodItem
+  fields:
+    id: 270
+    name: Wine - Acient Coast Caberne
+    portion_name: cup
+    portion_weight: 408
+    energy: 116.9
+    protein: 24
+    carbs: 34
+    fat: 64
+- model: foods.FoodItem
+  fields:
+    id: 271
+    name: Soup Campbells Turkey Veg.
+    portion_name: cup
+    portion_weight: 231
+    energy: 768.7
+    protein: 54
+    carbs: 47
+    fat: 10
+- model: foods.FoodItem
+  fields:
+    id: 272
+    name: Ice Cream - Super Sandwich
+    portion_name: portion
+    portion_weight: 235
+    energy: 684.6
+    protein: 58
+    carbs: 58
+    fat: 82
+- model: foods.FoodItem
+  fields:
+    id: 273
+    name: Energy Drink - Franks Original
+    portion_name: tablespoon
+    portion_weight: 572
+    energy: 547.9
+    protein: 24
+    carbs: 74
+    fat: 7
+- model: foods.FoodItem
+  fields:
+    id: 274
+    name: Ham Black Forest
+    portion_name: portion
+    portion_weight: 97
+    energy: 633.1
+    protein: 14
+    carbs: 62
+    fat: 5
+- model: foods.FoodItem
+  fields:
+    id: 275
+    name: Cookies Almond Hazelnut
+    portion_name: piece
+    portion_weight: 474
+    energy: 108.6
+    protein: 15
+    carbs: 90
+    fat: 10
+- model: foods.FoodItem
+  fields:
+    id: 276
+    name: Ocean Spray - Ruby Red
+    portion_name: package
+    portion_weight: 707
+    energy: 222.6
+    protein: 66
+    carbs: 28
+    fat: 96
+- model: foods.FoodItem
+  fields:
+    id: 277
+    name: Chutney Sauce
+    portion_name: slice
+    portion_weight: 732
+    energy: 710.6
+    protein: 94
+    carbs: 45
+    fat: 73
+- model: foods.FoodItem
+  fields:
+    id: 278
+    name: Chef Hat 20cm
+    portion_name: teaspoon
+    portion_weight: 225
+    energy: 227.6
+    protein: 22
+    carbs: 29
+    fat: 40
+- model: foods.FoodItem
+  fields:
+    id: 279
+    name: Lettuce - Red Leaf
+    portion_name: cup
+    portion_weight: 561
+    energy: 251.6
+    protein: 82
+    carbs: 20
+    fat: 64
+- model: foods.FoodItem
+  fields:
+    id: 280
+    name: Beef - Baby, Liver
+    portion_name: portion
+    portion_weight: 951
+    energy: 157.8
+    protein: 17
+    carbs: 32
+    fat: 70
+- model: foods.FoodItem
+  fields:
+    id: 281
+    name: Kiwano
+    portion_name: slice
+    portion_weight: 190
+    energy: 485.9
+    protein: 91
+    carbs: 39
+    fat: 32
+- model: foods.FoodItem
+  fields:
+    id: 282
+    name: Veal - Heart
+    portion_name: portion
+    portion_weight: 713
+    energy: 599.8
+    protein: 59
+    carbs: 56
+    fat: 67
+- model: foods.FoodItem
+  fields:
+    id: 283
+    name: Tea - Darjeeling, Azzura
+    portion_name: package
+    portion_weight: 353
+    energy: 653.7
+    protein: 69
+    carbs: 83
+    fat: 3
+- model: foods.FoodItem
+  fields:
+    id: 284
+    name: Wine - Red, Metus Rose
+    portion_name: piece
+    portion_weight: 723
+    energy: 326.2
+    protein: 93
+    carbs: 31
+    fat: 76
+- model: foods.FoodItem
+  fields:
+    id: 285
+    name: Ketchup - Tomato
+    portion_name: teaspoon
+    portion_weight: 288
+    energy: 450.2
+    protein: 61
+    carbs: 7
+    fat: 8
+- model: foods.FoodItem
+  fields:
+    id: 286
+    name: Figs
+    portion_name: slice
+    portion_weight: 474
+    energy: 985.6
+    protein: 23
+    carbs: 22
+    fat: 80
+- model: foods.FoodItem
+  fields:
+    id: 287
+    name: Canada Dry
+    portion_name: cup
+    portion_weight: 572
+    energy: 137.4
+    protein: 21
+    carbs: 12
+    fat: 4
+- model: foods.FoodItem
+  fields:
+    id: 288
+    name: Wheat - Soft Kernal Of Wheat
+    portion_name: slice
+    portion_weight: 295
+    energy: 942.8
+    protein: 8
+    carbs: 100
+    fat: 10
+- model: foods.FoodItem
+  fields:
+    id: 289
+    name: Vaccum Bag 10x13
+    portion_name: package
+    portion_weight: 118
+    energy: 746.2
+    protein: 51
+    carbs: 22
+    fat: 66
+- model: foods.FoodItem
+  fields:
+    id: 290
+    name: Foil Wrap
+    portion_name: piece
+    portion_weight: 879
+    energy: 170.1
+    protein: 58
+    carbs: 31
+    fat: 49
+- model: foods.FoodItem
+  fields:
+    id: 291
+    name: Cakes Assorted
+    portion_name: teaspoon
+    portion_weight: 704
+    energy: 564.9
+    protein: 23
+    carbs: 4
+    fat: 78
+- model: foods.FoodItem
+  fields:
+    id: 292
+    name: Pork - Tenderloin, Frozen
+    portion_name: tablespoon
+    portion_weight: 306
+    energy: 612.6
+    protein: 1
+    carbs: 34
+    fat: 70
+- model: foods.FoodItem
+  fields:
+    id: 293
+    name: Wine - Savigny - Les - Beaune
+    portion_name: cup
+    portion_weight: 389
+    energy: 40.8
+    protein: 49
+    carbs: 71
+    fat: 46
+- model: foods.FoodItem
+  fields:
+    id: 294
+    name: Radish - Black, Winter, Organic
+    portion_name: package
+    portion_weight: 460
+    energy: 795.5
+    protein: 50
+    carbs: 88
+    fat: 69
+- model: foods.FoodItem
+  fields:
+    id: 295
+    name: Sponge Cake Mix - Chocolate
+    portion_name: piece
+    portion_weight: 345
+    energy: 914.4
+    protein: 70
+    carbs: 74
+    fat: 38
+- model: foods.FoodItem
+  fields:
+    id: 296
+    name: Salt - Celery
+    portion_name: cup
+    portion_weight: 284
+    energy: 808.1
+    protein: 76
+    carbs: 99
+    fat: 48
+- model: foods.FoodItem
+  fields:
+    id: 297
+    name: Ham Black Forest
+    portion_name: piece
+    portion_weight: 586
+    energy: 73.0
+    protein: 52
+    carbs: 72
+    fat: 57
+- model: foods.FoodItem
+  fields:
+    id: 298
+    name: Liqueur Banana, Ramazzotti
+    portion_name: slice
+    portion_weight: 258
+    energy: 718.7
+    protein: 7
+    carbs: 55
+    fat: 2
+- model: foods.FoodItem
+  fields:
+    id: 299
+    name: Nantucket - Orange Mango Cktl
+    portion_name: package
+    portion_weight: 666
+    energy: 528.6
+    protein: 60
+    carbs: 76
+    fat: 48
+- model: foods.FoodItem
+  fields:
+    id: 300
+    name: Daves Island Stinger
+    portion_name: portion
+    portion_weight: 140
+    energy: 527.0
+    protein: 83
+    carbs: 42
+    fat: 69
+- model: foods.FoodItem
+  fields:
+    id: 301
+    name: Ham - Smoked, Bone - In
+    portion_name: portion
+    portion_weight: 691
+    energy: 383.8
+    protein: 11
+    carbs: 16
+    fat: 79
+- model: foods.FoodItem
+  fields:
+    id: 302
+    name: Green Scrubbie Pad H.duty
+    portion_name: package
+    portion_weight: 543
+    energy: 470.7
+    protein: 73
+    carbs: 31
+    fat: 79
+- model: foods.FoodItem
+  fields:
+    id: 303
+    name: Parsley Italian - Fresh
+    portion_name: package
+    portion_weight: 894
+    energy: 965.7
+    protein: 25
+    carbs: 46
+    fat: 62
+- model: foods.FoodItem
+  fields:
+    id: 304
+    name: Coffee - Almond Amaretto
+    portion_name: package
+    portion_weight: 681
+    energy: 387.2
+    protein: 42
+    carbs: 34
+    fat: 49
+- model: foods.FoodItem
+  fields:
+    id: 305
+    name: Beer - Corona
+    portion_name: teaspoon
+    portion_weight: 966
+    energy: 866.3
+    protein: 8
+    carbs: 69
+    fat: 59
+- model: foods.FoodItem
+  fields:
+    id: 306
+    name: V8 - Tropical Blend
+    portion_name: teaspoon
+    portion_weight: 559
+    energy: 437.7
+    protein: 50
+    carbs: 60
+    fat: 83
+- model: foods.FoodItem
+  fields:
+    id: 307
+    name: Star Fruit
+    portion_name: tablespoon
+    portion_weight: 689
+    energy: 486.0
+    protein: 10
+    carbs: 47
+    fat: 26
+- model: foods.FoodItem
+  fields:
+    id: 308
+    name: Heavy Duty Dust Pan
+    portion_name: piece
+    portion_weight: 689
+    energy: 746.9
+    protein: 69
+    carbs: 70
+    fat: 64
+- model: foods.FoodItem
+  fields:
+    id: 309
+    name: Drambuie
+    portion_name: tablespoon
+    portion_weight: 248
+    energy: 700.6
+    protein: 75
+    carbs: 99
+    fat: 62
+- model: foods.FoodItem
+  fields:
+    id: 310
+    name: Bread - Granary Small Pull
+    portion_name: portion
+    portion_weight: 125
+    energy: 956.2
+    protein: 100
+    carbs: 30
+    fat: 77
+- model: foods.FoodItem
+  fields:
+    id: 311
+    name: Fish - Soup Base, Bouillon
+    portion_name: cup
+    portion_weight: 642
+    energy: 278.7
+    protein: 46
+    carbs: 5
+    fat: 32
+- model: foods.FoodItem
+  fields:
+    id: 312
+    name: Beets
+    portion_name: slice
+    portion_weight: 850
+    energy: 222.1
+    protein: 54
+    carbs: 89
+    fat: 2
+- model: foods.FoodItem
+  fields:
+    id: 313
+    name: Lobster - Tail, 3 - 4 Oz
+    portion_name: teaspoon
+    portion_weight: 445
+    energy: 697.5
+    protein: 66
+    carbs: 11
+    fat: 65
+- model: foods.FoodItem
+  fields:
+    id: 314
+    name: Soup - Campbells Beef Stew
+    portion_name: teaspoon
+    portion_weight: 874
+    energy: 690.7
+    protein: 41
+    carbs: 39
+    fat: 95
+- model: foods.FoodItem
+  fields:
+    id: 315
+    name: Turkey - Breast, Double
+    portion_name: tablespoon
+    portion_weight: 686
+    energy: 797.6
+    protein: 6
+    carbs: 94
+    fat: 66
+- model: foods.FoodItem
+  fields:
+    id: 316
+    name: Wine - Manischewitz Concord
+    portion_name: teaspoon
+    portion_weight: 356
+    energy: 628.0
+    protein: 28
+    carbs: 75
+    fat: 25
+- model: foods.FoodItem
+  fields:
+    id: 317
+    name: Squid - U - 10 Thailand
+    portion_name: teaspoon
+    portion_weight: 404
+    energy: 522.2
+    protein: 5
+    carbs: 78
+    fat: 74
+- model: foods.FoodItem
+  fields:
+    id: 318
+    name: Salmon Atl.whole 8 - 10 Lb
+    portion_name: slice
+    portion_weight: 473
+    energy: 410.1
+    protein: 43
+    carbs: 80
+    fat: 64
+- model: foods.FoodItem
+  fields:
+    id: 319
+    name: Beets - Pickled
+    portion_name: portion
+    portion_weight: 971
+    energy: 355.4
+    protein: 67
+    carbs: 24
+    fat: 27
+- model: foods.FoodItem
+  fields:
+    id: 320
+    name: Potatoes - Mini White 3 Oz
+    portion_name: piece
+    portion_weight: 177
+    energy: 65.9
+    protein: 69
+    carbs: 38
+    fat: 56
+- model: foods.FoodItem
+  fields:
+    id: 321
+    name: Rice Paper
+    portion_name: slice
+    portion_weight: 252
+    energy: 851.4
+    protein: 5
+    carbs: 13
+    fat: 93
+- model: foods.FoodItem
+  fields:
+    id: 322
+    name: Pickle - Dill
+    portion_name: piece
+    portion_weight: 231
+    energy: 557.4
+    protein: 19
+    carbs: 49
+    fat: 44
+- model: foods.FoodItem
+  fields:
+    id: 323
+    name: Tea - Apple Green Tea
+    portion_name: slice
+    portion_weight: 554
+    energy: 546.8
+    protein: 92
+    carbs: 16
+    fat: 28
+- model: foods.FoodItem
+  fields:
+    id: 324
+    name: Capon - Whole
+    portion_name: portion
+    portion_weight: 248
+    energy: 881.4
+    protein: 34
+    carbs: 81
+    fat: 59
+- model: foods.FoodItem
+  fields:
+    id: 325
+    name: Juice - Happy Planet
+    portion_name: tablespoon
+    portion_weight: 680
+    energy: 603.4
+    protein: 2
+    carbs: 78
+    fat: 45
+- model: foods.FoodItem
+  fields:
+    id: 326
+    name: Steampan - Half Size Shallow
+    portion_name: piece
+    portion_weight: 617
+    energy: 294.0
+    protein: 70
+    carbs: 36
+    fat: 23
+- model: foods.FoodItem
+  fields:
+    id: 327
+    name: Basil - Fresh
+    portion_name: tablespoon
+    portion_weight: 867
+    energy: 752.7
+    protein: 1
+    carbs: 36
+    fat: 32
+- model: foods.FoodItem
+  fields:
+    id: 328
+    name: Pasta - Lasagna, Dry
+    portion_name: cup
+    portion_weight: 640
+    energy: 743.9
+    protein: 49
+    carbs: 29
+    fat: 63
+- model: foods.FoodItem
+  fields:
+    id: 329
+    name: Rosemary - Primerba, Paste
+    portion_name: slice
+    portion_weight: 129
+    energy: 201.6
+    protein: 69
+    carbs: 67
+    fat: 71
+- model: foods.FoodItem
+  fields:
+    id: 330
+    name: Spring Roll Wrappers
+    portion_name: tablespoon
+    portion_weight: 510
+    energy: 777.0
+    protein: 70
+    carbs: 18
+    fat: 55
+- model: foods.FoodItem
+  fields:
+    id: 331
+    name: Transfer Sheets
+    portion_name: tablespoon
+    portion_weight: 475
+    energy: 445.5
+    protein: 85
+    carbs: 85
+    fat: 20
+- model: foods.FoodItem
+  fields:
+    id: 332
+    name: Oil - Pumpkinseed
+    portion_name: piece
+    portion_weight: 534
+    energy: 469.5
+    protein: 72
+    carbs: 1
+    fat: 61
+- model: foods.FoodItem
+  fields:
+    id: 333
+    name: Salmon - Atlantic, No Skin
+    portion_name: slice
+    portion_weight: 147
+    energy: 289.7
+    protein: 51
+    carbs: 53
+    fat: 67
+- model: foods.FoodItem
+  fields:
+    id: 334
+    name: Wine - Periguita Fonseca
+    portion_name: cup
+    portion_weight: 363
+    energy: 764.6
+    protein: 19
+    carbs: 32
+    fat: 81
+- model: foods.FoodItem
+  fields:
+    id: 335
+    name: Beef - Roasted, Cooked
+    portion_name: cup
+    portion_weight: 883
+    energy: 210.7
+    protein: 24
+    carbs: 25
+    fat: 90
+- model: foods.FoodItem
+  fields:
+    id: 336
+    name: Wine - Zinfandel California 2002
+    portion_name: tablespoon
+    portion_weight: 736
+    energy: 949.6
+    protein: 99
+    carbs: 45
+    fat: 36
+- model: foods.FoodItem
+  fields:
+    id: 337
+    name: Soup - Tomato Mush. Florentine
+    portion_name: tablespoon
+    portion_weight: 812
+    energy: 496.7
+    protein: 61
+    carbs: 40
+    fat: 84
+- model: foods.FoodItem
+  fields:
+    id: 338
+    name: Tuna - Yellowfin
+    portion_name: tablespoon
+    portion_weight: 239
+    energy: 230.3
+    protein: 71
+    carbs: 75
+    fat: 29
+- model: foods.FoodItem
+  fields:
+    id: 339
+    name: Tea - Darjeeling, Azzura
+    portion_name: piece
+    portion_weight: 137
+    energy: 466.5
+    protein: 51
+    carbs: 57
+    fat: 77
+- model: foods.FoodItem
+  fields:
+    id: 340
+    name: Bread - Burger
+    portion_name: package
+    portion_weight: 930
+    energy: 956.8
+    protein: 32
+    carbs: 19
+    fat: 92
+- model: foods.FoodItem
+  fields:
+    id: 341
+    name: Corn Syrup
+    portion_name: portion
+    portion_weight: 315
+    energy: 980.7
+    protein: 28
+    carbs: 1
+    fat: 40
+- model: foods.FoodItem
+  fields:
+    id: 342
+    name: Tuna - Bluefin
+    portion_name: package
+    portion_weight: 547
+    energy: 171.1
+    protein: 67
+    carbs: 68
+    fat: 35
+- model: foods.FoodItem
+  fields:
+    id: 343
+    name: Okra
+    portion_name: teaspoon
+    portion_weight: 967
+    energy: 831.8
+    protein: 34
+    carbs: 61
+    fat: 80
+- model: foods.FoodItem
+  fields:
+    id: 344
+    name: Bread - Kimel Stick Poly
+    portion_name: piece
+    portion_weight: 778
+    energy: 737.6
+    protein: 3
+    carbs: 100
+    fat: 98
+- model: foods.FoodItem
+  fields:
+    id: 345
+    name: Clementine
+    portion_name: portion
+    portion_weight: 740
+    energy: 769.7
+    protein: 40
+    carbs: 3
+    fat: 1
+- model: foods.FoodItem
+  fields:
+    id: 346
+    name: Seedlings - Mix, Organic
+    portion_name: piece
+    portion_weight: 280
+    energy: 108.8
+    protein: 10
+    carbs: 44
+    fat: 70
+- model: foods.FoodItem
+  fields:
+    id: 347
+    name: Sauce - Ranch Dressing
+    portion_name: teaspoon
+    portion_weight: 738
+    energy: 712.3
+    protein: 5
+    carbs: 62
+    fat: 14
+- model: foods.FoodItem
+  fields:
+    id: 348
+    name: Beef Wellington
+    portion_name: piece
+    portion_weight: 261
+    energy: 627.9
+    protein: 66
+    carbs: 98
+    fat: 22
+- model: foods.FoodItem
+  fields:
+    id: 349
+    name: Pasta - Canelloni
+    portion_name: package
+    portion_weight: 792
+    energy: 228.8
+    protein: 17
+    carbs: 93
+    fat: 53
+- model: foods.FoodItem
+  fields:
+    id: 350
+    name: Lumpfish Black
+    portion_name: package
+    portion_weight: 219
+    energy: 783.5
+    protein: 79
+    carbs: 21
+    fat: 49
+- model: foods.FoodItem
+  fields:
+    id: 351
+    name: Tea - Camomele
+    portion_name: cup
+    portion_weight: 391
+    energy: 121.1
+    protein: 63
+    carbs: 89
+    fat: 74
+- model: foods.FoodItem
+  fields:
+    id: 352
+    name: Tandoori Curry Paste
+    portion_name: cup
+    portion_weight: 702
+    energy: 468.9
+    protein: 45
+    carbs: 28
+    fat: 25
+- model: foods.FoodItem
+  fields:
+    id: 353
+    name: Chicken Giblets
+    portion_name: cup
+    portion_weight: 349
+    energy: 523.7
+    protein: 90
+    carbs: 55
+    fat: 4
+- model: foods.FoodItem
+  fields:
+    id: 354
+    name: Wine - Zinfandel Rosenblum
+    portion_name: cup
+    portion_weight: 53
+    energy: 212.7
+    protein: 15
+    carbs: 98
+    fat: 30
+- model: foods.FoodItem
+  fields:
+    id: 355
+    name: Smirnoff Green Apple Twist
+    portion_name: package
+    portion_weight: 702
+    energy: 242.6
+    protein: 16
+    carbs: 33
+    fat: 28
+- model: foods.FoodItem
+  fields:
+    id: 356
+    name: Crab - Imitation Flakes
+    portion_name: package
+    portion_weight: 120
+    energy: 124.1
+    protein: 38
+    carbs: 97
+    fat: 62
+- model: foods.FoodItem
+  fields:
+    id: 357
+    name: Wine - Domaine Boyar Royal
+    portion_name: portion
+    portion_weight: 312
+    energy: 0.5
+    protein: 87
+    carbs: 3
+    fat: 55
+- model: foods.FoodItem
+  fields:
+    id: 358
+    name: Butter - Unsalted
+    portion_name: portion
+    portion_weight: 308
+    energy: 613.7
+    protein: 36
+    carbs: 55
+    fat: 36
+- model: foods.FoodItem
+  fields:
+    id: 359
+    name: Steel Wool
+    portion_name: portion
+    portion_weight: 308
+    energy: 39.0
+    protein: 91
+    carbs: 29
+    fat: 5
+- model: foods.FoodItem
+  fields:
+    id: 360
+    name: Chocolate - Semi Sweet, Calets
+    portion_name: cup
+    portion_weight: 691
+    energy: 28.9
+    protein: 8
+    carbs: 98
+    fat: 8
+- model: foods.FoodItem
+  fields:
+    id: 361
+    name: Beans - Green
+    portion_name: portion
+    portion_weight: 215
+    energy: 992.9
+    protein: 92
+    carbs: 95
+    fat: 1
+- model: foods.FoodItem
+  fields:
+    id: 362
+    name: Wine - Cousino Macul Antiguas
+    portion_name: cup
+    portion_weight: 4
+    energy: 494.2
+    protein: 79
+    carbs: 3
+    fat: 99
+- model: foods.FoodItem
+  fields:
+    id: 363
+    name: Pepper - Chillies, Crushed
+    portion_name: portion
+    portion_weight: 810
+    energy: 401.3
+    protein: 10
+    carbs: 3
+    fat: 44
+- model: foods.FoodItem
+  fields:
+    id: 364
+    name: Wine - Peller Estates Late
+    portion_name: portion
+    portion_weight: 987
+    energy: 344.9
+    protein: 47
+    carbs: 45
+    fat: 38
+- model: foods.FoodItem
+  fields:
+    id: 365
+    name: Corn Shoots
+    portion_name: portion
+    portion_weight: 163
+    energy: 67.2
+    protein: 74
+    carbs: 50
+    fat: 49
+- model: foods.FoodItem
+  fields:
+    id: 366
+    name: Container Clear 8 Oz
+    portion_name: package
+    portion_weight: 661
+    energy: 108.6
+    protein: 8
+    carbs: 93
+    fat: 48
+- model: foods.FoodItem
+  fields:
+    id: 367
+    name: Broom - Push
+    portion_name: slice
+    portion_weight: 810
+    energy: 189.3
+    protein: 81
+    carbs: 59
+    fat: 22
+- model: foods.FoodItem
+  fields:
+    id: 368
+    name: Mace
+    portion_name: portion
+    portion_weight: 221
+    energy: 43.7
+    protein: 69
+    carbs: 95
+    fat: 15
+- model: foods.FoodItem
+  fields:
+    id: 369
+    name: Wine - Pinot Grigio Collavini
+    portion_name: cup
+    portion_weight: 606
+    energy: 457.0
+    protein: 76
+    carbs: 89
+    fat: 25
+- model: foods.FoodItem
+  fields:
+    id: 370
+    name: Flower - Potmums
+    portion_name: tablespoon
+    portion_weight: 687
+    energy: 300.6
+    protein: 16
+    carbs: 74
+    fat: 46
+- model: foods.FoodItem
+  fields:
+    id: 371
+    name: Basil - Pesto Sauce
+    portion_name: tablespoon
+    portion_weight: 669
+    energy: 342.6
+    protein: 85
+    carbs: 36
+    fat: 27
+- model: foods.FoodItem
+  fields:
+    id: 372
+    name: Nantucket - Pomegranate Pear
+    portion_name: slice
+    portion_weight: 115
+    energy: 242.9
+    protein: 74
+    carbs: 98
+    fat: 69
+- model: foods.FoodItem
+  fields:
+    id: 373
+    name: Wine - Taylors Reserve
+    portion_name: package
+    portion_weight: 741
+    energy: 526.6
+    protein: 16
+    carbs: 99
+    fat: 50
+- model: foods.FoodItem
+  fields:
+    id: 374
+    name: English Muffin
+    portion_name: tablespoon
+    portion_weight: 534
+    energy: 182.1
+    protein: 37
+    carbs: 88
+    fat: 92
+- model: foods.FoodItem
+  fields:
+    id: 375
+    name: Water - Tonic
+    portion_name: portion
+    portion_weight: 169
+    energy: 529.5
+    protein: 9
+    carbs: 78
+    fat: 44
+- model: foods.FoodItem
+  fields:
+    id: 376
+    name: Wine - Tio Pepe Sherry Fino
+    portion_name: tablespoon
+    portion_weight: 442
+    energy: 893.3
+    protein: 16
+    carbs: 37
+    fat: 98
+- model: foods.FoodItem
+  fields:
+    id: 377
+    name: Juice - Prune
+    portion_name: teaspoon
+    portion_weight: 818
+    energy: 892.2
+    protein: 69
+    carbs: 15
+    fat: 88
+- model: foods.FoodItem
+  fields:
+    id: 378
+    name: Chutney Sauce
+    portion_name: tablespoon
+    portion_weight: 954
+    energy: 825.6
+    protein: 14
+    carbs: 60
+    fat: 8
+- model: foods.FoodItem
+  fields:
+    id: 379
+    name: Beef - Montreal Smoked Brisket
+    portion_name: package
+    portion_weight: 99
+    energy: 194.6
+    protein: 67
+    carbs: 51
+    fat: 91
+- model: foods.FoodItem
+  fields:
+    id: 380
+    name: Lime Cordial - Roses
+    portion_name: slice
+    portion_weight: 724
+    energy: 394.6
+    protein: 87
+    carbs: 13
+    fat: 77
+- model: foods.FoodItem
+  fields:
+    id: 381
+    name: Tea - Herbal - 6 Asst
+    portion_name: teaspoon
+    portion_weight: 89
+    energy: 387.1
+    protein: 70
+    carbs: 53
+    fat: 77
+- model: foods.FoodItem
+  fields:
+    id: 382
+    name: Kiwano
+    portion_name: cup
+    portion_weight: 44
+    energy: 142.8
+    protein: 64
+    carbs: 14
+    fat: 20
+- model: foods.FoodItem
+  fields:
+    id: 383
+    name: Soup - Cream Of Broccoli, Dry
+    portion_name: portion
+    portion_weight: 87
+    energy: 541.0
+    protein: 40
+    carbs: 5
+    fat: 63
+- model: foods.FoodItem
+  fields:
+    id: 384
+    name: Roe - Lump Fish, Red
+    portion_name: cup
+    portion_weight: 72
+    energy: 955.9
+    protein: 64
+    carbs: 18
+    fat: 77
+- model: foods.FoodItem
+  fields:
+    id: 385
+    name: Burger Veggie
+    portion_name: piece
+    portion_weight: 538
+    energy: 254.4
+    protein: 2
+    carbs: 96
+    fat: 53
+- model: foods.FoodItem
+  fields:
+    id: 386
+    name: Drambuie
+    portion_name: slice
+    portion_weight: 186
+    energy: 960.1
+    protein: 88
+    carbs: 88
+    fat: 21
+- model: foods.FoodItem
+  fields:
+    id: 387
+    name: Soup - French Onion
+    portion_name: cup
+    portion_weight: 193
+    energy: 896.5
+    protein: 62
+    carbs: 6
+    fat: 12
+- model: foods.FoodItem
+  fields:
+    id: 388
+    name: Pastry - Chocolate Marble Tea
+    portion_name: portion
+    portion_weight: 969
+    energy: 709.9
+    protein: 68
+    carbs: 45
+    fat: 19
+- model: foods.FoodItem
+  fields:
+    id: 389
+    name: Cream - 10%
+    portion_name: teaspoon
+    portion_weight: 793
+    energy: 105.0
+    protein: 23
+    carbs: 7
+    fat: 13
+- model: foods.FoodItem
+  fields:
+    id: 390
+    name: Oxtail - Cut
+    portion_name: tablespoon
+    portion_weight: 487
+    energy: 162.5
+    protein: 38
+    carbs: 30
+    fat: 16
+- model: foods.FoodItem
+  fields:
+    id: 391
+    name: Allspice - Jamaican
+    portion_name: portion
+    portion_weight: 945
+    energy: 905.9
+    protein: 80
+    carbs: 43
+    fat: 84
+- model: foods.FoodItem
+  fields:
+    id: 392
+    name: Nut - Pistachio, Shelled
+    portion_name: teaspoon
+    portion_weight: 900
+    energy: 741.3
+    protein: 66
+    carbs: 100
+    fat: 30
+- model: foods.FoodItem
+  fields:
+    id: 393
+    name: Cheese - Stilton
+    portion_name: tablespoon
+    portion_weight: 719
+    energy: 561.4
+    protein: 86
+    carbs: 33
+    fat: 71
+- model: foods.FoodItem
+  fields:
+    id: 394
+    name: Bread - Bistro White
+    portion_name: cup
+    portion_weight: 781
+    energy: 953.2
+    protein: 27
+    carbs: 8
+    fat: 25
+- model: foods.FoodItem
+  fields:
+    id: 395
+    name: Sausage - Chorizo
+    portion_name: piece
+    portion_weight: 752
+    energy: 230.3
+    protein: 25
+    carbs: 65
+    fat: 11
+- model: foods.FoodItem
+  fields:
+    id: 396
+    name: Pork - Smoked Back Bacon
+    portion_name: package
+    portion_weight: 941
+    energy: 321.9
+    protein: 79
+    carbs: 26
+    fat: 96
+- model: foods.FoodItem
+  fields:
+    id: 397
+    name: V8 - Vegetable Cocktail
+    portion_name: piece
+    portion_weight: 143
+    energy: 304.0
+    protein: 52
+    carbs: 39
+    fat: 68
+- model: foods.FoodItem
+  fields:
+    id: 398
+    name: Muffin Mix - Corn Harvest
+    portion_name: tablespoon
+    portion_weight: 431
+    energy: 682.3
+    protein: 31
+    carbs: 85
+    fat: 90
+- model: foods.FoodItem
+  fields:
+    id: 399
+    name: Bread - Pullman, Sliced
+    portion_name: package
+    portion_weight: 750
+    energy: 909.3
+    protein: 94
+    carbs: 29
+    fat: 44
+- model: foods.FoodItem
+  fields:
+    id: 400
+    name: Cup Translucent 9 Oz
+    portion_name: tablespoon
+    portion_weight: 449
+    energy: 178.3
+    protein: 42
+    carbs: 13
+    fat: 95
+- model: foods.FoodItem
+  fields:
+    id: 401
+    name: Yeast Dry - Fermipan
+    portion_name: portion
+    portion_weight: 773
+    energy: 945.3
+    protein: 93
+    carbs: 43
+    fat: 56
+- model: foods.FoodItem
+  fields:
+    id: 402
+    name: Chestnuts - Whole,canned
+    portion_name: slice
+    portion_weight: 733
+    energy: 474.6
+    protein: 13
+    carbs: 76
+    fat: 100
+- model: foods.FoodItem
+  fields:
+    id: 403
+    name: Split Peas - Green, Dry
+    portion_name: teaspoon
+    portion_weight: 396
+    energy: 88.5
+    protein: 8
+    carbs: 35
+    fat: 49
+- model: foods.FoodItem
+  fields:
+    id: 404
+    name: Squid - U - 10 Thailand
+    portion_name: tablespoon
+    portion_weight: 757
+    energy: 994.3
+    protein: 74
+    carbs: 55
+    fat: 38
+- model: foods.FoodItem
+  fields:
+    id: 405
+    name: Wine - Coteaux Du Tricastin Ac
+    portion_name: portion
+    portion_weight: 847
+    energy: 559.7
+    protein: 54
+    carbs: 48
+    fat: 3
+- model: foods.FoodItem
+  fields:
+    id: 406
+    name: Cheese - Wine
+    portion_name: portion
+    portion_weight: 150
+    energy: 410.4
+    protein: 90
+    carbs: 86
+    fat: 31
+- model: foods.FoodItem
+  fields:
+    id: 407
+    name: Wine - Zinfandel Rosenblum
+    portion_name: teaspoon
+    portion_weight: 277
+    energy: 452.2
+    protein: 98
+    carbs: 79
+    fat: 89
+- model: foods.FoodItem
+  fields:
+    id: 408
+    name: Coconut - Shredded, Unsweet
+    portion_name: portion
+    portion_weight: 518
+    energy: 512.9
+    protein: 81
+    carbs: 4
+    fat: 46
+- model: foods.FoodItem
+  fields:
+    id: 409
+    name: Corn Meal
+    portion_name: teaspoon
+    portion_weight: 474
+    energy: 803.1
+    protein: 41
+    carbs: 27
+    fat: 90
+- model: foods.FoodItem
+  fields:
+    id: 410
+    name: Oil - Safflower
+    portion_name: teaspoon
+    portion_weight: 289
+    energy: 704.5
+    protein: 48
+    carbs: 53
+    fat: 73
+- model: foods.FoodItem
+  fields:
+    id: 411
+    name: Gherkin
+    portion_name: cup
+    portion_weight: 917
+    energy: 199.1
+    protein: 90
+    carbs: 68
+    fat: 6
+- model: foods.FoodItem
+  fields:
+    id: 412
+    name: Beef - Inside Round
+    portion_name: piece
+    portion_weight: 88
+    energy: 840.5
+    protein: 2
+    carbs: 95
+    fat: 15
+- model: foods.FoodItem
+  fields:
+    id: 413
+    name: Sauce - Soya, Light
+    portion_name: tablespoon
+    portion_weight: 862
+    energy: 687.8
+    protein: 2
+    carbs: 57
+    fat: 86
+- model: foods.FoodItem
+  fields:
+    id: 414
+    name: V8 Splash Strawberry Banana
+    portion_name: slice
+    portion_weight: 539
+    energy: 735.3
+    protein: 78
+    carbs: 37
+    fat: 21
+- model: foods.FoodItem
+  fields:
+    id: 415
+    name: Flounder - Fresh
+    portion_name: slice
+    portion_weight: 184
+    energy: 343.2
+    protein: 89
+    carbs: 54
+    fat: 25
+- model: foods.FoodItem
+  fields:
+    id: 416
+    name: Wine - Blue Nun Qualitatswein
+    portion_name: piece
+    portion_weight: 431
+    energy: 170.0
+    protein: 60
+    carbs: 27
+    fat: 66
+- model: foods.FoodItem
+  fields:
+    id: 417
+    name: Ginger - Crystalized
+    portion_name: portion
+    portion_weight: 939
+    energy: 152.5
+    protein: 30
+    carbs: 55
+    fat: 40
+- model: foods.FoodItem
+  fields:
+    id: 418
+    name: Artichokes - Knobless, White
+    portion_name: tablespoon
+    portion_weight: 835
+    energy: 461.3
+    protein: 85
+    carbs: 16
+    fat: 61
+- model: foods.FoodItem
+  fields:
+    id: 419
+    name: Veal - Kidney
+    portion_name: slice
+    portion_weight: 811
+    energy: 373.7
+    protein: 10
+    carbs: 23
+    fat: 92
+- model: foods.FoodItem
+  fields:
+    id: 420
+    name: Cheese - Brie, Cups 125g
+    portion_name: slice
+    portion_weight: 892
+    energy: 910.5
+    protein: 90
+    carbs: 40
+    fat: 10
+- model: foods.FoodItem
+  fields:
+    id: 421
+    name: Shrimp, Dried, Small / Lb
+    portion_name: tablespoon
+    portion_weight: 842
+    energy: 859.6
+    protein: 84
+    carbs: 12
+    fat: 27
+- model: foods.FoodItem
+  fields:
+    id: 422
+    name: Appetizer - Chicken Satay
+    portion_name: teaspoon
+    portion_weight: 796
+    energy: 909.0
+    protein: 73
+    carbs: 55
+    fat: 51
+- model: foods.FoodItem
+  fields:
+    id: 423
+    name: Veal - Knuckle
+    portion_name: slice
+    portion_weight: 266
+    energy: 590.4
+    protein: 69
+    carbs: 47
+    fat: 75
+- model: foods.FoodItem
+  fields:
+    id: 424
+    name: Bread - Petit Baguette
+    portion_name: tablespoon
+    portion_weight: 408
+    energy: 558.4
+    protein: 25
+    carbs: 40
+    fat: 85
+- model: foods.FoodItem
+  fields:
+    id: 425
+    name: Cake - Pancake
+    portion_name: portion
+    portion_weight: 209
+    energy: 308.1
+    protein: 44
+    carbs: 55
+    fat: 91
+- model: foods.FoodItem
+  fields:
+    id: 426
+    name: Raspberries - Fresh
+    portion_name: portion
+    portion_weight: 61
+    energy: 244.9
+    protein: 39
+    carbs: 1
+    fat: 44
+- model: foods.FoodItem
+  fields:
+    id: 427
+    name: Truffle Cups - Brown
+    portion_name: teaspoon
+    portion_weight: 439
+    energy: 389.0
+    protein: 82
+    carbs: 32
+    fat: 66
+- model: foods.FoodItem
+  fields:
+    id: 428
+    name: Vinegar - Red Wine
+    portion_name: slice
+    portion_weight: 228
+    energy: 642.8
+    protein: 77
+    carbs: 97
+    fat: 71
+- model: foods.FoodItem
+  fields:
+    id: 429
+    name: Ice Cream - Fudge Bars
+    portion_name: slice
+    portion_weight: 605
+    energy: 305.1
+    protein: 7
+    carbs: 35
+    fat: 59
+- model: foods.FoodItem
+  fields:
+    id: 430
+    name: Oven Mitt - 13 Inch
+    portion_name: piece
+    portion_weight: 701
+    energy: 752.1
+    protein: 34
+    carbs: 36
+    fat: 97
+- model: foods.FoodItem
+  fields:
+    id: 431
+    name: Water Chestnut - Canned
+    portion_name: slice
+    portion_weight: 586
+    energy: 599.1
+    protein: 7
+    carbs: 74
+    fat: 3
+- model: foods.FoodItem
+  fields:
+    id: 432
+    name: Puree - Guava
+    portion_name: cup
+    portion_weight: 337
+    energy: 715.2
+    protein: 75
+    carbs: 35
+    fat: 39
+- model: foods.FoodItem
+  fields:
+    id: 433
+    name: Trout - Hot Smkd, Dbl Fillet
+    portion_name: teaspoon
+    portion_weight: 270
+    energy: 223.5
+    protein: 70
+    carbs: 14
+    fat: 28
+- model: foods.FoodItem
+  fields:
+    id: 434
+    name: Octopus - Baby, Cleaned
+    portion_name: package
+    portion_weight: 399
+    energy: 775.2
+    protein: 94
+    carbs: 44
+    fat: 79
+- model: foods.FoodItem
+  fields:
+    id: 435
+    name: Nut - Pumpkin Seeds
+    portion_name: package
+    portion_weight: 243
+    energy: 850.1
+    protein: 79
+    carbs: 53
+    fat: 64
+- model: foods.FoodItem
+  fields:
+    id: 436
+    name: Juice - Cranberry 284ml
+    portion_name: tablespoon
+    portion_weight: 171
+    energy: 857.8
+    protein: 14
+    carbs: 91
+    fat: 79
+- model: foods.FoodItem
+  fields:
+    id: 437
+    name: Momiji Oroshi Chili Sauce
+    portion_name: slice
+    portion_weight: 784
+    energy: 489.7
+    protein: 99
+    carbs: 90
+    fat: 100
+- model: foods.FoodItem
+  fields:
+    id: 438
+    name: Silicone Parch. 16.3x24.3
+    portion_name: package
+    portion_weight: 18
+    energy: 308.7
+    protein: 47
+    carbs: 57
+    fat: 13
+- model: foods.FoodItem
+  fields:
+    id: 439
+    name: Oil - Truffle, White
+    portion_name: slice
+    portion_weight: 584
+    energy: 172.6
+    protein: 16
+    carbs: 95
+    fat: 59
+- model: foods.FoodItem
+  fields:
+    id: 440
+    name: Ecolab - Solid Fusion
+    portion_name: teaspoon
+    portion_weight: 1
+    energy: 246.4
+    protein: 10
+    carbs: 15
+    fat: 74
+- model: foods.FoodItem
+  fields:
+    id: 441
+    name: Ostrich - Prime Cut
+    portion_name: slice
+    portion_weight: 22
+    energy: 507.4
+    protein: 82
+    carbs: 12
+    fat: 85
+- model: foods.FoodItem
+  fields:
+    id: 442
+    name: Fiddlehead - Frozen
+    portion_name: piece
+    portion_weight: 140
+    energy: 606.7
+    protein: 58
+    carbs: 89
+    fat: 38
+- model: foods.FoodItem
+  fields:
+    id: 443
+    name: Beer - Alexander Kieths, Pale Ale
+    portion_name: teaspoon
+    portion_weight: 153
+    energy: 397.1
+    protein: 51
+    carbs: 37
+    fat: 27
+- model: foods.FoodItem
+  fields:
+    id: 444
+    name: The Pop Shoppe - Lime Rickey
+    portion_name: tablespoon
+    portion_weight: 164
+    energy: 10.5
+    protein: 4
+    carbs: 62
+    fat: 92
+- model: foods.FoodItem
+  fields:
+    id: 445
+    name: Doilies - 8, Paper
+    portion_name: teaspoon
+    portion_weight: 649
+    energy: 124.3
+    protein: 28
+    carbs: 20
+    fat: 74
+- model: foods.FoodItem
+  fields:
+    id: 446
+    name: Cheese - Cheddarsliced
+    portion_name: slice
+    portion_weight: 273
+    energy: 520.2
+    protein: 75
+    carbs: 72
+    fat: 88
+- model: foods.FoodItem
+  fields:
+    id: 447
+    name: Chocolate Eclairs
+    portion_name: slice
+    portion_weight: 484
+    energy: 154.1
+    protein: 25
+    carbs: 19
+    fat: 4
+- model: foods.FoodItem
+  fields:
+    id: 448
+    name: Bread Bowl Plain
+    portion_name: piece
+    portion_weight: 134
+    energy: 118.9
+    protein: 93
+    carbs: 81
+    fat: 37
+- model: foods.FoodItem
+  fields:
+    id: 449
+    name: Wine - Peller Estates Late
+    portion_name: teaspoon
+    portion_weight: 218
+    energy: 449.3
+    protein: 86
+    carbs: 50
+    fat: 16
+- model: foods.FoodItem
+  fields:
+    id: 450
+    name: Petite Baguette
+    portion_name: cup
+    portion_weight: 901
+    energy: 106.5
+    protein: 15
+    carbs: 66
+    fat: 6
+- model: foods.FoodItem
+  fields:
+    id: 451
+    name: Beer - True North Strong Ale
+    portion_name: portion
+    portion_weight: 933
+    energy: 423.0
+    protein: 80
+    carbs: 1
+    fat: 2
+- model: foods.FoodItem
+  fields:
+    id: 452
+    name: Shrimp - Black Tiger 8 - 12
+    portion_name: tablespoon
+    portion_weight: 973
+    energy: 203.6
+    protein: 57
+    carbs: 78
+    fat: 67
+- model: foods.FoodItem
+  fields:
+    id: 453
+    name: Longos - Lasagna Veg
+    portion_name: tablespoon
+    portion_weight: 489
+    energy: 827.8
+    protein: 14
+    carbs: 24
+    fat: 21
+- model: foods.FoodItem
+  fields:
+    id: 454
+    name: Shrimp - Black Tiger 6 - 8
+    portion_name: tablespoon
+    portion_weight: 321
+    energy: 217.4
+    protein: 26
+    carbs: 16
+    fat: 95
+- model: foods.FoodItem
+  fields:
+    id: 455
+    name: Taro Root
+    portion_name: cup
+    portion_weight: 858
+    energy: 656.8
+    protein: 17
+    carbs: 15
+    fat: 88
+- model: foods.FoodItem
+  fields:
+    id: 456
+    name: Bread - Assorted Rolls
+    portion_name: tablespoon
+    portion_weight: 888
+    energy: 483.4
+    protein: 81
+    carbs: 54
+    fat: 54
+- model: foods.FoodItem
+  fields:
+    id: 457
+    name: Beets - Mini Golden
+    portion_name: cup
+    portion_weight: 239
+    energy: 593.9
+    protein: 75
+    carbs: 11
+    fat: 65
+- model: foods.FoodItem
+  fields:
+    id: 458
+    name: Bread - White, Sliced
+    portion_name: cup
+    portion_weight: 297
+    energy: 877.4
+    protein: 58
+    carbs: 14
+    fat: 80
+- model: foods.FoodItem
+  fields:
+    id: 459
+    name: Shrimp - 16/20, Peeled Deviened
+    portion_name: piece
+    portion_weight: 200
+    energy: 753.0
+    protein: 5
+    carbs: 18
+    fat: 71
+- model: foods.FoodItem
+  fields:
+    id: 460
+    name: Filter - Coffee
+    portion_name: package
+    portion_weight: 270
+    energy: 284.8
+    protein: 64
+    carbs: 78
+    fat: 77
+- model: foods.FoodItem
+  fields:
+    id: 461
+    name: Devonshire Cream
+    portion_name: slice
+    portion_weight: 921
+    energy: 555.8
+    protein: 85
+    carbs: 43
+    fat: 43
+- model: foods.FoodItem
+  fields:
+    id: 462
+    name: Wine - Fume Blanc Fetzer
+    portion_name: slice
+    portion_weight: 935
+    energy: 272.6
+    protein: 37
+    carbs: 25
+    fat: 86
+- model: foods.FoodItem
+  fields:
+    id: 463
+    name: Bread Roll Foccacia
+    portion_name: slice
+    portion_weight: 9
+    energy: 331.3
+    protein: 31
+    carbs: 98
+    fat: 92
+- model: foods.FoodItem
+  fields:
+    id: 464
+    name: Oil - Shortening,liqud, Fry
+    portion_name: cup
+    portion_weight: 569
+    energy: 30.0
+    protein: 44
+    carbs: 69
+    fat: 55
+- model: foods.FoodItem
+  fields:
+    id: 465
+    name: Sobe - Orange Carrot
+    portion_name: teaspoon
+    portion_weight: 324
+    energy: 554.8
+    protein: 61
+    carbs: 18
+    fat: 63
+- model: foods.FoodItem
+  fields:
+    id: 466
+    name: Lid Tray - 16in Dome
+    portion_name: teaspoon
+    portion_weight: 721
+    energy: 42.1
+    protein: 92
+    carbs: 59
+    fat: 51
+- model: foods.FoodItem
+  fields:
+    id: 467
+    name: Cheese - Grana Padano
+    portion_name: slice
+    portion_weight: 176
+    energy: 694.8
+    protein: 89
+    carbs: 96
+    fat: 67
+- model: foods.FoodItem
+  fields:
+    id: 468
+    name: Butter Balls Salted
+    portion_name: teaspoon
+    portion_weight: 771
+    energy: 119.5
+    protein: 5
+    carbs: 75
+    fat: 44
+- model: foods.FoodItem
+  fields:
+    id: 469
+    name: Cheese - Bocconcini
+    portion_name: cup
+    portion_weight: 841
+    energy: 865.3
+    protein: 32
+    carbs: 77
+    fat: 61
+- model: foods.FoodItem
+  fields:
+    id: 470
+    name: Higashimaru Usukuchi Soy
+    portion_name: package
+    portion_weight: 626
+    energy: 212.1
+    protein: 11
+    carbs: 34
+    fat: 95
+- model: foods.FoodItem
+  fields:
+    id: 471
+    name: Vodka - Smirnoff
+    portion_name: cup
+    portion_weight: 665
+    energy: 238.6
+    protein: 100
+    carbs: 39
+    fat: 14
+- model: foods.FoodItem
+  fields:
+    id: 472
+    name: Mushroom Morel Fresh
+    portion_name: piece
+    portion_weight: 353
+    energy: 853.9
+    protein: 65
+    carbs: 56
+    fat: 70
+- model: foods.FoodItem
+  fields:
+    id: 473
+    name: Cookies - Amaretto
+    portion_name: portion
+    portion_weight: 995
+    energy: 412.9
+    protein: 79
+    carbs: 86
+    fat: 97
+- model: foods.FoodItem
+  fields:
+    id: 474
+    name: Steam Pan Full Lid
+    portion_name: piece
+    portion_weight: 496
+    energy: 428.6
+    protein: 59
+    carbs: 45
+    fat: 30
+- model: foods.FoodItem
+  fields:
+    id: 475
+    name: Oil - Safflower
+    portion_name: piece
+    portion_weight: 899
+    energy: 325.9
+    protein: 6
+    carbs: 24
+    fat: 95
+- model: foods.FoodItem
+  fields:
+    id: 476
+    name: Compound - Pear
+    portion_name: slice
+    portion_weight: 934
+    energy: 537.6
+    protein: 31
+    carbs: 25
+    fat: 55
+- model: foods.FoodItem
+  fields:
+    id: 477
+    name: Corn Syrup
+    portion_name: portion
+    portion_weight: 164
+    energy: 296.1
+    protein: 34
+    carbs: 71
+    fat: 46
+- model: foods.FoodItem
+  fields:
+    id: 478
+    name: Scallops 60/80 Iqf
+    portion_name: piece
+    portion_weight: 703
+    energy: 474.2
+    protein: 29
+    carbs: 21
+    fat: 10
+- model: foods.FoodItem
+  fields:
+    id: 479
+    name: Pasta - Gnocchi, Potato
+    portion_name: package
+    portion_weight: 123
+    energy: 117.2
+    protein: 53
+    carbs: 67
+    fat: 76
+- model: foods.FoodItem
+  fields:
+    id: 480
+    name: Beer - Camerons Auburn
+    portion_name: piece
+    portion_weight: 946
+    energy: 339.0
+    protein: 93
+    carbs: 16
+    fat: 94
+- model: foods.FoodItem
+  fields:
+    id: 481
+    name: Frangelico
+    portion_name: package
+    portion_weight: 933
+    energy: 570.5
+    protein: 71
+    carbs: 52
+    fat: 2
+- model: foods.FoodItem
+  fields:
+    id: 482
+    name: Sugar - Brown, Individual
+    portion_name: slice
+    portion_weight: 11
+    energy: 911.8
+    protein: 7
+    carbs: 83
+    fat: 77
+- model: foods.FoodItem
+  fields:
+    id: 483
+    name: Red Cod Fillets - 225g
+    portion_name: slice
+    portion_weight: 711
+    energy: 908.0
+    protein: 4
+    carbs: 32
+    fat: 15
+- model: foods.FoodItem
+  fields:
+    id: 484
+    name: Butter Sweet
+    portion_name: tablespoon
+    portion_weight: 956
+    energy: 602.8
+    protein: 76
+    carbs: 10
+    fat: 82
+- model: foods.FoodItem
+  fields:
+    id: 485
+    name: Bread Roll Foccacia
+    portion_name: slice
+    portion_weight: 624
+    energy: 837.6
+    protein: 91
+    carbs: 38
+    fat: 55
+- model: foods.FoodItem
+  fields:
+    id: 486
+    name: Mushroom - Shitake, Dry
+    portion_name: tablespoon
+    portion_weight: 456
+    energy: 168.5
+    protein: 75
+    carbs: 75
+    fat: 73
+- model: foods.FoodItem
+  fields:
+    id: 487
+    name: Appetizer - Chicken Satay
+    portion_name: tablespoon
+    portion_weight: 266
+    energy: 626.4
+    protein: 11
+    carbs: 76
+    fat: 33
+- model: foods.FoodItem
+  fields:
+    id: 488
+    name: Loquat
+    portion_name: teaspoon
+    portion_weight: 205
+    energy: 668.6
+    protein: 99
+    carbs: 46
+    fat: 11
+- model: foods.FoodItem
+  fields:
+    id: 489
+    name: Flavouring - Raspberry
+    portion_name: slice
+    portion_weight: 922
+    energy: 728.1
+    protein: 35
+    carbs: 39
+    fat: 73
+- model: foods.FoodItem
+  fields:
+    id: 490
+    name: Beef - Diced
+    portion_name: cup
+    portion_weight: 512
+    energy: 493.6
+    protein: 33
+    carbs: 95
+    fat: 58
+- model: foods.FoodItem
+  fields:
+    id: 491
+    name: Sambuca - Ramazzotti
+    portion_name: slice
+    portion_weight: 829
+    energy: 282.8
+    protein: 44
+    carbs: 1
+    fat: 63
+- model: foods.FoodItem
+  fields:
+    id: 492
+    name: Apple - Royal Gala
+    portion_name: slice
+    portion_weight: 709
+    energy: 178.4
+    protein: 23
+    carbs: 53
+    fat: 87
+- model: foods.FoodItem
+  fields:
+    id: 493
+    name: Shrimp - Black Tiger 8 - 12
+    portion_name: cup
+    portion_weight: 30
+    energy: 677.2
+    protein: 70
+    carbs: 78
+    fat: 32
+- model: foods.FoodItem
+  fields:
+    id: 494
+    name: Bread - Frozen Basket Variety
+    portion_name: piece
+    portion_weight: 969
+    energy: 105.6
+    protein: 13
+    carbs: 27
+    fat: 88
+- model: foods.FoodItem
+  fields:
+    id: 495
+    name: Mushroom Morel Fresh
+    portion_name: teaspoon
+    portion_weight: 913
+    energy: 267.1
+    protein: 98
+    carbs: 32
+    fat: 12
+- model: foods.FoodItem
+  fields:
+    id: 496
+    name: Vinegar - Raspberry
+    portion_name: tablespoon
+    portion_weight: 673
+    energy: 172.7
+    protein: 26
+    carbs: 12
+    fat: 7
+- model: foods.FoodItem
+  fields:
+    id: 497
+    name: Sesame Seed Black
+    portion_name: slice
+    portion_weight: 200
+    energy: 375.9
+    protein: 14
+    carbs: 13
+    fat: 39
+- model: foods.FoodItem
+  fields:
+    id: 498
+    name: Noodles - Steamed Chow Mein
+    portion_name: tablespoon
+    portion_weight: 961
+    energy: 18.8
+    protein: 93
+    carbs: 9
+    fat: 100
+- model: foods.FoodItem
+  fields:
+    id: 499
+    name: Milk 2% 500 Ml
+    portion_name: tablespoon
+    portion_weight: 320
+    energy: 619.4
+    protein: 70
+    carbs: 94
+    fat: 91
+- model: foods.FoodItem
+  fields:
+    id: 500
+    name: Beer - Maudite
+    portion_name: slice
+    portion_weight: 144
+    energy: 911.1
+    protein: 29
+    carbs: 8
+    fat: 94
+- model: foods.FoodItem
+  fields:
+    id: 501
+    name: Oil - Truffle, Black
+    portion_name: teaspoon
+    portion_weight: 721
+    energy: 349.4
+    protein: 76
+    carbs: 71
+    fat: 79
+- model: foods.FoodItem
+  fields:
+    id: 502
+    name: Ice Cream - Vanilla
+    portion_name: package
+    portion_weight: 18
+    energy: 546.6
+    protein: 8
+    carbs: 13
+    fat: 99
+- model: foods.FoodItem
+  fields:
+    id: 503
+    name: Crackers - Trio
+    portion_name: portion
+    portion_weight: 694
+    energy: 510.7
+    protein: 20
+    carbs: 7
+    fat: 87
+- model: foods.FoodItem
+  fields:
+    id: 504
+    name: Huck Towels White
+    portion_name: teaspoon
+    portion_weight: 620
+    energy: 929.5
+    protein: 34
+    carbs: 59
+    fat: 57
+- model: foods.FoodItem
+  fields:
+    id: 505
+    name: Island Oasis - Peach Daiquiri
+    portion_name: portion
+    portion_weight: 890
+    energy: 860.5
+    protein: 36
+    carbs: 97
+    fat: 90
+- model: foods.FoodItem
+  fields:
+    id: 506
+    name: Yeast - Fresh, Fleischman
+    portion_name: teaspoon
+    portion_weight: 906
+    energy: 770.8
+    protein: 97
+    carbs: 25
+    fat: 40
+- model: foods.FoodItem
+  fields:
+    id: 507
+    name: Absolut Citron
+    portion_name: package
+    portion_weight: 27
+    energy: 147.8
+    protein: 76
+    carbs: 78
+    fat: 10
+- model: foods.FoodItem
+  fields:
+    id: 508
+    name: Shrimp - Tiger 21/25
+    portion_name: portion
+    portion_weight: 152
+    energy: 633.3
+    protein: 84
+    carbs: 14
+    fat: 89
+- model: foods.FoodItem
+  fields:
+    id: 509
+    name: Alize Sunset
+    portion_name: cup
+    portion_weight: 463
+    energy: 205.9
+    protein: 54
+    carbs: 28
+    fat: 5
+- model: foods.FoodItem
+  fields:
+    id: 510
+    name: Beer - Maudite
+    portion_name: portion
+    portion_weight: 12
+    energy: 833.5
+    protein: 11
+    carbs: 3
+    fat: 18
+- model: foods.FoodItem
+  fields:
+    id: 511
+    name: Coffee - Ristretto Coffee Capsule
+    portion_name: tablespoon
+    portion_weight: 633
+    energy: 125.3
+    protein: 78
+    carbs: 40
+    fat: 45
+- model: foods.FoodItem
+  fields:
+    id: 512
+    name: Versatainer Nc - 9388
+    portion_name: slice
+    portion_weight: 53
+    energy: 625.0
+    protein: 40
+    carbs: 54
+    fat: 45
+- model: foods.FoodItem
+  fields:
+    id: 513
+    name: Worcestershire Sauce
+    portion_name: cup
+    portion_weight: 478
+    energy: 303.3
+    protein: 62
+    carbs: 81
+    fat: 49
+- model: foods.FoodItem
+  fields:
+    id: 514
+    name: Squash - Acorn
+    portion_name: package
+    portion_weight: 157
+    energy: 633.4
+    protein: 48
+    carbs: 96
+    fat: 75
+- model: foods.FoodItem
+  fields:
+    id: 515
+    name: Pickles - Gherkins
+    portion_name: package
+    portion_weight: 333
+    energy: 697.5
+    protein: 22
+    carbs: 68
+    fat: 2
+- model: foods.FoodItem
+  fields:
+    id: 516
+    name: Cheese - Cheddar, Old White
+    portion_name: slice
+    portion_weight: 64
+    energy: 974.6
+    protein: 52
+    carbs: 12
+    fat: 95
+- model: foods.FoodItem
+  fields:
+    id: 517
+    name: Cookies - Assorted
+    portion_name: slice
+    portion_weight: 19
+    energy: 865.6
+    protein: 16
+    carbs: 55
+    fat: 83
+- model: foods.FoodItem
+  fields:
+    id: 518
+    name: Tomatoes - Hot House
+    portion_name: package
+    portion_weight: 364
+    energy: 617.3
+    protein: 35
+    carbs: 96
+    fat: 50
+- model: foods.FoodItem
+  fields:
+    id: 519
+    name: Chocolate - Feathers
+    portion_name: cup
+    portion_weight: 963
+    energy: 215.6
+    protein: 99
+    carbs: 20
+    fat: 35
+- model: foods.FoodItem
+  fields:
+    id: 520
+    name: Coffee - Frthy Coffee Crisp
+    portion_name: teaspoon
+    portion_weight: 817
+    energy: 867.6
+    protein: 70
+    carbs: 91
+    fat: 15
+- model: foods.FoodItem
+  fields:
+    id: 521
+    name: Coffee - Flavoured
+    portion_name: slice
+    portion_weight: 134
+    energy: 25.0
+    protein: 59
+    carbs: 76
+    fat: 7
+- model: foods.FoodItem
+  fields:
+    id: 522
+    name: Island Oasis - Ice Cream Mix
+    portion_name: teaspoon
+    portion_weight: 425
+    energy: 92.2
+    protein: 62
+    carbs: 21
+    fat: 37
+- model: foods.FoodItem
+  fields:
+    id: 523
+    name: Chicken Breast Wing On
+    portion_name: slice
+    portion_weight: 918
+    energy: 66.1
+    protein: 59
+    carbs: 49
+    fat: 29
+- model: foods.FoodItem
+  fields:
+    id: 524
+    name: Sobe - Berry Energy
+    portion_name: slice
+    portion_weight: 959
+    energy: 828.0
+    protein: 39
+    carbs: 12
+    fat: 75
+- model: foods.FoodItem
+  fields:
+    id: 525
+    name: Wine - White, Pinot Grigio
+    portion_name: piece
+    portion_weight: 727
+    energy: 269.2
+    protein: 8
+    carbs: 40
+    fat: 64
+- model: foods.FoodItem
+  fields:
+    id: 526
+    name: Yogurt - Assorted Pack
+    portion_name: slice
+    portion_weight: 665
+    energy: 839.0
+    protein: 45
+    carbs: 5
+    fat: 97
+- model: foods.FoodItem
+  fields:
+    id: 527
+    name: Brandy - Bar
+    portion_name: piece
+    portion_weight: 756
+    energy: 589.4
+    protein: 92
+    carbs: 25
+    fat: 56
+- model: foods.FoodItem
+  fields:
+    id: 528
+    name: Sauce - Soya, Dark
+    portion_name: cup
+    portion_weight: 205
+    energy: 189.8
+    protein: 14
+    carbs: 13
+    fat: 87
+- model: foods.FoodItem
+  fields:
+    id: 529
+    name: Glycerine
+    portion_name: tablespoon
+    portion_weight: 337
+    energy: 197.8
+    protein: 72
+    carbs: 82
+    fat: 37
+- model: foods.FoodItem
+  fields:
+    id: 530
+    name: Glove - Cutting
+    portion_name: cup
+    portion_weight: 360
+    energy: 264.8
+    protein: 36
+    carbs: 51
+    fat: 61
+- model: foods.FoodItem
+  fields:
+    id: 531
+    name: Wine - Alsace Gewurztraminer
+    portion_name: tablespoon
+    portion_weight: 542
+    energy: 905.3
+    protein: 25
+    carbs: 46
+    fat: 41
+- model: foods.FoodItem
+  fields:
+    id: 532
+    name: Beef Tenderloin Aaa
+    portion_name: piece
+    portion_weight: 943
+    energy: 556.4
+    protein: 56
+    carbs: 36
+    fat: 63
+- model: foods.FoodItem
+  fields:
+    id: 533
+    name: Quail Eggs - Canned
+    portion_name: cup
+    portion_weight: 927
+    energy: 830.0
+    protein: 73
+    carbs: 78
+    fat: 13
+- model: foods.FoodItem
+  fields:
+    id: 534
+    name: Kolrabi
+    portion_name: tablespoon
+    portion_weight: 470
+    energy: 603.8
+    protein: 60
+    carbs: 64
+    fat: 4
+- model: foods.FoodItem
+  fields:
+    id: 535
+    name: Cheese - Manchego, Spanish
+    portion_name: package
+    portion_weight: 428
+    energy: 594.7
+    protein: 7
+    carbs: 28
+    fat: 47
+- model: foods.FoodItem
+  fields:
+    id: 536
+    name: Appetizer - Assorted Box
+    portion_name: piece
+    portion_weight: 843
+    energy: 684.4
+    protein: 4
+    carbs: 4
+    fat: 30
+- model: foods.FoodItem
+  fields:
+    id: 537
+    name: Shrimp, Dried, Small / Lb
+    portion_name: cup
+    portion_weight: 138
+    energy: 547.0
+    protein: 83
+    carbs: 49
+    fat: 55
+- model: foods.FoodItem
+  fields:
+    id: 538
+    name: Yogurt - Peach, 175 Gr
+    portion_name: portion
+    portion_weight: 856
+    energy: 466.8
+    protein: 89
+    carbs: 87
+    fat: 77
+- model: foods.FoodItem
+  fields:
+    id: 539
+    name: Juice - Orangina
+    portion_name: piece
+    portion_weight: 627
+    energy: 402.8
+    protein: 58
+    carbs: 66
+    fat: 48
+- model: foods.FoodItem
+  fields:
+    id: 540
+    name: Kaffir Lime Leaves
+    portion_name: piece
+    portion_weight: 762
+    energy: 49.5
+    protein: 94
+    carbs: 81
+    fat: 54
+- model: foods.FoodItem
+  fields:
+    id: 541
+    name: Peppercorns - Green
+    portion_name: teaspoon
+    portion_weight: 455
+    energy: 327.1
+    protein: 96
+    carbs: 60
+    fat: 75
+- model: foods.FoodItem
+  fields:
+    id: 542
+    name: Muffin Hinge 117n
+    portion_name: tablespoon
+    portion_weight: 721
+    energy: 330.1
+    protein: 99
+    carbs: 98
+    fat: 64
+- model: foods.FoodItem
+  fields:
+    id: 543
+    name: Tea - English Breakfast
+    portion_name: portion
+    portion_weight: 104
+    energy: 964.6
+    protein: 3
+    carbs: 21
+    fat: 94
+- model: foods.FoodItem
+  fields:
+    id: 544
+    name: Beef - Rouladin, Sliced
+    portion_name: teaspoon
+    portion_weight: 470
+    energy: 139.0
+    protein: 10
+    carbs: 91
+    fat: 26
+- model: foods.FoodItem
+  fields:
+    id: 545
+    name: Bread - Hot Dog Buns
+    portion_name: portion
+    portion_weight: 497
+    energy: 584.9
+    protein: 34
+    carbs: 90
+    fat: 16
+- model: foods.FoodItem
+  fields:
+    id: 546
+    name: Wine - Saint Emilion Calvet
+    portion_name: slice
+    portion_weight: 668
+    energy: 325.7
+    protein: 68
+    carbs: 40
+    fat: 84
+- model: foods.FoodItem
+  fields:
+    id: 547
+    name: Veal - Insides, Grains
+    portion_name: cup
+    portion_weight: 817
+    energy: 736.2
+    protein: 21
+    carbs: 63
+    fat: 3
+- model: foods.FoodItem
+  fields:
+    id: 548
+    name: Wine - Montecillo Rioja Crianza
+    portion_name: cup
+    portion_weight: 655
+    energy: 30.9
+    protein: 51
+    carbs: 44
+    fat: 84
+- model: foods.FoodItem
+  fields:
+    id: 549
+    name: Roe - White Fish
+    portion_name: tablespoon
+    portion_weight: 639
+    energy: 737.0
+    protein: 81
+    carbs: 24
+    fat: 18
+- model: foods.FoodItem
+  fields:
+    id: 550
+    name: Compound - Orange
+    portion_name: slice
+    portion_weight: 539
+    energy: 581.7
+    protein: 33
+    carbs: 56
+    fat: 84
+- model: foods.FoodItem
+  fields:
+    id: 551
+    name: Pastry - Raisin Muffin - Mini
+    portion_name: portion
+    portion_weight: 614
+    energy: 806.9
+    protein: 28
+    carbs: 79
+    fat: 55
+- model: foods.FoodItem
+  fields:
+    id: 552
+    name: Wine - Barbera Alba Doc 2001
+    portion_name: cup
+    portion_weight: 464
+    energy: 99.8
+    protein: 57
+    carbs: 77
+    fat: 90
+- model: foods.FoodItem
+  fields:
+    id: 553
+    name: Sambuca Cream
+    portion_name: piece
+    portion_weight: 916
+    energy: 895.7
+    protein: 17
+    carbs: 27
+    fat: 10
+- model: foods.FoodItem
+  fields:
+    id: 554
+    name: Sprite - 355 Ml
+    portion_name: cup
+    portion_weight: 367
+    energy: 675.3
+    protein: 16
+    carbs: 42
+    fat: 64
+- model: foods.FoodItem
+  fields:
+    id: 555
+    name: Soup - Cream Of Potato / Leek
+    portion_name: teaspoon
+    portion_weight: 919
+    energy: 426.4
+    protein: 70
+    carbs: 68
+    fat: 83
+- model: foods.FoodItem
+  fields:
+    id: 556
+    name: Cheese - Mozzarella, Shredded
+    portion_name: portion
+    portion_weight: 827
+    energy: 343.8
+    protein: 81
+    carbs: 7
+    fat: 26
+- model: foods.FoodItem
+  fields:
+    id: 557
+    name: Stock - Veal, Brown
+    portion_name: teaspoon
+    portion_weight: 511
+    energy: 620.7
+    protein: 22
+    carbs: 77
+    fat: 96
+- model: foods.FoodItem
+  fields:
+    id: 558
+    name: Sherry - Dry
+    portion_name: portion
+    portion_weight: 816
+    energy: 101.8
+    protein: 3
+    carbs: 95
+    fat: 1
+- model: foods.FoodItem
+  fields:
+    id: 559
+    name: Crush - Grape, 355 Ml
+    portion_name: tablespoon
+    portion_weight: 655
+    energy: 874.0
+    protein: 86
+    carbs: 40
+    fat: 59
+- model: foods.FoodItem
+  fields:
+    id: 560
+    name: Carrots - Mini Red Organic
+    portion_name: slice
+    portion_weight: 749
+    energy: 703.6
+    protein: 51
+    carbs: 19
+    fat: 53
+- model: foods.FoodItem
+  fields:
+    id: 561
+    name: Truffle Cups Green
+    portion_name: teaspoon
+    portion_weight: 71
+    energy: 698.8
+    protein: 98
+    carbs: 55
+    fat: 82
+- model: foods.FoodItem
+  fields:
+    id: 562
+    name: Pickles - Gherkins
+    portion_name: portion
+    portion_weight: 209
+    energy: 763.7
+    protein: 74
+    carbs: 28
+    fat: 50
+- model: foods.FoodItem
+  fields:
+    id: 563
+    name: Sauce - Black Current, Dry Mix
+    portion_name: teaspoon
+    portion_weight: 698
+    energy: 589.0
+    protein: 31
+    carbs: 21
+    fat: 22
+- model: foods.FoodItem
+  fields:
+    id: 564
+    name: Veal - Brisket, Provimi,bnls
+    portion_name: piece
+    portion_weight: 278
+    energy: 206.7
+    protein: 19
+    carbs: 32
+    fat: 55
+- model: foods.FoodItem
+  fields:
+    id: 565
+    name: Cheese - Cheddarsliced
+    portion_name: slice
+    portion_weight: 91
+    energy: 215.0
+    protein: 64
+    carbs: 58
+    fat: 62
+- model: foods.FoodItem
+  fields:
+    id: 566
+    name: Cup Translucent 9 Oz
+    portion_name: tablespoon
+    portion_weight: 919
+    energy: 843.4
+    protein: 35
+    carbs: 21
+    fat: 64
+- model: foods.FoodItem
+  fields:
+    id: 567
+    name: Sugar - Icing
+    portion_name: portion
+    portion_weight: 450
+    energy: 32.5
+    protein: 26
+    carbs: 86
+    fat: 78
+- model: foods.FoodItem
+  fields:
+    id: 568
+    name: Milk 2% 500 Ml
+    portion_name: cup
+    portion_weight: 849
+    energy: 101.0
+    protein: 3
+    carbs: 17
+    fat: 94
+- model: foods.FoodItem
+  fields:
+    id: 569
+    name: Swiss Chard - Red
+    portion_name: tablespoon
+    portion_weight: 372
+    energy: 799.4
+    protein: 37
+    carbs: 57
+    fat: 89
+- model: foods.FoodItem
+  fields:
+    id: 570
+    name: Plasticknivesblack
+    portion_name: package
+    portion_weight: 977
+    energy: 931.9
+    protein: 14
+    carbs: 31
+    fat: 75
+- model: foods.FoodItem
+  fields:
+    id: 571
+    name: Doilies - 8, Paper
+    portion_name: package
+    portion_weight: 175
+    energy: 148.1
+    protein: 28
+    carbs: 74
+    fat: 89
+- model: foods.FoodItem
+  fields:
+    id: 572
+    name: Salt - Table
+    portion_name: portion
+    portion_weight: 17
+    energy: 807.7
+    protein: 43
+    carbs: 4
+    fat: 92
+- model: foods.FoodItem
+  fields:
+    id: 573
+    name: Port - 74 Brights
+    portion_name: slice
+    portion_weight: 511
+    energy: 250.4
+    protein: 6
+    carbs: 13
+    fat: 58
+- model: foods.FoodItem
+  fields:
+    id: 574
+    name: Yogurt - Assorted Pack
+    portion_name: slice
+    portion_weight: 684
+    energy: 161.4
+    protein: 66
+    carbs: 3
+    fat: 35
+- model: foods.FoodItem
+  fields:
+    id: 575
+    name: Hold Up Tool Storage Rack
+    portion_name: piece
+    portion_weight: 801
+    energy: 48.3
+    protein: 45
+    carbs: 16
+    fat: 59
+- model: foods.FoodItem
+  fields:
+    id: 576
+    name: Tray - 12in Rnd Blk
+    portion_name: portion
+    portion_weight: 102
+    energy: 599.6
+    protein: 44
+    carbs: 69
+    fat: 94
+- model: foods.FoodItem
+  fields:
+    id: 577
+    name: Breadfruit
+    portion_name: piece
+    portion_weight: 946
+    energy: 482.1
+    protein: 77
+    carbs: 24
+    fat: 43
+- model: foods.FoodItem
+  fields:
+    id: 578
+    name: Currants
+    portion_name: piece
+    portion_weight: 143
+    energy: 127.2
+    protein: 56
+    carbs: 99
+    fat: 19
+- model: foods.FoodItem
+  fields:
+    id: 579
+    name: Onions - Dried, Chopped
+    portion_name: package
+    portion_weight: 295
+    energy: 660.0
+    protein: 38
+    carbs: 1
+    fat: 25
+- model: foods.FoodItem
+  fields:
+    id: 580
+    name: Wine - Mondavi Coastal Private
+    portion_name: cup
+    portion_weight: 641
+    energy: 419.4
+    protein: 22
+    carbs: 14
+    fat: 40
+- model: foods.FoodItem
+  fields:
+    id: 581
+    name: Wine - Magnotta - Red, Baco
+    portion_name: piece
+    portion_weight: 113
+    energy: 232.1
+    protein: 64
+    carbs: 77
+    fat: 34
+- model: foods.FoodItem
+  fields:
+    id: 582
+    name: Squid - U - 10 Thailand
+    portion_name: teaspoon
+    portion_weight: 628
+    energy: 377.2
+    protein: 49
+    carbs: 6
+    fat: 46
+- model: foods.FoodItem
+  fields:
+    id: 583
+    name: Syrup - Monin - Passion Fruit
+    portion_name: package
+    portion_weight: 914
+    energy: 469.3
+    protein: 15
+    carbs: 56
+    fat: 82
+- model: foods.FoodItem
+  fields:
+    id: 584
+    name: Soup - Campbells Asian Noodle
+    portion_name: slice
+    portion_weight: 655
+    energy: 654.9
+    protein: 95
+    carbs: 70
+    fat: 96
+- model: foods.FoodItem
+  fields:
+    id: 585
+    name: Ginger - Fresh
+    portion_name: tablespoon
+    portion_weight: 28
+    energy: 168.9
+    protein: 66
+    carbs: 70
+    fat: 30
+- model: foods.FoodItem
+  fields:
+    id: 586
+    name: Table Cloth 62x120 Colour
+    portion_name: tablespoon
+    portion_weight: 920
+    energy: 467.5
+    protein: 67
+    carbs: 54
+    fat: 93
+- model: foods.FoodItem
+  fields:
+    id: 587
+    name: Onions - Green
+    portion_name: teaspoon
+    portion_weight: 220
+    energy: 72.9
+    protein: 9
+    carbs: 35
+    fat: 14
+- model: foods.FoodItem
+  fields:
+    id: 588
+    name: Loquat
+    portion_name: piece
+    portion_weight: 864
+    energy: 178.7
+    protein: 95
+    carbs: 28
+    fat: 14
+- model: foods.FoodItem
+  fields:
+    id: 589
+    name: Kellogs All Bran Bars
+    portion_name: tablespoon
+    portion_weight: 422
+    energy: 316.0
+    protein: 58
+    carbs: 91
+    fat: 61
+- model: foods.FoodItem
+  fields:
+    id: 590
+    name: Lettuce - Romaine
+    portion_name: slice
+    portion_weight: 790
+    energy: 319.2
+    protein: 40
+    carbs: 76
+    fat: 46
+- model: foods.FoodItem
+  fields:
+    id: 591
+    name: Chicken - Diced, Cooked
+    portion_name: package
+    portion_weight: 46
+    energy: 132.4
+    protein: 69
+    carbs: 97
+    fat: 54
+- model: foods.FoodItem
+  fields:
+    id: 592
+    name: Uniform Linen Charge
+    portion_name: cup
+    portion_weight: 817
+    energy: 804.4
+    protein: 44
+    carbs: 59
+    fat: 100
+- model: foods.FoodItem
+  fields:
+    id: 593
+    name: Veal - Sweetbread
+    portion_name: slice
+    portion_weight: 842
+    energy: 866.2
+    protein: 52
+    carbs: 52
+    fat: 65
+- model: foods.FoodItem
+  fields:
+    id: 594
+    name: Soup - Campbells Mushroom
+    portion_name: portion
+    portion_weight: 747
+    energy: 960.5
+    protein: 25
+    carbs: 86
+    fat: 60
+- model: foods.FoodItem
+  fields:
+    id: 595
+    name: Dooleys Toffee
+    portion_name: slice
+    portion_weight: 318
+    energy: 142.9
+    protein: 95
+    carbs: 31
+    fat: 79
+- model: foods.FoodItem
+  fields:
+    id: 596
+    name: Chips - Miss Vickies
+    portion_name: cup
+    portion_weight: 723
+    energy: 495.9
+    protein: 19
+    carbs: 74
+    fat: 49
+- model: foods.FoodItem
+  fields:
+    id: 597
+    name: Watercress
+    portion_name: tablespoon
+    portion_weight: 265
+    energy: 101.5
+    protein: 58
+    carbs: 82
+    fat: 51
+- model: foods.FoodItem
+  fields:
+    id: 598
+    name: Grapefruit - Pink
+    portion_name: slice
+    portion_weight: 375
+    energy: 170.1
+    protein: 76
+    carbs: 2
+    fat: 6
+- model: foods.FoodItem
+  fields:
+    id: 599
+    name: Crab - Back Fin Meat, Canned
+    portion_name: teaspoon
+    portion_weight: 886
+    energy: 984.9
+    protein: 86
+    carbs: 64
+    fat: 78
+- model: foods.FoodItem
+  fields:
+    id: 600
+    name: Beans - Fine
+    portion_name: piece
+    portion_weight: 967
+    energy: 98.5
+    protein: 49
+    carbs: 24
+    fat: 68
+- model: foods.FoodItem
+  fields:
+    id: 601
+    name: Coffee - Decaffeinato Coffee
+    portion_name: piece
+    portion_weight: 121
+    energy: 695.3
+    protein: 41
+    carbs: 48
+    fat: 49
+- model: foods.FoodItem
+  fields:
+    id: 602
+    name: Sugar Thermometer
+    portion_name: tablespoon
+    portion_weight: 834
+    energy: 77.1
+    protein: 53
+    carbs: 39
+    fat: 92
+- model: foods.FoodItem
+  fields:
+    id: 603
+    name: Crawfish
+    portion_name: piece
+    portion_weight: 547
+    energy: 209.7
+    protein: 42
+    carbs: 76
+    fat: 87
+- model: foods.FoodItem
+  fields:
+    id: 604
+    name: Oregano - Dry, Rubbed
+    portion_name: piece
+    portion_weight: 39
+    energy: 432.7
+    protein: 19
+    carbs: 92
+    fat: 74
+- model: foods.FoodItem
+  fields:
+    id: 605
+    name: Tequila Rose Cream Liquor
+    portion_name: tablespoon
+    portion_weight: 537
+    energy: 67.8
+    protein: 57
+    carbs: 97
+    fat: 77
+- model: foods.FoodItem
+  fields:
+    id: 606
+    name: Pastry - Baked Scones - Mini
+    portion_name: teaspoon
+    portion_weight: 65
+    energy: 682.0
+    protein: 69
+    carbs: 7
+    fat: 34
+- model: foods.FoodItem
+  fields:
+    id: 607
+    name: Versatainer Nc - 8288
+    portion_name: package
+    portion_weight: 974
+    energy: 245.6
+    protein: 15
+    carbs: 10
+    fat: 86
+- model: foods.FoodItem
+  fields:
+    id: 608
+    name: Wine - Winzer Krems Gruner
+    portion_name: tablespoon
+    portion_weight: 557
+    energy: 830.1
+    protein: 49
+    carbs: 95
+    fat: 12
+- model: foods.FoodItem
+  fields:
+    id: 609
+    name: Salmon - Canned
+    portion_name: package
+    portion_weight: 131
+    energy: 409.3
+    protein: 22
+    carbs: 23
+    fat: 59
+- model: foods.FoodItem
+  fields:
+    id: 610
+    name: Chocolate - Compound Coating
+    portion_name: package
+    portion_weight: 737
+    energy: 327.2
+    protein: 19
+    carbs: 61
+    fat: 56
+- model: foods.FoodItem
+  fields:
+    id: 611
+    name: White Fish - Filets
+    portion_name: portion
+    portion_weight: 763
+    energy: 846.4
+    protein: 97
+    carbs: 21
+    fat: 31
+- model: foods.FoodItem
+  fields:
+    id: 612
+    name: Scallops 60/80 Iqf
+    portion_name: package
+    portion_weight: 124
+    energy: 392.9
+    protein: 89
+    carbs: 5
+    fat: 97
+- model: foods.FoodItem
+  fields:
+    id: 613
+    name: Muffin Carrot - Individual
+    portion_name: teaspoon
+    portion_weight: 619
+    energy: 776.6
+    protein: 2
+    carbs: 71
+    fat: 79
+- model: foods.FoodItem
+  fields:
+    id: 614
+    name: Longos - Grilled Chicken With
+    portion_name: cup
+    portion_weight: 824
+    energy: 242.5
+    protein: 7
+    carbs: 13
+    fat: 33
+- model: foods.FoodItem
+  fields:
+    id: 615
+    name: Toamtoes 6x7 Select
+    portion_name: package
+    portion_weight: 884
+    energy: 234.3
+    protein: 38
+    carbs: 43
+    fat: 88
+- model: foods.FoodItem
+  fields:
+    id: 616
+    name: Thyme - Fresh
+    portion_name: package
+    portion_weight: 368
+    energy: 117.9
+    protein: 31
+    carbs: 31
+    fat: 68
+- model: foods.FoodItem
+  fields:
+    id: 617
+    name: Chicken - Soup Base
+    portion_name: piece
+    portion_weight: 893
+    energy: 109.4
+    protein: 3
+    carbs: 75
+    fat: 1
+- model: foods.FoodItem
+  fields:
+    id: 618
+    name: Vinegar - Rice
+    portion_name: package
+    portion_weight: 996
+    energy: 334.8
+    protein: 9
+    carbs: 94
+    fat: 67
+- model: foods.FoodItem
+  fields:
+    id: 619
+    name: Sauce - Bernaise, Mix
+    portion_name: portion
+    portion_weight: 588
+    energy: 472.6
+    protein: 36
+    carbs: 86
+    fat: 7
+- model: foods.FoodItem
+  fields:
+    id: 620
+    name: Sauce - Demi Glace
+    portion_name: tablespoon
+    portion_weight: 120
+    energy: 52.5
+    protein: 18
+    carbs: 89
+    fat: 7
+- model: foods.FoodItem
+  fields:
+    id: 621
+    name: Oxtail - Cut
+    portion_name: package
+    portion_weight: 594
+    energy: 515.9
+    protein: 59
+    carbs: 7
+    fat: 47
+- model: foods.FoodItem
+  fields:
+    id: 622
+    name: Momiji Oroshi Chili Sauce
+    portion_name: portion
+    portion_weight: 813
+    energy: 768.9
+    protein: 78
+    carbs: 1
+    fat: 27
+- model: foods.FoodItem
+  fields:
+    id: 623
+    name: Wine - Fontanafredda Barolo
+    portion_name: cup
+    portion_weight: 875
+    energy: 603.9
+    protein: 94
+    carbs: 42
+    fat: 38
+- model: foods.FoodItem
+  fields:
+    id: 624
+    name: Sugar - White Packet
+    portion_name: portion
+    portion_weight: 692
+    energy: 220.3
+    protein: 14
+    carbs: 100
+    fat: 36
+- model: foods.FoodItem
+  fields:
+    id: 625
+    name: Juice - Lime
+    portion_name: portion
+    portion_weight: 305
+    energy: 999.0
+    protein: 98
+    carbs: 100
+    fat: 88
+- model: foods.FoodItem
+  fields:
+    id: 626
+    name: Garbage Bag - Clear
+    portion_name: piece
+    portion_weight: 772
+    energy: 187.9
+    protein: 63
+    carbs: 52
+    fat: 41
+- model: foods.FoodItem
+  fields:
+    id: 627
+    name: Soup - Beef Conomme, Dry
+    portion_name: slice
+    portion_weight: 252
+    energy: 706.0
+    protein: 86
+    carbs: 55
+    fat: 56
+- model: foods.FoodItem
+  fields:
+    id: 628
+    name: Pork - Hock And Feet Attached
+    portion_name: teaspoon
+    portion_weight: 436
+    energy: 901.0
+    protein: 91
+    carbs: 69
+    fat: 30
+- model: foods.FoodItem
+  fields:
+    id: 629
+    name: Cheese - Bakers Cream Cheese
+    portion_name: tablespoon
+    portion_weight: 684
+    energy: 783.3
+    protein: 78
+    carbs: 63
+    fat: 56
+- model: foods.FoodItem
+  fields:
+    id: 630
+    name: Veal - Round, Eye Of
+    portion_name: portion
+    portion_weight: 208
+    energy: 781.7
+    protein: 46
+    carbs: 88
+    fat: 60
+- model: foods.FoodItem
+  fields:
+    id: 631
+    name: Bread - Pullman, Sliced
+    portion_name: tablespoon
+    portion_weight: 637
+    energy: 623.3
+    protein: 52
+    carbs: 41
+    fat: 56
+- model: foods.FoodItem
+  fields:
+    id: 632
+    name: Onions - Green
+    portion_name: portion
+    portion_weight: 553
+    energy: 605.7
+    protein: 50
+    carbs: 60
+    fat: 39
+- model: foods.FoodItem
+  fields:
+    id: 633
+    name: Crush - Orange, 355ml
+    portion_name: portion
+    portion_weight: 320
+    energy: 581.5
+    protein: 8
+    carbs: 39
+    fat: 41
+- model: foods.FoodItem
+  fields:
+    id: 634
+    name: Appetiser - Bought
+    portion_name: portion
+    portion_weight: 159
+    energy: 217.3
+    protein: 89
+    carbs: 93
+    fat: 81
+- model: foods.FoodItem
+  fields:
+    id: 635
+    name: Tomatoes Tear Drop
+    portion_name: portion
+    portion_weight: 410
+    energy: 696.5
+    protein: 20
+    carbs: 88
+    fat: 54
+- model: foods.FoodItem
+  fields:
+    id: 636
+    name: Tea - Mint
+    portion_name: portion
+    portion_weight: 138
+    energy: 666.6
+    protein: 30
+    carbs: 65
+    fat: 26
+- model: foods.FoodItem
+  fields:
+    id: 637
+    name: Tea - Herbal I Love Lemon
+    portion_name: cup
+    portion_weight: 931
+    energy: 930.2
+    protein: 19
+    carbs: 70
+    fat: 22
+- model: foods.FoodItem
+  fields:
+    id: 638
+    name: Cookies - Assorted
+    portion_name: portion
+    portion_weight: 706
+    energy: 477.0
+    protein: 40
+    carbs: 73
+    fat: 49
+- model: foods.FoodItem
+  fields:
+    id: 639
+    name: Pepper - Scotch Bonnet
+    portion_name: cup
+    portion_weight: 564
+    energy: 57.4
+    protein: 68
+    carbs: 20
+    fat: 7
+- model: foods.FoodItem
+  fields:
+    id: 640
+    name: Juice - Ocean Spray Cranberry
+    portion_name: tablespoon
+    portion_weight: 344
+    energy: 269.9
+    protein: 41
+    carbs: 79
+    fat: 69
+- model: foods.FoodItem
+  fields:
+    id: 641
+    name: Cookies Cereal Nut
+    portion_name: slice
+    portion_weight: 250
+    energy: 239.8
+    protein: 83
+    carbs: 77
+    fat: 7
+- model: foods.FoodItem
+  fields:
+    id: 642
+    name: Dawn Professionl Pot And Pan
+    portion_name: tablespoon
+    portion_weight: 782
+    energy: 261.4
+    protein: 92
+    carbs: 99
+    fat: 96
+- model: foods.FoodItem
+  fields:
+    id: 643
+    name: Beef - Salted
+    portion_name: tablespoon
+    portion_weight: 767
+    energy: 623.4
+    protein: 71
+    carbs: 37
+    fat: 28
+- model: foods.FoodItem
+  fields:
+    id: 644
+    name: Pasta - Gnocchi, Potato
+    portion_name: piece
+    portion_weight: 189
+    energy: 990.4
+    protein: 18
+    carbs: 85
+    fat: 80
+- model: foods.FoodItem
+  fields:
+    id: 645
+    name: Potatoes - Instant, Mashed
+    portion_name: tablespoon
+    portion_weight: 238
+    energy: 632.1
+    protein: 32
+    carbs: 55
+    fat: 43
+- model: foods.FoodItem
+  fields:
+    id: 646
+    name: Yogurt - Peach, 175 Gr
+    portion_name: cup
+    portion_weight: 203
+    energy: 376.6
+    protein: 61
+    carbs: 38
+    fat: 62
+- model: foods.FoodItem
+  fields:
+    id: 647
+    name: Horseradish Root
+    portion_name: package
+    portion_weight: 633
+    energy: 607.0
+    protein: 19
+    carbs: 44
+    fat: 34
+- model: foods.FoodItem
+  fields:
+    id: 648
+    name: Oil - Hazelnut
+    portion_name: piece
+    portion_weight: 550
+    energy: 3.0
+    protein: 46
+    carbs: 9
+    fat: 90
+- model: foods.FoodItem
+  fields:
+    id: 649
+    name: Stainless Steel Cleaner Vision
+    portion_name: package
+    portion_weight: 790
+    energy: 530.5
+    protein: 91
+    carbs: 57
+    fat: 86
+- model: foods.FoodItem
+  fields:
+    id: 650
+    name: Lentils - Green, Dry
+    portion_name: portion
+    portion_weight: 821
+    energy: 797.4
+    protein: 28
+    carbs: 33
+    fat: 78
+- model: foods.FoodItem
+  fields:
+    id: 651
+    name: Tortillas - Flour, 10
+    portion_name: portion
+    portion_weight: 491
+    energy: 360.6
+    protein: 50
+    carbs: 75
+    fat: 100
+- model: foods.FoodItem
+  fields:
+    id: 652
+    name: Pepsi - Diet, 355 Ml
+    portion_name: piece
+    portion_weight: 417
+    energy: 91.5
+    protein: 53
+    carbs: 12
+    fat: 85
+- model: foods.FoodItem
+  fields:
+    id: 653
+    name: Tea - Orange Pekoe
+    portion_name: tablespoon
+    portion_weight: 378
+    energy: 890.7
+    protein: 55
+    carbs: 32
+    fat: 100
+- model: foods.FoodItem
+  fields:
+    id: 654
+    name: Tea - Honey Green Tea
+    portion_name: teaspoon
+    portion_weight: 832
+    energy: 734.3
+    protein: 95
+    carbs: 20
+    fat: 85
+- model: foods.FoodItem
+  fields:
+    id: 655
+    name: Lentils - Green, Dry
+    portion_name: package
+    portion_weight: 323
+    energy: 880.3
+    protein: 70
+    carbs: 89
+    fat: 67
+- model: foods.FoodItem
+  fields:
+    id: 656
+    name: Sping Loaded Cup Dispenser
+    portion_name: tablespoon
+    portion_weight: 545
+    energy: 331.4
+    protein: 87
+    carbs: 16
+    fat: 55
+- model: foods.FoodItem
+  fields:
+    id: 657
+    name: Pimento - Canned
+    portion_name: slice
+    portion_weight: 338
+    energy: 432.3
+    protein: 82
+    carbs: 87
+    fat: 62
+- model: foods.FoodItem
+  fields:
+    id: 658
+    name: Mushroom - King Eryingii
+    portion_name: cup
+    portion_weight: 224
+    energy: 328.1
+    protein: 21
+    carbs: 10
+    fat: 54
+- model: foods.FoodItem
+  fields:
+    id: 659
+    name: Daikon Radish
+    portion_name: piece
+    portion_weight: 711
+    energy: 130.7
+    protein: 18
+    carbs: 4
+    fat: 57
+- model: foods.FoodItem
+  fields:
+    id: 660
+    name: Champagne - Brights, Dry
+    portion_name: package
+    portion_weight: 258
+    energy: 879.4
+    protein: 92
+    carbs: 13
+    fat: 27
+- model: foods.FoodItem
+  fields:
+    id: 661
+    name: Shrimp, Dried, Small / Lb
+    portion_name: cup
+    portion_weight: 443
+    energy: 23.9
+    protein: 50
+    carbs: 56
+    fat: 23
+- model: foods.FoodItem
+  fields:
+    id: 662
+    name: Fish - Soup Base, Bouillon
+    portion_name: piece
+    portion_weight: 361
+    energy: 838.3
+    protein: 8
+    carbs: 50
+    fat: 66
+- model: foods.FoodItem
+  fields:
+    id: 663
+    name: Creme De Menth - White
+    portion_name: teaspoon
+    portion_weight: 717
+    energy: 445.8
+    protein: 33
+    carbs: 31
+    fat: 54
+- model: foods.FoodItem
+  fields:
+    id: 664
+    name: Bread - Petit Baguette
+    portion_name: package
+    portion_weight: 868
+    energy: 318.7
+    protein: 71
+    carbs: 83
+    fat: 100
+- model: foods.FoodItem
+  fields:
+    id: 665
+    name: Wine - Touraine Azay - Le - Rideau
+    portion_name: cup
+    portion_weight: 17
+    energy: 337.9
+    protein: 52
+    carbs: 42
+    fat: 76
+- model: foods.FoodItem
+  fields:
+    id: 666
+    name: Tabasco Sauce, 2 Oz
+    portion_name: teaspoon
+    portion_weight: 681
+    energy: 308.5
+    protein: 10
+    carbs: 15
+    fat: 44
+- model: foods.FoodItem
+  fields:
+    id: 667
+    name: Papayas
+    portion_name: package
+    portion_weight: 929
+    energy: 655.0
+    protein: 30
+    carbs: 32
+    fat: 41
+- model: foods.FoodItem
+  fields:
+    id: 668
+    name: Wine - Cabernet Sauvignon
+    portion_name: portion
+    portion_weight: 458
+    energy: 712.6
+    protein: 18
+    carbs: 49
+    fat: 32
+- model: foods.FoodItem
+  fields:
+    id: 669
+    name: Wine - Pinot Noir Latour
+    portion_name: portion
+    portion_weight: 85
+    energy: 83.8
+    protein: 56
+    carbs: 46
+    fat: 36
+- model: foods.FoodItem
+  fields:
+    id: 670
+    name: Chestnuts - Whole,canned
+    portion_name: package
+    portion_weight: 692
+    energy: 621.5
+    protein: 35
+    carbs: 16
+    fat: 66
+- model: foods.FoodItem
+  fields:
+    id: 671
+    name: Scrubbie - Scotchbrite Hand Pad
+    portion_name: package
+    portion_weight: 270
+    energy: 990.5
+    protein: 4
+    carbs: 95
+    fat: 18
+- model: foods.FoodItem
+  fields:
+    id: 672
+    name: Venison - Ground
+    portion_name: portion
+    portion_weight: 692
+    energy: 989.1
+    protein: 73
+    carbs: 33
+    fat: 8
+- model: foods.FoodItem
+  fields:
+    id: 673
+    name: Wine - Red, Pinot Noir, Chateau
+    portion_name: tablespoon
+    portion_weight: 413
+    energy: 285.8
+    protein: 33
+    carbs: 64
+    fat: 91
+- model: foods.FoodItem
+  fields:
+    id: 674
+    name: Grapes - Red
+    portion_name: portion
+    portion_weight: 890
+    energy: 919.1
+    protein: 78
+    carbs: 9
+    fat: 95
+- model: foods.FoodItem
+  fields:
+    id: 675
+    name: Cheese - Pont Couvert
+    portion_name: cup
+    portion_weight: 563
+    energy: 5.4
+    protein: 11
+    carbs: 77
+    fat: 62
+- model: foods.FoodItem
+  fields:
+    id: 676
+    name: Spring Roll Veg Mini
+    portion_name: package
+    portion_weight: 230
+    energy: 768.3
+    protein: 14
+    carbs: 97
+    fat: 10
+- model: foods.FoodItem
+  fields:
+    id: 677
+    name: Juice - Tomato, 10 Oz
+    portion_name: cup
+    portion_weight: 140
+    energy: 144.6
+    protein: 62
+    carbs: 30
+    fat: 39
+- model: foods.FoodItem
+  fields:
+    id: 678
+    name: Napkin - Dinner, White
+    portion_name: slice
+    portion_weight: 430
+    energy: 407.5
+    protein: 44
+    carbs: 64
+    fat: 20
+- model: foods.FoodItem
+  fields:
+    id: 679
+    name: Pineapple - Golden
+    portion_name: package
+    portion_weight: 229
+    energy: 279.6
+    protein: 85
+    carbs: 38
+    fat: 86
+- model: foods.FoodItem
+  fields:
+    id: 680
+    name: Artichokes - Jerusalem
+    portion_name: piece
+    portion_weight: 269
+    energy: 913.7
+    protein: 12
+    carbs: 66
+    fat: 52
+- model: foods.FoodItem
+  fields:
+    id: 681
+    name: Boogies
+    portion_name: tablespoon
+    portion_weight: 282
+    energy: 797.2
+    protein: 88
+    carbs: 97
+    fat: 35
+- model: foods.FoodItem
+  fields:
+    id: 682
+    name: Pork - Hock And Feet Attached
+    portion_name: tablespoon
+    portion_weight: 312
+    energy: 638.5
+    protein: 39
+    carbs: 47
+    fat: 20
+- model: foods.FoodItem
+  fields:
+    id: 683
+    name: Ice - Clear, 300 Lb For Carving
+    portion_name: portion
+    portion_weight: 22
+    energy: 447.2
+    protein: 21
+    carbs: 45
+    fat: 73
+- model: foods.FoodItem
+  fields:
+    id: 684
+    name: Parsnip
+    portion_name: slice
+    portion_weight: 563
+    energy: 907.6
+    protein: 77
+    carbs: 95
+    fat: 50
+- model: foods.FoodItem
+  fields:
+    id: 685
+    name: Eggplant - Regular
+    portion_name: portion
+    portion_weight: 687
+    energy: 440.5
+    protein: 12
+    carbs: 68
+    fat: 9
+- model: foods.FoodItem
+  fields:
+    id: 686
+    name: Peach - Fresh
+    portion_name: piece
+    portion_weight: 694
+    energy: 831.0
+    protein: 28
+    carbs: 94
+    fat: 35
+- model: foods.FoodItem
+  fields:
+    id: 687
+    name: Wine - Valpolicella Masi
+    portion_name: tablespoon
+    portion_weight: 437
+    energy: 179.5
+    protein: 33
+    carbs: 30
+    fat: 96
+- model: foods.FoodItem
+  fields:
+    id: 688
+    name: Trout - Rainbow, Fresh
+    portion_name: cup
+    portion_weight: 814
+    energy: 164.7
+    protein: 44
+    carbs: 68
+    fat: 85
+- model: foods.FoodItem
+  fields:
+    id: 689
+    name: Corn Meal
+    portion_name: cup
+    portion_weight: 431
+    energy: 187.1
+    protein: 55
+    carbs: 85
+    fat: 66
+- model: foods.FoodItem
+  fields:
+    id: 690
+    name: Sugar - Cubes
+    portion_name: tablespoon
+    portion_weight: 869
+    energy: 503.0
+    protein: 15
+    carbs: 93
+    fat: 5
+- model: foods.FoodItem
+  fields:
+    id: 691
+    name: Prunes - Pitted
+    portion_name: piece
+    portion_weight: 910
+    energy: 653.7
+    protein: 44
+    carbs: 77
+    fat: 38
+- model: foods.FoodItem
+  fields:
+    id: 692
+    name: Worcestershire Sauce
+    portion_name: slice
+    portion_weight: 658
+    energy: 201.9
+    protein: 14
+    carbs: 31
+    fat: 86
+- model: foods.FoodItem
+  fields:
+    id: 693
+    name: Oxtail - Cut
+    portion_name: slice
+    portion_weight: 664
+    energy: 86.5
+    protein: 99
+    carbs: 100
+    fat: 33
+- model: foods.FoodItem
+  fields:
+    id: 694
+    name: Chocolate - Dark
+    portion_name: package
+    portion_weight: 523
+    energy: 124.3
+    protein: 50
+    carbs: 7
+    fat: 92
+- model: foods.FoodItem
+  fields:
+    id: 695
+    name: Yogurt - Cherry, 175 Gr
+    portion_name: package
+    portion_weight: 204
+    energy: 783.8
+    protein: 86
+    carbs: 29
+    fat: 64
+- model: foods.FoodItem
+  fields:
+    id: 696
+    name: Cake - Sheet Strawberry
+    portion_name: package
+    portion_weight: 834
+    energy: 748.6
+    protein: 53
+    carbs: 27
+    fat: 77
+- model: foods.FoodItem
+  fields:
+    id: 697
+    name: Ice Cream Bar - Oreo Sandwich
+    portion_name: slice
+    portion_weight: 436
+    energy: 790.4
+    protein: 84
+    carbs: 72
+    fat: 32
+- model: foods.FoodItem
+  fields:
+    id: 698
+    name: Truffle Shells - White Chocolate
+    portion_name: package
+    portion_weight: 200
+    energy: 621.2
+    protein: 1
+    carbs: 92
+    fat: 67
+- model: foods.FoodItem
+  fields:
+    id: 699
+    name: Wine - Riesling Dr. Pauly
+    portion_name: teaspoon
+    portion_weight: 332
+    energy: 691.4
+    protein: 64
+    carbs: 80
+    fat: 23
+- model: foods.FoodItem
+  fields:
+    id: 700
+    name: Scampi Tail
+    portion_name: portion
+    portion_weight: 129
+    energy: 564.6
+    protein: 42
+    carbs: 91
+    fat: 22
+- model: foods.FoodItem
+  fields:
+    id: 701
+    name: Longan
+    portion_name: slice
+    portion_weight: 272
+    energy: 957.1
+    protein: 67
+    carbs: 7
+    fat: 56
+- model: foods.FoodItem
+  fields:
+    id: 702
+    name: Evaporated Milk - Skim
+    portion_name: piece
+    portion_weight: 572
+    energy: 863.1
+    protein: 88
+    carbs: 16
+    fat: 1
+- model: foods.FoodItem
+  fields:
+    id: 703
+    name: Lemon Pepper
+    portion_name: package
+    portion_weight: 218
+    energy: 758.8
+    protein: 99
+    carbs: 33
+    fat: 98
+- model: foods.FoodItem
+  fields:
+    id: 704
+    name: Oil - Olive Bertolli
+    portion_name: portion
+    portion_weight: 95
+    energy: 530.1
+    protein: 63
+    carbs: 65
+    fat: 3
+- model: foods.FoodItem
+  fields:
+    id: 705
+    name: Lettuce - Escarole
+    portion_name: piece
+    portion_weight: 721
+    energy: 364.9
+    protein: 10
+    carbs: 2
+    fat: 69
+- model: foods.FoodItem
+  fields:
+    id: 706
+    name: Island Oasis - Sweet And Sour Mix
+    portion_name: teaspoon
+    portion_weight: 446
+    energy: 656.5
+    protein: 11
+    carbs: 79
+    fat: 97
+- model: foods.FoodItem
+  fields:
+    id: 707
+    name: Bread Crumbs - Japanese Style
+    portion_name: cup
+    portion_weight: 565
+    energy: 948.8
+    protein: 58
+    carbs: 70
+    fat: 75
+- model: foods.FoodItem
+  fields:
+    id: 708
+    name: Island Oasis - Peach Daiquiri
+    portion_name: piece
+    portion_weight: 714
+    energy: 479.5
+    protein: 1
+    carbs: 97
+    fat: 71
+- model: foods.FoodItem
+  fields:
+    id: 709
+    name: Mint - Fresh
+    portion_name: tablespoon
+    portion_weight: 652
+    energy: 479.2
+    protein: 97
+    carbs: 92
+    fat: 74
+- model: foods.FoodItem
+  fields:
+    id: 710
+    name: Apricots Fresh
+    portion_name: cup
+    portion_weight: 887
+    energy: 577.9
+    protein: 60
+    carbs: 66
+    fat: 85
+- model: foods.FoodItem
+  fields:
+    id: 711
+    name: Tamarillo
+    portion_name: portion
+    portion_weight: 688
+    energy: 418.8
+    protein: 96
+    carbs: 3
+    fat: 90
+- model: foods.FoodItem
+  fields:
+    id: 712
+    name: Wine - Vineland Estate Semi - Dry
+    portion_name: piece
+    portion_weight: 76
+    energy: 299.7
+    protein: 89
+    carbs: 25
+    fat: 54
+- model: foods.FoodItem
+  fields:
+    id: 713
+    name: Muffin Mix - Lemon Cranberry
+    portion_name: package
+    portion_weight: 845
+    energy: 384.1
+    protein: 24
+    carbs: 99
+    fat: 88
+- model: foods.FoodItem
+  fields:
+    id: 714
+    name: Plasticforkblack
+    portion_name: portion
+    portion_weight: 314
+    energy: 210.9
+    protein: 86
+    carbs: 75
+    fat: 49
+- model: foods.FoodItem
+  fields:
+    id: 715
+    name: Beer - Pilsner Urquell
+    portion_name: package
+    portion_weight: 327
+    energy: 589.8
+    protein: 64
+    carbs: 29
+    fat: 94
+- model: foods.FoodItem
+  fields:
+    id: 716
+    name: Wine - Spumante Bambino White
+    portion_name: portion
+    portion_weight: 297
+    energy: 45.0
+    protein: 45
+    carbs: 65
+    fat: 69
+- model: foods.FoodItem
+  fields:
+    id: 717
+    name: Soup - Campbells Mac N Cheese
+    portion_name: tablespoon
+    portion_weight: 258
+    energy: 959.2
+    protein: 5
+    carbs: 9
+    fat: 5
+- model: foods.FoodItem
+  fields:
+    id: 718
+    name: Lettuce - Escarole
+    portion_name: teaspoon
+    portion_weight: 707
+    energy: 130.5
+    protein: 50
+    carbs: 27
+    fat: 41
+- model: foods.FoodItem
+  fields:
+    id: 719
+    name: Yeast Dry - Fleischman
+    portion_name: tablespoon
+    portion_weight: 699
+    energy: 766.6
+    protein: 3
+    carbs: 41
+    fat: 31
+- model: foods.FoodItem
+  fields:
+    id: 720
+    name: Lime Cordial - Roses
+    portion_name: piece
+    portion_weight: 19
+    energy: 372.7
+    protein: 3
+    carbs: 11
+    fat: 49
+- model: foods.FoodItem
+  fields:
+    id: 721
+    name: Longos - Chicken Caeser Salad
+    portion_name: tablespoon
+    portion_weight: 668
+    energy: 505.9
+    protein: 21
+    carbs: 62
+    fat: 70
+- model: foods.FoodItem
+  fields:
+    id: 722
+    name: Lettuce - Frisee
+    portion_name: portion
+    portion_weight: 815
+    energy: 82.9
+    protein: 17
+    carbs: 15
+    fat: 91
+- model: foods.FoodItem
+  fields:
+    id: 723
+    name: Veal - Ground
+    portion_name: portion
+    portion_weight: 804
+    energy: 401.8
+    protein: 36
+    carbs: 75
+    fat: 71
+- model: foods.FoodItem
+  fields:
+    id: 724
+    name: Anisette - Mcguiness
+    portion_name: tablespoon
+    portion_weight: 531
+    energy: 564.5
+    protein: 24
+    carbs: 37
+    fat: 60
+- model: foods.FoodItem
+  fields:
+    id: 725
+    name: Gatorade - Xfactor Berry
+    portion_name: piece
+    portion_weight: 287
+    energy: 663.9
+    protein: 31
+    carbs: 69
+    fat: 5
+- model: foods.FoodItem
+  fields:
+    id: 726
+    name: Limes
+    portion_name: cup
+    portion_weight: 343
+    energy: 882.6
+    protein: 8
+    carbs: 41
+    fat: 51
+- model: foods.FoodItem
+  fields:
+    id: 727
+    name: Wine - Merlot Vina Carmen
+    portion_name: slice
+    portion_weight: 119
+    energy: 554.8
+    protein: 15
+    carbs: 93
+    fat: 70
+- model: foods.FoodItem
+  fields:
+    id: 728
+    name: Sprouts - Onion
+    portion_name: piece
+    portion_weight: 751
+    energy: 54.9
+    protein: 96
+    carbs: 50
+    fat: 31
+- model: foods.FoodItem
+  fields:
+    id: 729
+    name: Veal - Liver
+    portion_name: tablespoon
+    portion_weight: 567
+    energy: 497.3
+    protein: 80
+    carbs: 68
+    fat: 71
+- model: foods.FoodItem
+  fields:
+    id: 730
+    name: Shiratamako - Rice Flour
+    portion_name: piece
+    portion_weight: 551
+    energy: 56.4
+    protein: 60
+    carbs: 53
+    fat: 51
+- model: foods.FoodItem
+  fields:
+    id: 731
+    name: Oil - Pumpkinseed
+    portion_name: teaspoon
+    portion_weight: 909
+    energy: 604.7
+    protein: 92
+    carbs: 68
+    fat: 78
+- model: foods.FoodItem
+  fields:
+    id: 732
+    name: Tea - Herbal Sweet Dreams
+    portion_name: slice
+    portion_weight: 328
+    energy: 83.2
+    protein: 99
+    carbs: 43
+    fat: 72
+- model: foods.FoodItem
+  fields:
+    id: 733
+    name: Spinach - Baby
+    portion_name: teaspoon
+    portion_weight: 503
+    energy: 576.2
+    protein: 73
+    carbs: 35
+    fat: 100
+- model: foods.FoodItem
+  fields:
+    id: 734
+    name: Bulgar
+    portion_name: slice
+    portion_weight: 158
+    energy: 196.5
+    protein: 59
+    carbs: 36
+    fat: 56
+- model: foods.FoodItem
+  fields:
+    id: 735
+    name: Muffin - Blueberry Individual
+    portion_name: portion
+    portion_weight: 779
+    energy: 652.0
+    protein: 59
+    carbs: 1
+    fat: 75
+- model: foods.FoodItem
+  fields:
+    id: 736
+    name: Rosemary - Dry
+    portion_name: slice
+    portion_weight: 981
+    energy: 826.4
+    protein: 44
+    carbs: 48
+    fat: 71
+- model: foods.FoodItem
+  fields:
+    id: 737
+    name: Artichokes - Knobless, White
+    portion_name: teaspoon
+    portion_weight: 984
+    energy: 520.2
+    protein: 47
+    carbs: 5
+    fat: 74
+- model: foods.FoodItem
+  fields:
+    id: 738
+    name: Nut - Pine Nuts, Whole
+    portion_name: portion
+    portion_weight: 927
+    energy: 827.3
+    protein: 52
+    carbs: 14
+    fat: 11
+- model: foods.FoodItem
+  fields:
+    id: 739
+    name: Tart Shells - Sweet, 2
+    portion_name: package
+    portion_weight: 569
+    energy: 411.9
+    protein: 56
+    carbs: 56
+    fat: 94
+- model: foods.FoodItem
+  fields:
+    id: 740
+    name: Onions - Cooking
+    portion_name: portion
+    portion_weight: 887
+    energy: 664.7
+    protein: 48
+    carbs: 66
+    fat: 14
+- model: foods.FoodItem
+  fields:
+    id: 741
+    name: Mousse - Passion Fruit
+    portion_name: portion
+    portion_weight: 463
+    energy: 271.6
+    protein: 98
+    carbs: 88
+    fat: 22
+- model: foods.FoodItem
+  fields:
+    id: 742
+    name: Sprouts - Pea
+    portion_name: tablespoon
+    portion_weight: 371
+    energy: 441.8
+    protein: 1
+    carbs: 31
+    fat: 25
+- model: foods.FoodItem
+  fields:
+    id: 743
+    name: Cleaner - Comet
+    portion_name: slice
+    portion_weight: 888
+    energy: 880.2
+    protein: 1
+    carbs: 48
+    fat: 94
+- model: foods.FoodItem
+  fields:
+    id: 744
+    name: Radish - Pickled
+    portion_name: teaspoon
+    portion_weight: 739
+    energy: 85.4
+    protein: 97
+    carbs: 7
+    fat: 76
+- model: foods.FoodItem
+  fields:
+    id: 745
+    name: Nantucket Pine Orangebanana
+    portion_name: portion
+    portion_weight: 342
+    energy: 542.8
+    protein: 69
+    carbs: 89
+    fat: 65
+- model: foods.FoodItem
+  fields:
+    id: 746
+    name: Squash - Sunburst
+    portion_name: slice
+    portion_weight: 738
+    energy: 69.0
+    protein: 76
+    carbs: 90
+    fat: 12
+- model: foods.FoodItem
+  fields:
+    id: 747
+    name: Milk - Buttermilk
+    portion_name: slice
+    portion_weight: 591
+    energy: 328.2
+    protein: 32
+    carbs: 65
+    fat: 36
+- model: foods.FoodItem
+  fields:
+    id: 748
+    name: Mustard - Dry, Powder
+    portion_name: package
+    portion_weight: 861
+    energy: 135.0
+    protein: 54
+    carbs: 81
+    fat: 20
+- model: foods.FoodItem
+  fields:
+    id: 749
+    name: Pastry - Apple Muffins - Mini
+    portion_name: piece
+    portion_weight: 126
+    energy: 376.0
+    protein: 92
+    carbs: 65
+    fat: 20
+- model: foods.FoodItem
+  fields:
+    id: 750
+    name: Rum - Coconut, Malibu
+    portion_name: slice
+    portion_weight: 673
+    energy: 177.7
+    protein: 51
+    carbs: 97
+    fat: 100
+- model: foods.FoodItem
+  fields:
+    id: 751
+    name: Wine - Red Oakridge Merlot
+    portion_name: tablespoon
+    portion_weight: 749
+    energy: 622.8
+    protein: 52
+    carbs: 60
+    fat: 10
+- model: foods.FoodItem
+  fields:
+    id: 752
+    name: Trout - Rainbow, Fresh
+    portion_name: cup
+    portion_weight: 405
+    energy: 600.5
+    protein: 64
+    carbs: 95
+    fat: 76
+- model: foods.FoodItem
+  fields:
+    id: 753
+    name: Wine - Sauvignon Blanc
+    portion_name: slice
+    portion_weight: 238
+    energy: 430.2
+    protein: 24
+    carbs: 4
+    fat: 22
+- model: foods.FoodItem
+  fields:
+    id: 754
+    name: Beer - Tetleys
+    portion_name: tablespoon
+    portion_weight: 211
+    energy: 42.8
+    protein: 47
+    carbs: 28
+    fat: 98
+- model: foods.FoodItem
+  fields:
+    id: 755
+    name: Pie Filling - Pumpkin
+    portion_name: package
+    portion_weight: 938
+    energy: 8.6
+    protein: 92
+    carbs: 27
+    fat: 82
+- model: foods.FoodItem
+  fields:
+    id: 756
+    name: Mushroom - Shitake, Fresh
+    portion_name: slice
+    portion_weight: 402
+    energy: 489.9
+    protein: 58
+    carbs: 50
+    fat: 61
+- model: foods.FoodItem
+  fields:
+    id: 757
+    name: Eggplant Italian
+    portion_name: teaspoon
+    portion_weight: 785
+    energy: 887.5
+    protein: 86
+    carbs: 99
+    fat: 65
+- model: foods.FoodItem
+  fields:
+    id: 758
+    name: Veal - Inside Round / Top, Lean
+    portion_name: portion
+    portion_weight: 492
+    energy: 117.8
+    protein: 65
+    carbs: 84
+    fat: 21
+- model: foods.FoodItem
+  fields:
+    id: 759
+    name: Turkey - Oven Roast Breast
+    portion_name: slice
+    portion_weight: 835
+    energy: 913.4
+    protein: 90
+    carbs: 49
+    fat: 52
+- model: foods.FoodItem
+  fields:
+    id: 760
+    name: Nut - Pine Nuts, Whole
+    portion_name: package
+    portion_weight: 127
+    energy: 941.6
+    protein: 47
+    carbs: 10
+    fat: 35
+- model: foods.FoodItem
+  fields:
+    id: 761
+    name: Wine - Niagara,vqa Reisling
+    portion_name: teaspoon
+    portion_weight: 363
+    energy: 325.6
+    protein: 13
+    carbs: 36
+    fat: 67
+- model: foods.FoodItem
+  fields:
+    id: 762
+    name: Syrup - Monin, Swiss Choclate
+    portion_name: piece
+    portion_weight: 363
+    energy: 110.4
+    protein: 62
+    carbs: 41
+    fat: 81
+- model: foods.FoodItem
+  fields:
+    id: 763
+    name: Crab - Claws, Snow 16 - 24
+    portion_name: portion
+    portion_weight: 326
+    energy: 434.6
+    protein: 2
+    carbs: 55
+    fat: 1
+- model: foods.FoodItem
+  fields:
+    id: 764
+    name: Oil - Hazelnut
+    portion_name: package
+    portion_weight: 946
+    energy: 455.6
+    protein: 99
+    carbs: 35
+    fat: 84
+- model: foods.FoodItem
+  fields:
+    id: 765
+    name: Flavouring Vanilla Artificial
+    portion_name: teaspoon
+    portion_weight: 838
+    energy: 805.7
+    protein: 50
+    carbs: 70
+    fat: 9
+- model: foods.FoodItem
+  fields:
+    id: 766
+    name: Wine - Red, Mouton Cadet
+    portion_name: portion
+    portion_weight: 598
+    energy: 608.8
+    protein: 95
+    carbs: 5
+    fat: 70
+- model: foods.FoodItem
+  fields:
+    id: 767
+    name: Neckerchief Blck
+    portion_name: piece
+    portion_weight: 685
+    energy: 936.3
+    protein: 95
+    carbs: 62
+    fat: 14
+- model: foods.FoodItem
+  fields:
+    id: 768
+    name: Soup - Campbells Mushroom
+    portion_name: cup
+    portion_weight: 91
+    energy: 380.8
+    protein: 41
+    carbs: 30
+    fat: 63
+- model: foods.FoodItem
+  fields:
+    id: 769
+    name: Pears - Anjou
+    portion_name: portion
+    portion_weight: 892
+    energy: 27.2
+    protein: 71
+    carbs: 97
+    fat: 13
+- model: foods.FoodItem
+  fields:
+    id: 770
+    name: Magnotta - Bel Paese White
+    portion_name: tablespoon
+    portion_weight: 772
+    energy: 230.3
+    protein: 36
+    carbs: 10
+    fat: 100
+- model: foods.FoodItem
+  fields:
+    id: 771
+    name: Squid - Breaded
+    portion_name: slice
+    portion_weight: 55
+    energy: 872.5
+    protein: 74
+    carbs: 78
+    fat: 91
+- model: foods.FoodItem
+  fields:
+    id: 772
+    name: Swiss Chard
+    portion_name: cup
+    portion_weight: 828
+    energy: 645.1
+    protein: 69
+    carbs: 94
+    fat: 65
+- model: foods.FoodItem
+  fields:
+    id: 773
+    name: Cake - Cake Sheet Macaroon
+    portion_name: tablespoon
+    portion_weight: 446
+    energy: 407.3
+    protein: 24
+    carbs: 12
+    fat: 54
+- model: foods.FoodItem
+  fields:
+    id: 774
+    name: Nantucket - 518ml
+    portion_name: cup
+    portion_weight: 24
+    energy: 262.9
+    protein: 76
+    carbs: 89
+    fat: 40
+- model: foods.FoodItem
+  fields:
+    id: 775
+    name: Lettuce - Baby Salad Greens
+    portion_name: package
+    portion_weight: 1
+    energy: 815.3
+    protein: 34
+    carbs: 23
+    fat: 23
+- model: foods.FoodItem
+  fields:
+    id: 776
+    name: Scallops - Live In Shell
+    portion_name: portion
+    portion_weight: 643
+    energy: 118.6
+    protein: 42
+    carbs: 53
+    fat: 2
+- model: foods.FoodItem
+  fields:
+    id: 777
+    name: Yogurt - Plain
+    portion_name: portion
+    portion_weight: 435
+    energy: 650.5
+    protein: 70
+    carbs: 82
+    fat: 65
+- model: foods.FoodItem
+  fields:
+    id: 778
+    name: Jam - Raspberry,jar
+    portion_name: package
+    portion_weight: 121
+    energy: 796.3
+    protein: 27
+    carbs: 40
+    fat: 65
+- model: foods.FoodItem
+  fields:
+    id: 779
+    name: Lemonade - Pineapple Passion
+    portion_name: tablespoon
+    portion_weight: 444
+    energy: 27.1
+    protein: 46
+    carbs: 29
+    fat: 96
+- model: foods.FoodItem
+  fields:
+    id: 780
+    name: Wine - Red, Concha Y Toro
+    portion_name: piece
+    portion_weight: 580
+    energy: 547.5
+    protein: 17
+    carbs: 94
+    fat: 100
+- model: foods.FoodItem
+  fields:
+    id: 781
+    name: Cheese - Pont Couvert
+    portion_name: tablespoon
+    portion_weight: 879
+    energy: 987.8
+    protein: 83
+    carbs: 89
+    fat: 51
+- model: foods.FoodItem
+  fields:
+    id: 782
+    name: Wine - Champagne Brut Veuve
+    portion_name: slice
+    portion_weight: 790
+    energy: 682.1
+    protein: 97
+    carbs: 51
+    fat: 81
+- model: foods.FoodItem
+  fields:
+    id: 783
+    name: Ham - Cooked Italian
+    portion_name: teaspoon
+    portion_weight: 895
+    energy: 519.1
+    protein: 74
+    carbs: 74
+    fat: 28
+- model: foods.FoodItem
+  fields:
+    id: 784
+    name: Sword Pick Asst
+    portion_name: slice
+    portion_weight: 663
+    energy: 224.5
+    protein: 96
+    carbs: 48
+    fat: 98
+- model: foods.FoodItem
+  fields:
+    id: 785
+    name: Tomato Puree
+    portion_name: slice
+    portion_weight: 379
+    energy: 109.7
+    protein: 31
+    carbs: 67
+    fat: 69
+- model: foods.FoodItem
+  fields:
+    id: 786
+    name: Shrimp - 31/40
+    portion_name: package
+    portion_weight: 573
+    energy: 313.8
+    protein: 46
+    carbs: 87
+    fat: 96
+- model: foods.FoodItem
+  fields:
+    id: 787
+    name: Chips - Doritos
+    portion_name: package
+    portion_weight: 438
+    energy: 200.3
+    protein: 20
+    carbs: 65
+    fat: 43
+- model: foods.FoodItem
+  fields:
+    id: 788
+    name: Artichokes - Knobless, White
+    portion_name: teaspoon
+    portion_weight: 834
+    energy: 723.8
+    protein: 47
+    carbs: 13
+    fat: 35
+- model: foods.FoodItem
+  fields:
+    id: 789
+    name: Sauce - Soya, Dark
+    portion_name: cup
+    portion_weight: 662
+    energy: 728.4
+    protein: 31
+    carbs: 73
+    fat: 30
+- model: foods.FoodItem
+  fields:
+    id: 790
+    name: Bread - Wheat Baguette
+    portion_name: teaspoon
+    portion_weight: 472
+    energy: 729.6
+    protein: 52
+    carbs: 76
+    fat: 67
+- model: foods.FoodItem
+  fields:
+    id: 791
+    name: Mushroom Morel Fresh
+    portion_name: teaspoon
+    portion_weight: 56
+    energy: 131.6
+    protein: 14
+    carbs: 60
+    fat: 74
+- model: foods.FoodItem
+  fields:
+    id: 792
+    name: Muffin Chocolate Individual Wrap
+    portion_name: piece
+    portion_weight: 914
+    energy: 592.1
+    protein: 70
+    carbs: 94
+    fat: 51
+- model: foods.FoodItem
+  fields:
+    id: 793
+    name: Wine - Taylors Reserve
+    portion_name: slice
+    portion_weight: 838
+    energy: 250.8
+    protein: 89
+    carbs: 41
+    fat: 23
+- model: foods.FoodItem
+  fields:
+    id: 794
+    name: Beans - Butter Lrg Lima
+    portion_name: cup
+    portion_weight: 572
+    energy: 623.3
+    protein: 92
+    carbs: 11
+    fat: 86
+- model: foods.FoodItem
+  fields:
+    id: 795
+    name: Tea - Herbal Orange Spice
+    portion_name: tablespoon
+    portion_weight: 863
+    energy: 982.5
+    protein: 81
+    carbs: 86
+    fat: 3
+- model: foods.FoodItem
+  fields:
+    id: 796
+    name: Pasta - Tortellini, Fresh
+    portion_name: package
+    portion_weight: 741
+    energy: 785.2
+    protein: 16
+    carbs: 77
+    fat: 36
+- model: foods.FoodItem
+  fields:
+    id: 797
+    name: Chicken - White Meat, No Tender
+    portion_name: teaspoon
+    portion_weight: 670
+    energy: 854.6
+    protein: 58
+    carbs: 29
+    fat: 77
+- model: foods.FoodItem
+  fields:
+    id: 798
+    name: Wine - Casillero Del Diablo
+    portion_name: piece
+    portion_weight: 839
+    energy: 118.5
+    protein: 86
+    carbs: 5
+    fat: 59
+- model: foods.FoodItem
+  fields:
+    id: 799
+    name: Pepperoni Slices
+    portion_name: portion
+    portion_weight: 647
+    energy: 592.4
+    protein: 43
+    carbs: 54
+    fat: 8
+- model: foods.FoodItem
+  fields:
+    id: 800
+    name: Water - Spring Water 500ml
+    portion_name: package
+    portion_weight: 727
+    energy: 739.1
+    protein: 10
+    carbs: 62
+    fat: 26
+- model: foods.FoodItem
+  fields:
+    id: 801
+    name: Beans - Black Bean, Canned
+    portion_name: cup
+    portion_weight: 410
+    energy: 334.9
+    protein: 41
+    carbs: 85
+    fat: 68
+- model: foods.FoodItem
+  fields:
+    id: 802
+    name: Beef - Bones, Marrow
+    portion_name: package
+    portion_weight: 113
+    energy: 59.6
+    protein: 73
+    carbs: 17
+    fat: 77
+- model: foods.FoodItem
+  fields:
+    id: 803
+    name: Bagel - Everything
+    portion_name: slice
+    portion_weight: 457
+    energy: 530.4
+    protein: 38
+    carbs: 63
+    fat: 63
+- model: foods.FoodItem
+  fields:
+    id: 804
+    name: Red Snapper - Fresh, Whole
+    portion_name: package
+    portion_weight: 633
+    energy: 424.0
+    protein: 50
+    carbs: 66
+    fat: 63
+- model: foods.FoodItem
+  fields:
+    id: 805
+    name: Pork - Kidney
+    portion_name: slice
+    portion_weight: 690
+    energy: 299.6
+    protein: 17
+    carbs: 10
+    fat: 77
+- model: foods.FoodItem
+  fields:
+    id: 806
+    name: Tea Peppermint
+    portion_name: cup
+    portion_weight: 110
+    energy: 190.3
+    protein: 49
+    carbs: 43
+    fat: 22
+- model: foods.FoodItem
+  fields:
+    id: 807
+    name: Yoplait Drink
+    portion_name: tablespoon
+    portion_weight: 336
+    energy: 226.3
+    protein: 61
+    carbs: 21
+    fat: 22
+- model: foods.FoodItem
+  fields:
+    id: 808
+    name: Bar Mix - Lemon
+    portion_name: teaspoon
+    portion_weight: 235
+    energy: 671.7
+    protein: 36
+    carbs: 14
+    fat: 55
+- model: foods.FoodItem
+  fields:
+    id: 809
+    name: Wine - White, Chardonnay
+    portion_name: cup
+    portion_weight: 127
+    energy: 267.9
+    protein: 50
+    carbs: 27
+    fat: 48
+- model: foods.FoodItem
+  fields:
+    id: 810
+    name: 7up Diet, 355 Ml
+    portion_name: cup
+    portion_weight: 72
+    energy: 303.0
+    protein: 79
+    carbs: 62
+    fat: 66
+- model: foods.FoodItem
+  fields:
+    id: 811
+    name: Mangostein
+    portion_name: portion
+    portion_weight: 602
+    energy: 851.2
+    protein: 73
+    carbs: 20
+    fat: 35
+- model: foods.FoodItem
+  fields:
+    id: 812
+    name: Sauce - Cranberry
+    portion_name: slice
+    portion_weight: 203
+    energy: 13.3
+    protein: 66
+    carbs: 10
+    fat: 82
+- model: foods.FoodItem
+  fields:
+    id: 813
+    name: V8 - Tropical Blend
+    portion_name: cup
+    portion_weight: 743
+    energy: 928.3
+    protein: 68
+    carbs: 94
+    fat: 4
+- model: foods.FoodItem
+  fields:
+    id: 814
+    name: Garam Marsala
+    portion_name: slice
+    portion_weight: 318
+    energy: 362.2
+    protein: 42
+    carbs: 26
+    fat: 24
+- model: foods.FoodItem
+  fields:
+    id: 815
+    name: Clams - Canned
+    portion_name: cup
+    portion_weight: 489
+    energy: 742.9
+    protein: 77
+    carbs: 8
+    fat: 19
+- model: foods.FoodItem
+  fields:
+    id: 816
+    name: Squash - Sunburst
+    portion_name: slice
+    portion_weight: 235
+    energy: 190.6
+    protein: 69
+    carbs: 79
+    fat: 36
+- model: foods.FoodItem
+  fields:
+    id: 817
+    name: Broccoli - Fresh
+    portion_name: cup
+    portion_weight: 614
+    energy: 940.0
+    protein: 44
+    carbs: 47
+    fat: 73
+- model: foods.FoodItem
+  fields:
+    id: 818
+    name: Soup - Chicken And Wild Rice
+    portion_name: teaspoon
+    portion_weight: 404
+    energy: 78.2
+    protein: 35
+    carbs: 3
+    fat: 82
+- model: foods.FoodItem
+  fields:
+    id: 819
+    name: Wine - Crozes Hermitage E.
+    portion_name: slice
+    portion_weight: 421
+    energy: 491.4
+    protein: 72
+    carbs: 69
+    fat: 3
+- model: foods.FoodItem
+  fields:
+    id: 820
+    name: Allspice - Jamaican
+    portion_name: piece
+    portion_weight: 162
+    energy: 967.1
+    protein: 67
+    carbs: 53
+    fat: 8
+- model: foods.FoodItem
+  fields:
+    id: 821
+    name: Coffee - Frthy Coffee Crisp
+    portion_name: portion
+    portion_weight: 590
+    energy: 952.6
+    protein: 65
+    carbs: 26
+    fat: 3
+- model: foods.FoodItem
+  fields:
+    id: 822
+    name: Beets - Mini Golden
+    portion_name: teaspoon
+    portion_weight: 74
+    energy: 136.9
+    protein: 54
+    carbs: 75
+    fat: 82
+- model: foods.FoodItem
+  fields:
+    id: 823
+    name: Cake Circle, Foil, Scallop
+    portion_name: cup
+    portion_weight: 113
+    energy: 959.8
+    protein: 29
+    carbs: 54
+    fat: 24
+- model: foods.FoodItem
+  fields:
+    id: 824
+    name: Wine - Fume Blanc Fetzer
+    portion_name: package
+    portion_weight: 154
+    energy: 433.0
+    protein: 81
+    carbs: 16
+    fat: 39
+- model: foods.FoodItem
+  fields:
+    id: 825
+    name: Beans - Black Bean, Dry
+    portion_name: piece
+    portion_weight: 404
+    energy: 130.7
+    protein: 60
+    carbs: 4
+    fat: 77
+- model: foods.FoodItem
+  fields:
+    id: 826
+    name: Oil - Pumpkinseed
+    portion_name: piece
+    portion_weight: 812
+    energy: 481.2
+    protein: 13
+    carbs: 97
+    fat: 81
+- model: foods.FoodItem
+  fields:
+    id: 827
+    name: Creme De Cacao White
+    portion_name: cup
+    portion_weight: 715
+    energy: 507.1
+    protein: 71
+    carbs: 33
+    fat: 19
+- model: foods.FoodItem
+  fields:
+    id: 828
+    name: Muffin - Zero Transfat
+    portion_name: piece
+    portion_weight: 542
+    energy: 882.9
+    protein: 11
+    carbs: 52
+    fat: 58
+- model: foods.FoodItem
+  fields:
+    id: 829
+    name: Lemonade - Black Cherry, 591 Ml
+    portion_name: piece
+    portion_weight: 398
+    energy: 577.1
+    protein: 59
+    carbs: 65
+    fat: 7
+- model: foods.FoodItem
+  fields:
+    id: 830
+    name: Bread - Raisin Walnut Pull
+    portion_name: slice
+    portion_weight: 940
+    energy: 579.5
+    protein: 25
+    carbs: 94
+    fat: 67
+- model: foods.FoodItem
+  fields:
+    id: 831
+    name: Lettuce - Belgian Endive
+    portion_name: slice
+    portion_weight: 399
+    energy: 48.4
+    protein: 91
+    carbs: 8
+    fat: 42
+- model: foods.FoodItem
+  fields:
+    id: 832
+    name: Muffin Mix - Oatmeal
+    portion_name: piece
+    portion_weight: 27
+    energy: 347.6
+    protein: 55
+    carbs: 9
+    fat: 1
+- model: foods.FoodItem
+  fields:
+    id: 833
+    name: Tuna - Canned, Flaked, Light
+    portion_name: slice
+    portion_weight: 128
+    energy: 511.1
+    protein: 65
+    carbs: 57
+    fat: 50
+- model: foods.FoodItem
+  fields:
+    id: 834
+    name: Bread - English Muffin
+    portion_name: slice
+    portion_weight: 757
+    energy: 104.8
+    protein: 18
+    carbs: 90
+    fat: 22
+- model: foods.FoodItem
+  fields:
+    id: 835
+    name: Snails - Large Canned
+    portion_name: piece
+    portion_weight: 863
+    energy: 476.2
+    protein: 97
+    carbs: 59
+    fat: 76
+- model: foods.FoodItem
+  fields:
+    id: 836
+    name: Arctic Char - Fresh, Whole
+    portion_name: teaspoon
+    portion_weight: 574
+    energy: 680.7
+    protein: 32
+    carbs: 22
+    fat: 68
+- model: foods.FoodItem
+  fields:
+    id: 837
+    name: Rum - Spiced, Captain Morgan
+    portion_name: portion
+    portion_weight: 726
+    energy: 423.6
+    protein: 52
+    carbs: 61
+    fat: 66
+- model: foods.FoodItem
+  fields:
+    id: 838
+    name: Liquid Aminios Acid - Braggs
+    portion_name: teaspoon
+    portion_weight: 344
+    energy: 662.6
+    protein: 96
+    carbs: 78
+    fat: 5
+- model: foods.FoodItem
+  fields:
+    id: 839
+    name: Beets - Pickled
+    portion_name: cup
+    portion_weight: 101
+    energy: 338.6
+    protein: 88
+    carbs: 9
+    fat: 40
+- model: foods.FoodItem
+  fields:
+    id: 840
+    name: English Muffin
+    portion_name: tablespoon
+    portion_weight: 928
+    energy: 742.6
+    protein: 45
+    carbs: 98
+    fat: 34
+- model: foods.FoodItem
+  fields:
+    id: 841
+    name: Cheese - Brie, Triple Creme
+    portion_name: cup
+    portion_weight: 673
+    energy: 173.0
+    protein: 98
+    carbs: 32
+    fat: 87
+- model: foods.FoodItem
+  fields:
+    id: 842
+    name: Crab - Dungeness, Whole
+    portion_name: tablespoon
+    portion_weight: 7
+    energy: 57.4
+    protein: 89
+    carbs: 63
+    fat: 6
+- model: foods.FoodItem
+  fields:
+    id: 843
+    name: Pie Filling - Apple
+    portion_name: teaspoon
+    portion_weight: 183
+    energy: 637.2
+    protein: 40
+    carbs: 35
+    fat: 48
+- model: foods.FoodItem
+  fields:
+    id: 844
+    name: Chevril
+    portion_name: cup
+    portion_weight: 946
+    energy: 965.2
+    protein: 9
+    carbs: 26
+    fat: 19
+- model: foods.FoodItem
+  fields:
+    id: 845
+    name: Rosemary - Primerba, Paste
+    portion_name: cup
+    portion_weight: 120
+    energy: 864.7
+    protein: 25
+    carbs: 98
+    fat: 3
+- model: foods.FoodItem
+  fields:
+    id: 846
+    name: Truffle Shells - White Chocolate
+    portion_name: slice
+    portion_weight: 953
+    energy: 760.0
+    protein: 13
+    carbs: 64
+    fat: 9
+- model: foods.FoodItem
+  fields:
+    id: 847
+    name: Foil - 4oz Custard Cup
+    portion_name: tablespoon
+    portion_weight: 107
+    energy: 241.4
+    protein: 43
+    carbs: 21
+    fat: 69
+- model: foods.FoodItem
+  fields:
+    id: 848
+    name: Triple Sec - Mcguinness
+    portion_name: slice
+    portion_weight: 653
+    energy: 778.1
+    protein: 92
+    carbs: 43
+    fat: 3
+- model: foods.FoodItem
+  fields:
+    id: 849
+    name: Muffin Mix - Corn Harvest
+    portion_name: portion
+    portion_weight: 122
+    energy: 161.0
+    protein: 36
+    carbs: 74
+    fat: 24
+- model: foods.FoodItem
+  fields:
+    id: 850
+    name: Muffin - Mix - Strawberry Rhubarb
+    portion_name: package
+    portion_weight: 779
+    energy: 236.2
+    protein: 83
+    carbs: 65
+    fat: 49
+- model: foods.FoodItem
+  fields:
+    id: 851
+    name: Wine - Casablanca Valley
+    portion_name: slice
+    portion_weight: 779
+    energy: 409.3
+    protein: 14
+    carbs: 24
+    fat: 48
+- model: foods.FoodItem
+  fields:
+    id: 852
+    name: Wine - Vineland Estate Semi - Dry
+    portion_name: tablespoon
+    portion_weight: 22
+    energy: 46.1
+    protein: 94
+    carbs: 4
+    fat: 7
+- model: foods.FoodItem
+  fields:
+    id: 853
+    name: Soup - Campbells, Lentil
+    portion_name: package
+    portion_weight: 409
+    energy: 418.4
+    protein: 42
+    carbs: 85
+    fat: 4
+- model: foods.FoodItem
+  fields:
+    id: 854
+    name: Dried Cherries
+    portion_name: tablespoon
+    portion_weight: 306
+    energy: 397.0
+    protein: 75
+    carbs: 86
+    fat: 26
+- model: foods.FoodItem
+  fields:
+    id: 855
+    name: Pasta - Spaghetti, Dry
+    portion_name: tablespoon
+    portion_weight: 387
+    energy: 190.7
+    protein: 35
+    carbs: 52
+    fat: 73
+- model: foods.FoodItem
+  fields:
+    id: 856
+    name: Juice - Pineapple, 48 Oz
+    portion_name: portion
+    portion_weight: 75
+    energy: 788.0
+    protein: 49
+    carbs: 95
+    fat: 90
+- model: foods.FoodItem
+  fields:
+    id: 857
+    name: Snapple Raspberry Tea
+    portion_name: piece
+    portion_weight: 869
+    energy: 23.5
+    protein: 23
+    carbs: 87
+    fat: 92
+- model: foods.FoodItem
+  fields:
+    id: 858
+    name: Wine - Dubouef Macon - Villages
+    portion_name: tablespoon
+    portion_weight: 506
+    energy: 376.9
+    protein: 68
+    carbs: 99
+    fat: 68
+- model: foods.FoodItem
+  fields:
+    id: 859
+    name: Pepper - Chili Powder
+    portion_name: tablespoon
+    portion_weight: 966
+    energy: 366.8
+    protein: 80
+    carbs: 13
+    fat: 25
+- model: foods.FoodItem
+  fields:
+    id: 860
+    name: Chip - Potato Dill Pickle
+    portion_name: slice
+    portion_weight: 333
+    energy: 902.0
+    protein: 18
+    carbs: 28
+    fat: 95
+- model: foods.FoodItem
+  fields:
+    id: 861
+    name: Sloe Gin - Mcguinness
+    portion_name: slice
+    portion_weight: 700
+    energy: 593.5
+    protein: 95
+    carbs: 9
+    fat: 4
+- model: foods.FoodItem
+  fields:
+    id: 862
+    name: Potatoes - Mini White 3 Oz
+    portion_name: portion
+    portion_weight: 524
+    energy: 943.5
+    protein: 31
+    carbs: 38
+    fat: 60
+- model: foods.FoodItem
+  fields:
+    id: 863
+    name: Beef - Cow Feet Split
+    portion_name: piece
+    portion_weight: 300
+    energy: 306.4
+    protein: 74
+    carbs: 33
+    fat: 40
+- model: foods.FoodItem
+  fields:
+    id: 864
+    name: Mayonnaise
+    portion_name: package
+    portion_weight: 856
+    energy: 796.7
+    protein: 45
+    carbs: 19
+    fat: 63
+- model: foods.FoodItem
+  fields:
+    id: 865
+    name: Wine - Beringer Founders Estate
+    portion_name: piece
+    portion_weight: 150
+    energy: 816.7
+    protein: 69
+    carbs: 53
+    fat: 47
+- model: foods.FoodItem
+  fields:
+    id: 866
+    name: Napkin - Beverage 1 Ply
+    portion_name: teaspoon
+    portion_weight: 887
+    energy: 626.9
+    protein: 46
+    carbs: 66
+    fat: 96
+- model: foods.FoodItem
+  fields:
+    id: 867
+    name: Oil - Pumpkinseed
+    portion_name: piece
+    portion_weight: 150
+    energy: 486.6
+    protein: 60
+    carbs: 80
+    fat: 37
+- model: foods.FoodItem
+  fields:
+    id: 868
+    name: Longos - Greek Salad
+    portion_name: tablespoon
+    portion_weight: 894
+    energy: 972.2
+    protein: 84
+    carbs: 15
+    fat: 14
+- model: foods.FoodItem
+  fields:
+    id: 869
+    name: Apple - Fuji
+    portion_name: teaspoon
+    portion_weight: 684
+    energy: 293.8
+    protein: 63
+    carbs: 9
+    fat: 73
+- model: foods.FoodItem
+  fields:
+    id: 870
+    name: Salt - Sea
+    portion_name: portion
+    portion_weight: 181
+    energy: 135.2
+    protein: 91
+    carbs: 38
+    fat: 23
+- model: foods.FoodItem
+  fields:
+    id: 871
+    name: Syrup - Golden, Lyles
+    portion_name: package
+    portion_weight: 48
+    energy: 322.4
+    protein: 89
+    carbs: 16
+    fat: 46
+- model: foods.FoodItem
+  fields:
+    id: 872
+    name: Whmis Spray Bottle Graduated
+    portion_name: slice
+    portion_weight: 786
+    energy: 649.0
+    protein: 9
+    carbs: 56
+    fat: 34
+- model: foods.FoodItem
+  fields:
+    id: 873
+    name: Salmon - Canned
+    portion_name: teaspoon
+    portion_weight: 75
+    energy: 496.6
+    protein: 32
+    carbs: 71
+    fat: 77
+- model: foods.FoodItem
+  fields:
+    id: 874
+    name: Beans - Long, Chinese
+    portion_name: cup
+    portion_weight: 682
+    energy: 143.5
+    protein: 15
+    carbs: 63
+    fat: 29
+- model: foods.FoodItem
+  fields:
+    id: 875
+    name: Tarragon - Fresh
+    portion_name: portion
+    portion_weight: 55
+    energy: 839.6
+    protein: 7
+    carbs: 8
+    fat: 27
+- model: foods.FoodItem
+  fields:
+    id: 876
+    name: Lobster - Live
+    portion_name: cup
+    portion_weight: 314
+    energy: 871.5
+    protein: 82
+    carbs: 41
+    fat: 41
+- model: foods.FoodItem
+  fields:
+    id: 877
+    name: Sausage - Chorizo
+    portion_name: slice
+    portion_weight: 355
+    energy: 904.9
+    protein: 45
+    carbs: 75
+    fat: 63
+- model: foods.FoodItem
+  fields:
+    id: 878
+    name: Soup - Base Broth Beef
+    portion_name: teaspoon
+    portion_weight: 287
+    energy: 805.6
+    protein: 98
+    carbs: 13
+    fat: 33
+- model: foods.FoodItem
+  fields:
+    id: 879
+    name: Jam - Strawberry, 20 Ml Jar
+    portion_name: cup
+    portion_weight: 182
+    energy: 473.2
+    protein: 70
+    carbs: 96
+    fat: 16
+- model: foods.FoodItem
+  fields:
+    id: 880
+    name: Wine - Penfolds Koonuga Hill
+    portion_name: cup
+    portion_weight: 755
+    energy: 999.9
+    protein: 2
+    carbs: 85
+    fat: 91
+- model: foods.FoodItem
+  fields:
+    id: 881
+    name: Juice - Cranberry, 341 Ml
+    portion_name: cup
+    portion_weight: 732
+    energy: 78.6
+    protein: 86
+    carbs: 31
+    fat: 82
+- model: foods.FoodItem
+  fields:
+    id: 882
+    name: Wine - Periguita Fonseca
+    portion_name: portion
+    portion_weight: 376
+    energy: 865.5
+    protein: 51
+    carbs: 44
+    fat: 17
+- model: foods.FoodItem
+  fields:
+    id: 883
+    name: Catfish - Fillets
+    portion_name: package
+    portion_weight: 715
+    energy: 981.7
+    protein: 71
+    carbs: 16
+    fat: 31
+- model: foods.FoodItem
+  fields:
+    id: 884
+    name: Wine - Penfolds Koonuga Hill
+    portion_name: piece
+    portion_weight: 47
+    energy: 114.2
+    protein: 75
+    carbs: 36
+    fat: 1
+- model: foods.FoodItem
+  fields:
+    id: 885
+    name: Crab - Soft Shell
+    portion_name: slice
+    portion_weight: 318
+    energy: 44.2
+    protein: 56
+    carbs: 17
+    fat: 20
+- model: foods.FoodItem
+  fields:
+    id: 886
+    name: Vinegar - Balsamic, White
+    portion_name: cup
+    portion_weight: 331
+    energy: 106.5
+    protein: 27
+    carbs: 38
+    fat: 7
+- model: foods.FoodItem
+  fields:
+    id: 887
+    name: Pate - Peppercorn
+    portion_name: portion
+    portion_weight: 710
+    energy: 766.3
+    protein: 64
+    carbs: 80
+    fat: 61
+- model: foods.FoodItem
+  fields:
+    id: 888
+    name: Oil - Safflower
+    portion_name: package
+    portion_weight: 669
+    energy: 942.8
+    protein: 3
+    carbs: 48
+    fat: 13
+- model: foods.FoodItem
+  fields:
+    id: 889
+    name: Bread - 10 Grain Parisian
+    portion_name: slice
+    portion_weight: 788
+    energy: 714.7
+    protein: 13
+    carbs: 7
+    fat: 26
+- model: foods.FoodItem
+  fields:
+    id: 890
+    name: Cheese - Manchego, Spanish
+    portion_name: cup
+    portion_weight: 658
+    energy: 123.9
+    protein: 72
+    carbs: 33
+    fat: 40
+- model: foods.FoodItem
+  fields:
+    id: 891
+    name: Blouse / Shirt / Sweater
+    portion_name: tablespoon
+    portion_weight: 856
+    energy: 113.8
+    protein: 98
+    carbs: 68
+    fat: 89
+- model: foods.FoodItem
+  fields:
+    id: 892
+    name: Lobster - Canned Premium
+    portion_name: tablespoon
+    portion_weight: 9
+    energy: 795.1
+    protein: 13
+    carbs: 72
+    fat: 81
+- model: foods.FoodItem
+  fields:
+    id: 893
+    name: Potatoes - Idaho 100 Count
+    portion_name: slice
+    portion_weight: 274
+    energy: 202.5
+    protein: 56
+    carbs: 92
+    fat: 94
+- model: foods.FoodItem
+  fields:
+    id: 894
+    name: Sauce - Hp
+    portion_name: portion
+    portion_weight: 359
+    energy: 329.4
+    protein: 91
+    carbs: 41
+    fat: 62
+- model: foods.FoodItem
+  fields:
+    id: 895
+    name: Melon - Watermelon, Seedless
+    portion_name: piece
+    portion_weight: 667
+    energy: 928.9
+    protein: 67
+    carbs: 80
+    fat: 86
+- model: foods.FoodItem
+  fields:
+    id: 896
+    name: Soho Lychee Liqueur
+    portion_name: slice
+    portion_weight: 733
+    energy: 619.0
+    protein: 57
+    carbs: 92
+    fat: 82
+- model: foods.FoodItem
+  fields:
+    id: 897
+    name: Buffalo - Striploin
+    portion_name: piece
+    portion_weight: 895
+    energy: 627.9
+    protein: 62
+    carbs: 22
+    fat: 54
+- model: foods.FoodItem
+  fields:
+    id: 898
+    name: Iced Tea Concentrate
+    portion_name: package
+    portion_weight: 819
+    energy: 409.1
+    protein: 67
+    carbs: 35
+    fat: 32
+- model: foods.FoodItem
+  fields:
+    id: 899
+    name: Irish Cream - Baileys
+    portion_name: portion
+    portion_weight: 276
+    energy: 583.7
+    protein: 65
+    carbs: 41
+    fat: 25
+- model: foods.FoodItem
+  fields:
+    id: 900
+    name: Appetizer - Tarragon Chicken
+    portion_name: tablespoon
+    portion_weight: 171
+    energy: 925.4
+    protein: 74
+    carbs: 1
+    fat: 21
+- model: foods.FoodItem
+  fields:
+    id: 901
+    name: Wine - Pinot Noir Latour
+    portion_name: slice
+    portion_weight: 429
+    energy: 44.6
+    protein: 25
+    carbs: 17
+    fat: 16
+- model: foods.FoodItem
+  fields:
+    id: 902
+    name: Cookie Dough - Chunky
+    portion_name: cup
+    portion_weight: 604
+    energy: 80.1
+    protein: 81
+    carbs: 53
+    fat: 65
+- model: foods.FoodItem
+  fields:
+    id: 903
+    name: Salmon - Atlantic, No Skin
+    portion_name: package
+    portion_weight: 643
+    energy: 261.5
+    protein: 25
+    carbs: 62
+    fat: 39
+- model: foods.FoodItem
+  fields:
+    id: 904
+    name: Shrimp - Black Tiger 6 - 8
+    portion_name: piece
+    portion_weight: 994
+    energy: 741.4
+    protein: 49
+    carbs: 2
+    fat: 99
+- model: foods.FoodItem
+  fields:
+    id: 905
+    name: Edible Flower - Mixed
+    portion_name: cup
+    portion_weight: 496
+    energy: 995.6
+    protein: 57
+    carbs: 48
+    fat: 13
+- model: foods.FoodItem
+  fields:
+    id: 906
+    name: Graham Cracker Mix
+    portion_name: piece
+    portion_weight: 668
+    energy: 717.6
+    protein: 28
+    carbs: 93
+    fat: 47
+- model: foods.FoodItem
+  fields:
+    id: 907
+    name: Alize Gold Passion
+    portion_name: portion
+    portion_weight: 393
+    energy: 917.7
+    protein: 45
+    carbs: 20
+    fat: 33
+- model: foods.FoodItem
+  fields:
+    id: 908
+    name: Catfish - Fillets
+    portion_name: slice
+    portion_weight: 981
+    energy: 222.6
+    protein: 93
+    carbs: 65
+    fat: 41
+- model: foods.FoodItem
+  fields:
+    id: 909
+    name: Soup - French Onion, Dry
+    portion_name: piece
+    portion_weight: 394
+    energy: 869.8
+    protein: 62
+    carbs: 73
+    fat: 53
+- model: foods.FoodItem
+  fields:
+    id: 910
+    name: Flower - Daisies
+    portion_name: portion
+    portion_weight: 756
+    energy: 345.1
+    protein: 52
+    carbs: 84
+    fat: 16
+- model: foods.FoodItem
+  fields:
+    id: 911
+    name: Lamb - Whole Head Off
+    portion_name: slice
+    portion_weight: 607
+    energy: 777.3
+    protein: 15
+    carbs: 51
+    fat: 46
+- model: foods.FoodItem
+  fields:
+    id: 912
+    name: Noodles - Steamed Chow Mein
+    portion_name: slice
+    portion_weight: 756
+    energy: 366.9
+    protein: 93
+    carbs: 69
+    fat: 42
+- model: foods.FoodItem
+  fields:
+    id: 913
+    name: Kohlrabi
+    portion_name: tablespoon
+    portion_weight: 160
+    energy: 475.5
+    protein: 39
+    carbs: 97
+    fat: 56
+- model: foods.FoodItem
+  fields:
+    id: 914
+    name: Scallops - 20/30
+    portion_name: piece
+    portion_weight: 296
+    energy: 396.8
+    protein: 22
+    carbs: 97
+    fat: 20
+- model: foods.FoodItem
+  fields:
+    id: 915
+    name: Fork - Plastic
+    portion_name: cup
+    portion_weight: 333
+    energy: 978.0
+    protein: 38
+    carbs: 51
+    fat: 45
+- model: foods.FoodItem
+  fields:
+    id: 916
+    name: Wine - Pinot Noir Latour
+    portion_name: teaspoon
+    portion_weight: 302
+    energy: 98.0
+    protein: 85
+    carbs: 83
+    fat: 72
+- model: foods.FoodItem
+  fields:
+    id: 917
+    name: Pepper - Orange
+    portion_name: portion
+    portion_weight: 235
+    energy: 459.6
+    protein: 78
+    carbs: 25
+    fat: 12
+- model: foods.FoodItem
+  fields:
+    id: 918
+    name: Rice - Jasmine Sented
+    portion_name: piece
+    portion_weight: 944
+    energy: 890.8
+    protein: 55
+    carbs: 85
+    fat: 90
+- model: foods.FoodItem
+  fields:
+    id: 919
+    name: Tomato Paste
+    portion_name: teaspoon
+    portion_weight: 500
+    energy: 641.2
+    protein: 62
+    carbs: 82
+    fat: 95
+- model: foods.FoodItem
+  fields:
+    id: 920
+    name: Tuna - Fresh
+    portion_name: tablespoon
+    portion_weight: 316
+    energy: 750.8
+    protein: 39
+    carbs: 46
+    fat: 83
+- model: foods.FoodItem
+  fields:
+    id: 921
+    name: Schnappes Peppermint - Walker
+    portion_name: cup
+    portion_weight: 878
+    energy: 194.3
+    protein: 95
+    carbs: 89
+    fat: 94
+- model: foods.FoodItem
+  fields:
+    id: 922
+    name: Bread - Calabrese Baguette
+    portion_name: cup
+    portion_weight: 372
+    energy: 29.3
+    protein: 84
+    carbs: 70
+    fat: 63
+- model: foods.FoodItem
+  fields:
+    id: 923
+    name: Halibut - Steaks
+    portion_name: piece
+    portion_weight: 42
+    energy: 821.0
+    protein: 56
+    carbs: 9
+    fat: 63
+- model: foods.FoodItem
+  fields:
+    id: 924
+    name: Pork - Hock And Feet Attached
+    portion_name: tablespoon
+    portion_weight: 336
+    energy: 770.9
+    protein: 49
+    carbs: 18
+    fat: 65
+- model: foods.FoodItem
+  fields:
+    id: 925
+    name: Tobasco Sauce
+    portion_name: package
+    portion_weight: 214
+    energy: 296.3
+    protein: 89
+    carbs: 35
+    fat: 57
+- model: foods.FoodItem
+  fields:
+    id: 926
+    name: Wine - Stoneliegh Sauvignon
+    portion_name: cup
+    portion_weight: 343
+    energy: 859.2
+    protein: 69
+    carbs: 80
+    fat: 82
+- model: foods.FoodItem
+  fields:
+    id: 927
+    name: Sprouts - Bean
+    portion_name: teaspoon
+    portion_weight: 890
+    energy: 988.8
+    protein: 6
+    carbs: 87
+    fat: 21
+- model: foods.FoodItem
+  fields:
+    id: 928
+    name: Lemonade - Island Tea, 591 Ml
+    portion_name: package
+    portion_weight: 962
+    energy: 954.9
+    protein: 7
+    carbs: 73
+    fat: 98
+- model: foods.FoodItem
+  fields:
+    id: 929
+    name: Beer - Alexander Kieths, Pale Ale
+    portion_name: cup
+    portion_weight: 225
+    energy: 894.7
+    protein: 92
+    carbs: 47
+    fat: 15
+- model: foods.FoodItem
+  fields:
+    id: 930
+    name: Cod - Salted, Boneless
+    portion_name: slice
+    portion_weight: 168
+    energy: 77.7
+    protein: 6
+    carbs: 23
+    fat: 41
+- model: foods.FoodItem
+  fields:
+    id: 931
+    name: Onions - Pearl
+    portion_name: piece
+    portion_weight: 476
+    energy: 319.4
+    protein: 29
+    carbs: 64
+    fat: 15
+- model: foods.FoodItem
+  fields:
+    id: 932
+    name: Pie Shells 10
+    portion_name: slice
+    portion_weight: 560
+    energy: 997.8
+    protein: 51
+    carbs: 31
+    fat: 43
+- model: foods.FoodItem
+  fields:
+    id: 933
+    name: Oysters - Smoked
+    portion_name: slice
+    portion_weight: 865
+    energy: 81.9
+    protein: 32
+    carbs: 78
+    fat: 26
+- model: foods.FoodItem
+  fields:
+    id: 934
+    name: Wine - Baron De Rothschild
+    portion_name: piece
+    portion_weight: 341
+    energy: 539.7
+    protein: 61
+    carbs: 25
+    fat: 2
+- model: foods.FoodItem
+  fields:
+    id: 935
+    name: Aspic - Clear
+    portion_name: piece
+    portion_weight: 881
+    energy: 411.5
+    protein: 20
+    carbs: 88
+    fat: 28
+- model: foods.FoodItem
+  fields:
+    id: 936
+    name: Shrimp - Black Tiger 6 - 8
+    portion_name: slice
+    portion_weight: 91
+    energy: 734.0
+    protein: 35
+    carbs: 87
+    fat: 63
+- model: foods.FoodItem
+  fields:
+    id: 937
+    name: Table Cloth 53x53 White
+    portion_name: piece
+    portion_weight: 184
+    energy: 135.9
+    protein: 1
+    carbs: 41
+    fat: 59
+- model: foods.FoodItem
+  fields:
+    id: 938
+    name: Squid U5 - Thailand
+    portion_name: teaspoon
+    portion_weight: 80
+    energy: 245.9
+    protein: 57
+    carbs: 79
+    fat: 66
+- model: foods.FoodItem
+  fields:
+    id: 939
+    name: Gatorade - Orange
+    portion_name: tablespoon
+    portion_weight: 360
+    energy: 293.1
+    protein: 1
+    carbs: 86
+    fat: 47
+- model: foods.FoodItem
+  fields:
+    id: 940
+    name: Nut - Pistachio, Shelled
+    portion_name: package
+    portion_weight: 226
+    energy: 602.7
+    protein: 1
+    carbs: 61
+    fat: 80
+- model: foods.FoodItem
+  fields:
+    id: 941
+    name: Pepper - Gypsy Pepper
+    portion_name: portion
+    portion_weight: 277
+    energy: 484.9
+    protein: 58
+    carbs: 70
+    fat: 99
+- model: foods.FoodItem
+  fields:
+    id: 942
+    name: Paste - Black Olive
+    portion_name: teaspoon
+    portion_weight: 866
+    energy: 343.7
+    protein: 37
+    carbs: 48
+    fat: 15
+- model: foods.FoodItem
+  fields:
+    id: 943
+    name: Dc - Sakura Fu
+    portion_name: cup
+    portion_weight: 695
+    energy: 723.0
+    protein: 81
+    carbs: 75
+    fat: 21
+- model: foods.FoodItem
+  fields:
+    id: 944
+    name: Wine - George Duboeuf Rose
+    portion_name: package
+    portion_weight: 419
+    energy: 233.1
+    protein: 78
+    carbs: 65
+    fat: 91
+- model: foods.FoodItem
+  fields:
+    id: 945
+    name: Chocolate - Semi Sweet
+    portion_name: portion
+    portion_weight: 389
+    energy: 577.9
+    protein: 13
+    carbs: 63
+    fat: 95
+- model: foods.FoodItem
+  fields:
+    id: 946
+    name: Compound - Orange
+    portion_name: package
+    portion_weight: 25
+    energy: 444.1
+    protein: 64
+    carbs: 16
+    fat: 50
+- model: foods.FoodItem
+  fields:
+    id: 947
+    name: Rice - Jasmine Sented
+    portion_name: tablespoon
+    portion_weight: 851
+    energy: 548.0
+    protein: 49
+    carbs: 2
+    fat: 78
+- model: foods.FoodItem
+  fields:
+    id: 948
+    name: Shrimp - Black Tiger 26/30
+    portion_name: portion
+    portion_weight: 721
+    energy: 762.1
+    protein: 40
+    carbs: 8
+    fat: 17
+- model: foods.FoodItem
+  fields:
+    id: 949
+    name: Bread - Roll, Calabrese
+    portion_name: slice
+    portion_weight: 601
+    energy: 685.2
+    protein: 94
+    carbs: 96
+    fat: 9
+- model: foods.FoodItem
+  fields:
+    id: 950
+    name: Carroway Seed
+    portion_name: piece
+    portion_weight: 748
+    energy: 103.0
+    protein: 17
+    carbs: 57
+    fat: 52
+- model: foods.FoodItem
+  fields:
+    id: 951
+    name: Icecream Bar - Del Monte
+    portion_name: tablespoon
+    portion_weight: 819
+    energy: 903.8
+    protein: 88
+    carbs: 52
+    fat: 8
+- model: foods.FoodItem
+  fields:
+    id: 952
+    name: Wine - Periguita Fonseca
+    portion_name: cup
+    portion_weight: 619
+    energy: 97.9
+    protein: 90
+    carbs: 72
+    fat: 61
+- model: foods.FoodItem
+  fields:
+    id: 953
+    name: Arctic Char - Fresh, Whole
+    portion_name: portion
+    portion_weight: 612
+    energy: 680.3
+    protein: 13
+    carbs: 19
+    fat: 92
+- model: foods.FoodItem
+  fields:
+    id: 954
+    name: Compound - Passion Fruit
+    portion_name: cup
+    portion_weight: 961
+    energy: 64.7
+    protein: 77
+    carbs: 78
+    fat: 51
+- model: foods.FoodItem
+  fields:
+    id: 955
+    name: Sauce - Sesame Thai Dressing
+    portion_name: package
+    portion_weight: 579
+    energy: 804.1
+    protein: 25
+    carbs: 100
+    fat: 2
+- model: foods.FoodItem
+  fields:
+    id: 956
+    name: Wonton Wrappers
+    portion_name: teaspoon
+    portion_weight: 824
+    energy: 557.0
+    protein: 91
+    carbs: 30
+    fat: 63
+- model: foods.FoodItem
+  fields:
+    id: 957
+    name: Sprouts Dikon
+    portion_name: teaspoon
+    portion_weight: 164
+    energy: 990.2
+    protein: 91
+    carbs: 59
+    fat: 11
+- model: foods.FoodItem
+  fields:
+    id: 958
+    name: Sugar - Icing
+    portion_name: portion
+    portion_weight: 699
+    energy: 57.3
+    protein: 49
+    carbs: 14
+    fat: 100
+- model: foods.FoodItem
+  fields:
+    id: 959
+    name: Cookie Dough - Chunky
+    portion_name: slice
+    portion_weight: 283
+    energy: 750.0
+    protein: 29
+    carbs: 88
+    fat: 82
+- model: foods.FoodItem
+  fields:
+    id: 960
+    name: Shrimp - Black Tiger 26/30
+    portion_name: portion
+    portion_weight: 511
+    energy: 18.3
+    protein: 70
+    carbs: 73
+    fat: 22
+- model: foods.FoodItem
+  fields:
+    id: 961
+    name: Longos - Lasagna Veg
+    portion_name: piece
+    portion_weight: 814
+    energy: 668.2
+    protein: 87
+    carbs: 66
+    fat: 41
+- model: foods.FoodItem
+  fields:
+    id: 962
+    name: Beer - Steamwhistle
+    portion_name: piece
+    portion_weight: 544
+    energy: 287.4
+    protein: 21
+    carbs: 65
+    fat: 90
+- model: foods.FoodItem
+  fields:
+    id: 963
+    name: Rum - Light, Captain Morgan
+    portion_name: piece
+    portion_weight: 627
+    energy: 667.2
+    protein: 21
+    carbs: 67
+    fat: 68
+- model: foods.FoodItem
+  fields:
+    id: 964
+    name: Cheese - Blue
+    portion_name: cup
+    portion_weight: 920
+    energy: 913.1
+    protein: 34
+    carbs: 70
+    fat: 32
+- model: foods.FoodItem
+  fields:
+    id: 965
+    name: Fish - Halibut, Cold Smoked
+    portion_name: piece
+    portion_weight: 299
+    energy: 508.5
+    protein: 8
+    carbs: 34
+    fat: 98
+- model: foods.FoodItem
+  fields:
+    id: 966
+    name: Ecolab Crystal Fusion
+    portion_name: slice
+    portion_weight: 650
+    energy: 257.8
+    protein: 10
+    carbs: 68
+    fat: 37
+- model: foods.FoodItem
+  fields:
+    id: 967
+    name: Lamb - Ground
+    portion_name: teaspoon
+    portion_weight: 438
+    energy: 396.7
+    protein: 62
+    carbs: 18
+    fat: 92
+- model: foods.FoodItem
+  fields:
+    id: 968
+    name: Raspberries - Fresh
+    portion_name: package
+    portion_weight: 70
+    energy: 903.4
+    protein: 97
+    carbs: 24
+    fat: 57
+- model: foods.FoodItem
+  fields:
+    id: 969
+    name: Pepper - Green Thai
+    portion_name: tablespoon
+    portion_weight: 121
+    energy: 943.8
+    protein: 77
+    carbs: 100
+    fat: 46
+- model: foods.FoodItem
+  fields:
+    id: 970
+    name: Capicola - Hot
+    portion_name: slice
+    portion_weight: 673
+    energy: 726.5
+    protein: 54
+    carbs: 62
+    fat: 94
+- model: foods.FoodItem
+  fields:
+    id: 971
+    name: Turkey Leg With Drum And Thigh
+    portion_name: piece
+    portion_weight: 69
+    energy: 576.1
+    protein: 36
+    carbs: 93
+    fat: 9
+- model: foods.FoodItem
+  fields:
+    id: 972
+    name: Cake - Mini Potato Pancake
+    portion_name: cup
+    portion_weight: 305
+    energy: 251.0
+    protein: 42
+    carbs: 99
+    fat: 49
+- model: foods.FoodItem
+  fields:
+    id: 973
+    name: Bread - Rolls, Corn
+    portion_name: piece
+    portion_weight: 856
+    energy: 355.8
+    protein: 16
+    carbs: 71
+    fat: 5
+- model: foods.FoodItem
+  fields:
+    id: 974
+    name: Vegetable - Base
+    portion_name: tablespoon
+    portion_weight: 966
+    energy: 970.8
+    protein: 29
+    carbs: 10
+    fat: 81
+- model: foods.FoodItem
+  fields:
+    id: 975
+    name: Lettuce - Green Leaf
+    portion_name: slice
+    portion_weight: 281
+    energy: 306.4
+    protein: 72
+    carbs: 13
+    fat: 27
+- model: foods.FoodItem
+  fields:
+    id: 976
+    name: Remy Red Berry Infusion
+    portion_name: piece
+    portion_weight: 771
+    energy: 996.8
+    protein: 76
+    carbs: 72
+    fat: 40
+- model: foods.FoodItem
+  fields:
+    id: 977
+    name: Table Cloth 62x114 White
+    portion_name: teaspoon
+    portion_weight: 718
+    energy: 28.6
+    protein: 75
+    carbs: 40
+    fat: 61
+- model: foods.FoodItem
+  fields:
+    id: 978
+    name: Chocolate - Mi - Amere Semi
+    portion_name: slice
+    portion_weight: 81
+    energy: 565.0
+    protein: 39
+    carbs: 71
+    fat: 86
+- model: foods.FoodItem
+  fields:
+    id: 979
+    name: Rum - Dark, Bacardi, Black
+    portion_name: cup
+    portion_weight: 732
+    energy: 945.9
+    protein: 28
+    carbs: 84
+    fat: 75
+- model: foods.FoodItem
+  fields:
+    id: 980
+    name: Vaccum Bag 10x13
+    portion_name: piece
+    portion_weight: 121
+    energy: 235.3
+    protein: 63
+    carbs: 65
+    fat: 41
+- model: foods.FoodItem
+  fields:
+    id: 981
+    name: Chicken - Livers
+    portion_name: piece
+    portion_weight: 83
+    energy: 945.4
+    protein: 83
+    carbs: 99
+    fat: 23
+- model: foods.FoodItem
+  fields:
+    id: 982
+    name: Ice Cream - Vanilla
+    portion_name: slice
+    portion_weight: 129
+    energy: 525.2
+    protein: 72
+    carbs: 9
+    fat: 62
+- model: foods.FoodItem
+  fields:
+    id: 983
+    name: Pickles - Gherkins
+    portion_name: package
+    portion_weight: 701
+    energy: 382.5
+    protein: 97
+    carbs: 98
+    fat: 79
+- model: foods.FoodItem
+  fields:
+    id: 984
+    name: Milk Powder
+    portion_name: slice
+    portion_weight: 620
+    energy: 663.8
+    protein: 9
+    carbs: 22
+    fat: 26
+- model: foods.FoodItem
+  fields:
+    id: 985
+    name: C - Plus, Orange
+    portion_name: teaspoon
+    portion_weight: 99
+    energy: 632.2
+    protein: 74
+    carbs: 95
+    fat: 45
+- model: foods.FoodItem
+  fields:
+    id: 986
+    name: Veal Inside - Provimi
+    portion_name: teaspoon
+    portion_weight: 737
+    energy: 112.2
+    protein: 11
+    carbs: 39
+    fat: 51
+- model: foods.FoodItem
+  fields:
+    id: 987
+    name: Wine - Valpolicella Masi
+    portion_name: cup
+    portion_weight: 540
+    energy: 205.3
+    protein: 61
+    carbs: 51
+    fat: 79
+- model: foods.FoodItem
+  fields:
+    id: 988
+    name: Bread - Corn Muffaleta Onion
+    portion_name: piece
+    portion_weight: 852
+    energy: 162.5
+    protein: 97
+    carbs: 1
+    fat: 20
+- model: foods.FoodItem
+  fields:
+    id: 989
+    name: Muffin Batt - Ban Dream Zero
+    portion_name: slice
+    portion_weight: 269
+    energy: 208.1
+    protein: 22
+    carbs: 21
+    fat: 58
+- model: foods.FoodItem
+  fields:
+    id: 990
+    name: Dome Lid Clear P92008h
+    portion_name: portion
+    portion_weight: 233
+    energy: 175.6
+    protein: 8
+    carbs: 57
+    fat: 6
+- model: foods.FoodItem
+  fields:
+    id: 991
+    name: Kolrabi
+    portion_name: tablespoon
+    portion_weight: 158
+    energy: 432.6
+    protein: 70
+    carbs: 47
+    fat: 83
+- model: foods.FoodItem
+  fields:
+    id: 992
+    name: Soup Knorr Chili With Beans
+    portion_name: cup
+    portion_weight: 813
+    energy: 392.7
+    protein: 62
+    carbs: 93
+    fat: 42
+- model: foods.FoodItem
+  fields:
+    id: 993
+    name: Sauce - Black Current, Dry Mix
+    portion_name: portion
+    portion_weight: 151
+    energy: 541.7
+    protein: 83
+    carbs: 45
+    fat: 87
+- model: foods.FoodItem
+  fields:
+    id: 994
+    name: Soup - Campbells, Spinach Crm
+    portion_name: teaspoon
+    portion_weight: 670
+    energy: 485.5
+    protein: 33
+    carbs: 84
+    fat: 83
+- model: foods.FoodItem
+  fields:
+    id: 995
+    name: Nantucket - Pomegranate Pear
+    portion_name: cup
+    portion_weight: 915
+    energy: 747.4
+    protein: 24
+    carbs: 27
+    fat: 50
+- model: foods.FoodItem
+  fields:
+    id: 996
+    name: Pork - Inside
+    portion_name: teaspoon
+    portion_weight: 63
+    energy: 783.5
+    protein: 12
+    carbs: 48
+    fat: 3
+- model: foods.FoodItem
+  fields:
+    id: 997
+    name: Pie Filling - Apple
+    portion_name: tablespoon
+    portion_weight: 382
+    energy: 610.2
+    protein: 44
+    carbs: 2
+    fat: 23
+- model: foods.FoodItem
+  fields:
+    id: 998
+    name: Glaze - Clear
+    portion_name: package
+    portion_weight: 51
+    energy: 595.6
+    protein: 93
+    carbs: 72
+    fat: 96
+- model: foods.FoodItem
+  fields:
+    id: 999
+    name: Beer - Guiness
+    portion_name: teaspoon
+    portion_weight: 656
+    energy: 705.6
+    protein: 55
+    carbs: 27
+    fat: 52
+- model: foods.FoodItem
+  fields:
+    id: 1000
+    name: Roe - Flying Fish
+    portion_name: portion
+    portion_weight: 907
+    energy: 857.3
+    protein: 35
+    carbs: 88
+    fat: 45

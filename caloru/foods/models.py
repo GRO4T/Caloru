@@ -1,61 +1,29 @@
 from django.conf import settings
-from django.core.validators import MaxValueValidator, MinValueValidator
+from django.core.validators import BaseValidator
 from django.db import models
 
 
-class Product(models.Model):
-    """
-    Product from the catalog.
+class _MinValueValidator(BaseValidator):
+    message = "Ensure this value is greater than or equal to %(limit_value)s."
+    code = "min_value"
 
-    Attributes
-    ----------
-    name : str
-        Product name, e.g. "Milk".
-    full_name : str
-        Full product name, e.g. "Milk Whole (3.25% fat)".
-    producer : str
-        Producer name, e.g. "Milk Factory".
-    package_weight : float
-        Product weight in grams, e.g. 1000.
-    energy : float
-        Energy value in kcal per 100g, e.g. 42.0.
-    protein : float
-        Protein value in grams per 100g, e.g. 3.3.
-    carbs : float
-        Carbohydrates value in grams per 100g, e.g. 4.8.
-    fat : float
-        Fat value in grams per 100g, e.g. 3.25.
-    """
+    def compare(self, a, b):
+        return a < b
 
+
+class FoodItem(models.Model):
     name = models.CharField(max_length=255)
-    full_name = models.CharField(max_length=255)
-    producer = models.CharField(max_length=255)
-    package_weight = models.FloatField()
-    energy = models.FloatField()
-    protein = models.FloatField()
-    carbs = models.FloatField()
-    fat = models.FloatField()
+    portion_weight = models.PositiveIntegerField()
+    portion_name = models.CharField(max_length=255)
+    energy = models.FloatField(validators=[_MinValueValidator(0)])
+    protein = models.FloatField(validators=[_MinValueValidator(0)])
+    carbs = models.FloatField(validators=[_MinValueValidator(0)])
+    fat = models.FloatField(validators=[_MinValueValidator(0)])
 
 
-class ConsumedProduct(models.Model):
-    """
-    Consumed product added to the tracker.
-
-    Attributes
-    ----------
-    user : User
-        User who consumed the product.
-    product : Product
-        Product consumed.
-    date : datetime.datetime
-        Date of consumption.
-    amount : int
-        Amount of product consumed in grams, e.g. 250.
-    """
-
+class TrackedFoodItem(models.Model):
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
-    product = models.ForeignKey(Product, on_delete=models.CASCADE)
+    item = models.ForeignKey(FoodItem, on_delete=models.PROTECT)
     date = models.DateField()
-    amount = models.PositiveSmallIntegerField(
-        validators=[MinValueValidator(1), MaxValueValidator(5000)]
-    )
+    meal = models.CharField(max_length=255)
+    amount = models.PositiveIntegerField()
