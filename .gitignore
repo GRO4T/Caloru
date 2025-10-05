@@ -1,12 +1,4 @@
-**/__pycache__
-**/*venv*
-**/db.sqlite3
-**/*artifact*
 **/*.log
-**/.ansible-lint
 **/.vscode
 **/.DS_Store
-**/.ruff_cache
 **/.worktrees
-caloru/static/
-!caloru/static/js

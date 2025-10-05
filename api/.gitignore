@@ -1,0 +1,8 @@
+**/__pycache__
+**/*venv*
+**/db.sqlite3
+**/*artifact*
+**/.ansible-lint
+**/.ruff_cache
+caloru/static/
+!caloru/static/js
