@@ -1,16 +1,33 @@
 # Caloru
 
-**Caloru** is a simple, web-based caloric tracker.
+**Caloru** is a simple calorie tracker focused on what matters most — tracking your daily intake. No gamification, no recipe upsells, and absolutely no ads.
 
-## Tech Stack
+## Status
 
-- **Django**: Backend framework for creating and managing web applications.
-- **Django REST framework**: powerful toolkit that makes it easier to write REST APIs with Django.
-- **PostgreSQL**: Database to store user information, food logs, and caloric data.
+| Task | Status |
+| :-: | :-: |
+| API | :white_check_mark: |
+| Web UI | :ledger: TODO |
+| Mobile app | :ledger: TODO |
 
-## Local Development
+## Running the Application Locally
 
-This section describes steps needed to deploy the service at 127.0.0.1:8000.
+### Prerequisites
 
-1. **Install Dev Containers VS Code extension**
-2. **Ctrl+Shift+P > Dev Containers: Open Folder in Container...**
+* Git
+* Docker
+* Dev Containers VS Code extension
+
+### Steps
+
+1. Clone the repository
+    ```
+    git clone https://github.com/GRO4T/Caloru.git
+    cd Caloru
+    ```
+
+2. Ctrl+Shift+P > Dev Containers: Open Folder in Container...
+
+3. You can access the API at `http://localhost:8000`
+
+> **_NOTE:_**  If for some reason you don't want to use the dev containers extension you can spin up the service simply by using `docker-compose`.
