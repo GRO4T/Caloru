@@ -20,8 +20,10 @@ class TrackedFoodItemSerializer(serializers.ModelSerializer):
             "Snack III",
         ]
     )
+    item_id = serializers.IntegerField()
+    item = FoodItemSerializer(read_only=True)
 
     class Meta:
         model = TrackedFoodItem
-        fields = "__all__"
+        fields = ["id", "user", "item_id", "item", "meal", "amount"]
         read_only_fields = ["user"]

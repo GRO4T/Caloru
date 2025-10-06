@@ -19,7 +19,6 @@ class FoodItemDetail(generics.RetrieveUpdateDestroyAPIView):
 
 
 class TrackedFoodItemList(generics.ListCreateAPIView):
-    queryset = TrackedFoodItem.objects.all()
     serializer_class = TrackedFoodItemSerializer
     filter_backends = [DjangoFilterBackend]
     filterset_fields = ["user", "date"]
@@ -27,7 +26,12 @@ class TrackedFoodItemList(generics.ListCreateAPIView):
     def perform_create(self, serializer):
         serializer.save(user=self.request.user)
 
+    def get_queryset(self):
+        return TrackedFoodItem.objects.filter(user=self.request.user)
+
 
 class TrackedFoodItemDetail(generics.RetrieveUpdateDestroyAPIView):
-    queryset = TrackedFoodItem.objects.all()
     serializer_class = TrackedFoodItemSerializer
+
+    def get_queryset(self):
+        return TrackedFoodItem.objects.filter(user=self.request.user)
