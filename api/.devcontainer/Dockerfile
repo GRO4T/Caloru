@@ -4,7 +4,7 @@ RUN mkdir /app
 
 USER vscode
 ENV HOME="/home/vscode"
-ENV PATH="$HOME/.local/bin:$HOME/.venv/bin:$PATH"
+ENV PATH="$HOME/.venv/bin:$HOME/.local/bin:$PATH"
 ENV VIRTUAL_ENV="$HOME/.venv"
 WORKDIR $HOME
 
