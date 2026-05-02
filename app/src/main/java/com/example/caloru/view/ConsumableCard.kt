@@ -14,10 +14,7 @@ import com.example.caloru.R
 import com.example.caloru.model.ConsumableAndConsumed
 
 @Composable
-fun ConsumableCard(
-    cc: ConsumableAndConsumed,
-    modifier: Modifier = Modifier.Companion
-) {
+fun ConsumableCard(cc: ConsumableAndConsumed) {
     fun getPortionText(cc: ConsumableAndConsumed): String {
         if (cc.consumed.usePortion) {
             return "${cc.consumed.amount}x portion (${cc.consumable.portion}g)"
@@ -25,7 +22,7 @@ fun ConsumableCard(
         return "${cc.consumed.amount}g";
     }
 
-    Row(modifier = modifier) {
+    Row {
         Column {
             Text(cc.consumable.name)
             Text(getPortionText(cc))
