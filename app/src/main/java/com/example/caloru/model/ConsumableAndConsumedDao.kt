@@ -1,4 +1,4 @@
-package com.example.caloru
+package com.example.caloru.model
 
 import androidx.room.Dao
 import androidx.room.Query
