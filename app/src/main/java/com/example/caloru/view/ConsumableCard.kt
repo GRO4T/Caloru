@@ -11,32 +11,32 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import com.example.caloru.R
-import com.example.caloru.model.ConsumableAndConsumed
+import com.example.caloru.model.TrackedItemConsumable
 
 @Composable
-fun ConsumableCard(cc: ConsumableAndConsumed) {
-    fun getPortionText(cc: ConsumableAndConsumed): String {
-        if (cc.consumed.usePortion) {
-            return "${cc.consumed.amount}x portion (${cc.consumable.portion}g)"
+fun ConsumableCard(tc: TrackedItemConsumable) {
+    fun getPortionText(tc: TrackedItemConsumable): String {
+        if (tc.trackedItem.usePortion) {
+            return "${tc.trackedItem.amount}x portion (${tc.consumable.portion}g)"
         }
-        return "${cc.consumed.amount}g";
+        return "${tc.trackedItem.amount}g";
     }
 
     Row {
         Column {
-            Text(cc.consumable.name)
-            Text(getPortionText(cc))
+            Text(tc.consumable.name)
+            Text(getPortionText(tc))
             Row {
-                Text("${cc.consumable.calories} kcal")
-                Spacer(Modifier.Companion.width(8.dp))
-                Text(cc.consumable.proteins.toString())
-                Spacer(Modifier.Companion.width(8.dp))
-                Text(cc.consumable.fats.toString())
-                Spacer(Modifier.Companion.width(8.dp))
-                Text(cc.consumable.carbs.toString())
+                Text("${tc.consumable.calories} kcal")
+                Spacer(Modifier.width(8.dp))
+                Text(tc.consumable.proteins.toString())
+                Spacer(Modifier.width(8.dp))
+                Text(tc.consumable.fats.toString())
+                Spacer(Modifier.width(8.dp))
+                Text(tc.consumable.carbs.toString())
             }
         }
-        Spacer(modifier = Modifier.Companion.weight(1f))
+        Spacer(modifier = Modifier.weight(1f))
         Icon(
             painter = painterResource(R.drawable.delete_24dp_1f1f1f_fill0_wght400_grad0_opsz24),
             contentDescription = "delete"

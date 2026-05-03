@@ -13,4 +13,5 @@ data class Consumable(
     val proteins: Double,
     val fats: Double,
     val carbs: Double,
+    val isDish: Boolean
 )

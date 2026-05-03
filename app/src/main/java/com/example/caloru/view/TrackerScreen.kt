@@ -19,21 +19,18 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.caloru.model.Consumable
-import com.example.caloru.model.ConsumableAndConsumed
-import com.example.caloru.model.Consumed
+import androidx.room.Room
+import com.example.caloru.model.LocalDatabase
+import com.example.caloru.viewmodel.TrackerEvent
+import com.example.caloru.viewmodel.TrackerState
+import com.example.caloru.viewmodel.TrackerViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun CaloruScreen() {
-    // Mocked data as if it came from the database
-    val consumables = listOf(
-        ConsumableAndConsumed(
-            consumable = Consumable(1, "Makaron z hummusem", 350, 638, 22.6, 14.5, 102.0),
-            consumed = Consumed(1, 1, "Breakfast", 123, 0.5f, true)
-        )
-    )
-
+fun CaloruScreen(
+    state: TrackerState,
+    onEvent: (TrackerEvent) -> Unit,
+) {
     val meals = listOf("Breakfast", "Breakfast II", "Dinner", "Supper")
 
     Scaffold(
@@ -71,15 +68,10 @@ fun CaloruScreen() {
 
                 MealCard(
                     name = mealName,
-                    consumables = consumables.filter { it.consumed.meal == mealName }
+                    trackedItemConsumables = state.trackedItemConsumables.filter { it.trackedItem.meal == mealName },
+                    onEvent = onEvent
                 )
             })
         }
     }
-}
-
-@Preview(showBackground = true)
-@Composable
-fun CaloruScreenPreview() {
-    CaloruScreen()
 }

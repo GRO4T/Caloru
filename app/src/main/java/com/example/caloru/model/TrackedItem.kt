@@ -4,7 +4,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity
-data class Consumed(
+data class TrackedItem(
     @PrimaryKey(autoGenerate = true)
     val id: Int,
     val consumableId: Int,

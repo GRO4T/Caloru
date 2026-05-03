@@ -5,6 +5,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -14,22 +15,28 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import com.example.caloru.R
-import com.example.caloru.model.ConsumableAndConsumed
+import com.example.caloru.model.TrackedItemConsumable
+import com.example.caloru.viewmodel.TrackerEvent
 
 @Composable
 fun MealCard(
     name: String,
-    consumables: List<ConsumableAndConsumed>,
+    trackedItemConsumables: List<TrackedItemConsumable>,
+    onEvent: (TrackerEvent) -> Unit
 ) {
     var isExpanded by rememberSaveable { mutableStateOf(true) }
 
     Column {
         Row {
             Text(name)
-            Icon(
-                painter = painterResource(R.drawable.arrow_drop_down_24dp_1f1f1f_fill0_wght400_grad0_opsz24),
-                contentDescription = "dropdown"
-            )
+            IconButton(onClick = {
+                isExpanded = !isExpanded;
+            }) {
+                Icon(
+                    painter = painterResource(R.drawable.arrow_drop_down_24dp_1f1f1f_fill0_wght400_grad0_opsz24),
+                    contentDescription = "dropdown"
+                )
+            }
             Spacer(modifier = Modifier.weight(1f))
             Icon(
                 painter = painterResource(R.drawable.add_24dp_1f1f1f_fill0_wght400_grad0_opsz24),
@@ -38,8 +45,8 @@ fun MealCard(
         }
         AnimatedVisibility(visible = isExpanded) {
             Column {
-                consumables.forEach { consumable ->
-                    ConsumableCard(consumable)
+                trackedItemConsumables.forEach { item ->
+                    ConsumableCard(item)
                 }
             }
         }
