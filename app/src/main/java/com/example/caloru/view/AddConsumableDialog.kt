@@ -14,12 +14,19 @@ fun AddConsumableDialog(
     onEvent: (TrackerEvent) -> Unit,
     modifier: Modifier = Modifier
 ) {
+    fun getTitle(isDish: Boolean): String {
+        if (isDish) {
+            return "New Dish"
+        }
+        return "New Product"
+    }
+
     AlertDialog(
         modifier = modifier,
         onDismissRequest = {
             onEvent(TrackerEvent.HideAddConsumableDialog)
         },
-        title = { Text(text = "Add contact") },
+        title = { Text(text = getTitle(state.consumableIsDish)) },
         confirmButton = {
             TextButton(
                 onClick = {
@@ -37,6 +44,8 @@ fun AddConsumableDialog(
             ) {
                 Text("Dismiss")
             }
+        },
+        text = {
         }
     )
 }

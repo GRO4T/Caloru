@@ -21,11 +21,35 @@ class TrackerViewModel(
             TrackerEvent.SaveConsumable -> {
                 // TODO
             }
-            TrackerEvent.ShowAddConsumableDialog -> {
-                // TODO
+            is TrackerEvent.ShowAddConsumableDialog -> {
+                _state.update {it.copy(
+                    isAddingConsumable = true,
+                    consumableIsDish = event.isDish,
+                )}
             }
             TrackerEvent.HideAddConsumableDialog -> {
+                _state.update {it.copy(
+                    isAddingConsumable = false,
+                )}
+            }
+            TrackerEvent.SaveTrackedItem -> {
                 // TODO
+            }
+            is TrackerEvent.ShowAddTrackedItemDialog -> {
+                _state.update {it.copy(
+                    isAddingTrackedItem = true,
+                    trackedItemMeal = event.mealName
+                )}
+            }
+            TrackerEvent.HideAddTrackedItemDialog -> {
+                _state.update {it.copy(
+                    isAddingTrackedItem = false,
+                )}
+            }
+            is TrackerEvent.SetSearchTerm -> {
+                _state.update {it.copy(
+                    searchTerm = event.searchTerm
+                )}
             }
         }
     }

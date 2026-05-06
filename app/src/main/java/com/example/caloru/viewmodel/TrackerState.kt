@@ -1,12 +1,13 @@
 package com.example.caloru.viewmodel
 
+import com.example.caloru.model.Consumable
 import com.example.caloru.model.TrackedItemConsumable
 
 data class TrackerState(
     val trackedItemConsumables: List<TrackedItemConsumable> = emptyList(),
 
-    val isSearching: Boolean = false,
     val searchTerm: String = "",
+    var consumables: List<Consumable> = emptyList(),
 
     val isAddingConsumable: Boolean = false,
     val consumableName: String = "",

@@ -14,7 +14,8 @@ import com.example.caloru.model.TrackedItem
 import com.example.caloru.model.LocalDatabase
 import com.example.caloru.model.TrackedItemConsumable
 import com.example.caloru.ui.theme.CaloruTheme
-import com.example.caloru.view.CaloruScreen
+import com.example.caloru.view.TrackerScreen
+import com.example.caloru.view.AddTrackedItemScreen
 import com.example.caloru.viewmodel.TrackerViewModel
 
 
@@ -51,7 +52,11 @@ class MainActivity : ComponentActivity() {
             CaloruTheme {
                 // val state: TrackerState = TrackerState(consumables)
                 val state by viewModel.state.collectAsState()
-                CaloruScreen(state = state, onEvent = viewModel::onEvent)
+                if (state.isAddingTrackedItem) {
+                    AddTrackedItemScreen(state = state, onEvent = viewModel::onEvent)
+                } else {
+                    TrackerScreen(state = state, onEvent = viewModel::onEvent)
+                }
             }
         }
     }

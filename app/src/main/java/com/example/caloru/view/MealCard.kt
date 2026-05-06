@@ -38,15 +38,19 @@ fun MealCard(
                 )
             }
             Spacer(modifier = Modifier.weight(1f))
-            Icon(
-                painter = painterResource(R.drawable.add_24dp_1f1f1f_fill0_wght400_grad0_opsz24),
-                contentDescription = "add"
-            )
+            IconButton(onClick = {
+                onEvent(TrackerEvent.ShowAddTrackedItemDialog(name))
+            }) {
+                Icon(
+                    painter = painterResource(R.drawable.add_24dp_1f1f1f_fill0_wght400_grad0_opsz24),
+                    contentDescription = "add"
+                )
+            }
         }
         AnimatedVisibility(visible = isExpanded) {
             Column {
                 trackedItemConsumables.forEach { item ->
-                    ConsumableCard(item)
+                    TrackedItemCard(item)
                 }
             }
         }

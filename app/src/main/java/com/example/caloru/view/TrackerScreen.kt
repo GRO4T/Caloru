@@ -17,17 +17,13 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import androidx.room.Room
-import com.example.caloru.model.LocalDatabase
 import com.example.caloru.viewmodel.TrackerEvent
 import com.example.caloru.viewmodel.TrackerState
-import com.example.caloru.viewmodel.TrackerViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun CaloruScreen(
+fun TrackerScreen(
     state: TrackerState,
     onEvent: (TrackerEvent) -> Unit,
 ) {
